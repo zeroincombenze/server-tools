@@ -1,7 +1,7 @@
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/149/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-server-tools-149)
-[![Build Status](https://travis-ci.org/OCA/server-tools.svg?branch=9.0)](https://travis-ci.org/OCA/server-tools)
-[![Coverage Status](https://coveralls.io/repos/OCA/server-tools/badge.png?branch=9.0)](https://coveralls.io/r/OCA/server-tools?branch=9.0)
-[![Code Climate](https://codeclimate.com/github/OCA/server-tools/badges/gpa.svg)](https://codeclimate.com/github/OCA/server-tools)
+[![Build Status](https://travis-ci.org/zeroincombenze/server-tools.svg?branch=9.0)](https://travis-ci.org/zeroincombenze/server-tools)
+[![Coverage Status](https://coveralls.io/repos/zeroincombenze/server-tools/badge.png?branch=9.0)](https://coveralls.io/r/zeroincombenze/server-tools?branch=9.0)
+[![Code Climate](https://codeclimate.com/github/zeroincombenze/server-tools/badges/gpa.svg)](https://codeclimate.com/github/zeroincombenze/server-tools)
 
 Server Environment And Tools
 ============================
