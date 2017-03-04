@@ -84,5 +84,5 @@ To contribute to this module, please visit http://odoo-community.org.
     'website': 'http://openerp.camptocamp.com',
     'depends': ['mail_environment'],
     'data': ['mail_view.xml'],
-    'installable': True,
+    'installable': False,
 }

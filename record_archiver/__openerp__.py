@@ -94,6 +94,6 @@ To contribute to this module, please visit http://odoo-community.org.
           'data/cron.xml',
           'security/ir.model.access.csv',
           ],
- 'installable': True,
+ 'installable': False,
  'auto_install': False,
  }

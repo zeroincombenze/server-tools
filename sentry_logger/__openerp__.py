@@ -89,4 +89,5 @@ Contributors
 
     'tests': [
     ],
+    'installable': False,
 }

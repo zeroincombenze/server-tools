@@ -73,4 +73,5 @@ Copyright, Author and Licence :
         'demo/res_groups.yml',
         'demo/res_users.yml',
     ],
+    'installable': False,
 }
