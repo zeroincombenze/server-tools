@@ -29,6 +29,8 @@ from openerp.tools.config import config as system_base_config
 from .system_info import get_server_environment
 
 from openerp.addons import server_environment_files
+
+
 _dir = os.path.dirname(server_environment_files.__file__)
 
 # Same dict as RawConfigParser._boolean_states
@@ -99,6 +101,7 @@ def _load_config():
         raise Exception('Cannot read config files "%s":  %s' % (conf_files, e))
 
     return config_p
+
 
 serv_config = _load_config()
 

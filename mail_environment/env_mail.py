@@ -19,8 +19,8 @@
 #
 ##############################################################################
 
-from osv import fields
-from osv import osv
+from openerp.osv import fields
+from openerp.osv import osv
 
 from server_environment import serv_config
 
@@ -98,6 +98,7 @@ class IrMail(osv.osv):
                  "- ssl: SMTP sessions are encrypted with SSL/TLS "
                  "through a dedicated port (default: 465)",
             size=64)}
+
 
 IrMail()
 
@@ -231,4 +232,6 @@ class FetchmailServer(osv.osv):
             type="char",
             multi='income_mail_config',
             size=64)}
+
+
 FetchmailServer()

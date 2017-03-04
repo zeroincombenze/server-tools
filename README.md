@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/zeroincombenze/server-tools.svg?branch=7.0)](https://travis-ci.org/zeroincombenze/server-tools)
-[![Coverage Status](https://coveralls.io/repos/zeroincombenze/server-tools/badge.png?branch=7.0)](https://coveralls.io/r/zeroincombenze/server-tools?branch=7.0)
+[![Build Status](https://travis-ci.org/OCA/server-tools.svg?branch=7.0)](https://travis-ci.org/OCA/server-tools)
+[![Coverage Status](https://coveralls.io/repos/OCA/server-tools/badge.png?branch=7.0)](https://coveralls.io/r/OCA/server-tools?branch=7.0)
 
 Server Environment And Tools
 ============================
