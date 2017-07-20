@@ -22,7 +22,7 @@
 
 {
     'name': 'Parent Dependencies of Modules',
-    'version': '0.1',
+    'version': '7.0.0.1.1',
     'summary': "allows to see the list of installed modules dependencies of"
     " a given module, at the full depth of the dependency tree",
     'category': 'Tools',

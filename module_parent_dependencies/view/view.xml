@@ -7,14 +7,14 @@
             <field name="model">ir.module.module</field>
             <field name="inherit_id" ref="base.module_form" />
             <field name="arch" type="xml">
-                <notebook position="inside">
+                <xpath expr="//page[@string='Technical Data']/field[@name='dependencies_id']" position="after">
                     <page string="Parent informations">
                         <separator string="Direct Parent Installed Modules" colspan="2"/>
                         <field name="direct_installed_parent_ids" />
                         <separator string="Direct and Indirect Installed Parent Modules" colspan="2"/>
                         <field name="all_installed_parent_ids" />
                     </page>
-                </notebook>
+                </xpath>
             </field>
         </record>
 
