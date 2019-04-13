@@ -4,7 +4,7 @@ Usage / Uso
 |menu| Settings > Technical > Date ranges > Date Range Types where
   you can create types of date ranges.
 
-|menu| > Technical > Date ranges >  Date Ranges where
+|menu| Technical > Date ranges >  Date Ranges where
   you can create date ranges.
   It's also possible to launch a wizard from the 'Generate Date Ranges' menu.
   The wizard is useful to generate recurring periods.

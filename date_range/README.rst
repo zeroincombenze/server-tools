@@ -1,7 +1,7 @@
 
-=================
-|icon| Date Range
-=================
+============================
+|icon| Date Range 10.0.3.0.0
+============================
 
 
 **Manage all kind of date range**
@@ -41,7 +41,7 @@ Usage / Uso
 |menu| Settings > Technical > Date ranges > Date Range Types where
   you can create types of date ranges.
 
-|menu| > Technical > Date ranges >  Date Ranges where
+|menu| Technical > Date ranges >  Date Ranges where
   you can create date ranges.
   It's also possible to launch a wizard from the 'Generate Date Ranges' menu.
   The wizard is useful to generate recurring periods.
@@ -176,8 +176,8 @@ An Enhancement Proposal may be submitted if your idea gains ground.
 
 |it| Se hai proposte per migliorare questo modulo, puoi inviare una mail a <cc@shs-av.com> per un iniziale contatto.
 
-History / Cronologia
---------------------
+ChangeLog History / Cronologia modifiche
+----------------------------------------
 
 10.0.3.0.0 (2019-11-20)
 ~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,7 +1,7 @@
 
-================================
-|icon| Inactive Sessions Timeout
-================================
+===========================================
+|icon| Inactive Sessions Timeout 10.0.1.0.2
+===========================================
 
 
 **This module disable all inactive sessions since a given delay**

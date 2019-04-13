@@ -1,7 +1,7 @@
 
-==========================
-|icon| sequence_date_range
-==========================
+=====================================
+|icon| sequence_date_range 10.0.1.0.0
+=====================================
 
 
 **Module used to use the year of the date_to     into sequences (instead of date_from)**

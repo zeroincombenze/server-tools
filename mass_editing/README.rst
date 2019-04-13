@@ -1,7 +1,7 @@
 
-===================
-|icon| Mass Editing
-===================
+==============================
+|icon| Mass Editing 10.0.1.1.0
+==============================
 
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/server-tools/10.0/mass_editing/static/description/icon.png

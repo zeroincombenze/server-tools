@@ -1,7 +1,7 @@
 
-=========================
-|icon| Module Auto Update
-=========================
+====================================
+|icon| Module Auto Update 10.0.2.0.3
+====================================
 
 
 **Automatically update Odoo modules**
