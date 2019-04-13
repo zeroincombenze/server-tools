@@ -15,5 +15,5 @@
                 ],
     'data': ['views/fetchmail_server_views.xml',
              ],
-    'installable': True,
+    'installable': False,
 }
