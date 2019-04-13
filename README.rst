@@ -209,7 +209,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | server_environment_files_sample      | 10.0.1.0.0 | |same|     | sample config file for server_environment          |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| server_environment_ir_config_paramet | 10.0.1.0.1 | |same|     | Override System Parameters from server environment |
+| server_environment_ir_config_paramet | |halt|     | |same|     | Override System Parameters from server environment |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | sql_export                           | 10.0.1.0.0 | |same|     | Export data in csv file with SQL requests          |
 +--------------------------------------+------------+------------+----------------------------------------------------+
