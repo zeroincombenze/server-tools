@@ -20,5 +20,5 @@
         'views/purge_properties.xml',
         'views/menu.xml',
     ],
-    'installable': True,
+    'installable': False,
 }

@@ -17,4 +17,5 @@
     "external_dependencies": {
         'python': ['ldap'],
     },
+    'installable': False
 }

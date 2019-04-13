@@ -36,7 +36,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | auditlog                             | 10.0.1.0.0 | |same|     | Audit Log                                          |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| auth_admin_passkey                   | 10.0.1.0.1 | |same|     | Authentification - Admin Passkey                   |
+| auth_admin_passkey                   | |halt|     | |same|     | Authentification - Admin Passkey                   |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | auth_brute_force                     | 10.0.2.2.0 | |same|     | Track Authentication Attempts and Prevent Brute-fo |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -60,7 +60,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | auth_totp_password_security          | 10.0.1.0.0 | |same|     | auth_totp and password_security compatibility      |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| auth_user_case_insensitive           | 10.0.1.0.0 | |same|     | Makes the user login field case insensitive        |
+| auth_user_case_insensitive           | |halt|     | |same|     | Makes the user login field case insensitive        |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | auto_backup                          | 10.0.1.0.2 | |same|     | Backups database                                   |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -110,7 +110,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | base_manifest_extension              | 10.0.1.0.0 | |same|     | Adds useful keys to manifest files                 |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| base_multi_image                     | 10.0.1.0.0 | |same|     | Allow multiple images for database objects         |
+| base_multi_image                     | |halt|     | |same|     | Allow multiple images for database objects         |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | base_optional_quick_create           | 10.0.1.0.1 | |same|     | Avoid 'quick create' on m2o fields, on a 'by model |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -134,9 +134,9 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | configuration_helper                 | 10.0.1.0.0 | |same|     | Configuration Helper                               |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| database_cleanup                     | 10.0.1.0.0 | |same|     | Database cleanup                                   |
+| database_cleanup                     | |halt|     | |same|     | Database cleanup                                   |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| date_range                           | 10.0.3.0.0 | |same|     | Manage all kind of date range                      |
+| date_range                           | |halt|     | |same|     | Manage all kind of date range                      |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | datetime_formatter                   | 10.0.1.0.0 | |same|     | Helper functions to give correct format to date[ti |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -154,7 +154,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | fetchmail_attach_from_folder         | |halt|     | |halt|     | Attach mails in an IMAP folder to existing objects |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| fetchmail_notify_error_to_sender     | 10.0.1.0.0 | |same|     | If fetching mails gives error, send an email to se |
+| fetchmail_notify_error_to_sender     | |halt|     | |same|     | If fetching mails gives error, send an email to se |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | html_image_url_extractor             | 10.0.1.0.0 | |same|     | Extract images found in any HTML field             |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -182,7 +182,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | mgmtsystem_kpi                       | |halt|     | |no_check| | Key Performance Indicator                          |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| module_auto_update                   | 10.0.2.0.3 | |same|     | Automatically update Odoo modules                  |
+| module_auto_update                   | |halt|     | |same|     | Automatically update Odoo modules                  |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | module_prototyper                    | 10.0.1.0.0 | |same|     | Prototype your module.                             |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -200,12 +200,12 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | sequence_check_digit                 | 10.0.1.0.0 | |same|     | Adds a check digit on sequences                    |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| sequence_date_range                  | 10.0.1.0.0 | |same|     | Module used to use the year of the date_to
+| sequence_date_range                  | |halt|     | |same|     | Module used to use the year of the date_to
     int |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | server_env_base_external_referential | |halt|     | |halt|     | Server environment for base_external_referential   |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| server_environment                   | 10.0.1.3.0 | |same|     | move some configurations out of the database       |
+| server_environment                   | |halt|     | |same|     | move some configurations out of the database       |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | server_environment_files_sample      | 10.0.1.0.0 | |same|     | sample config file for server_environment          |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -223,7 +223,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | user_threshold                       | 10.0.1.0.1 | |same|     | Add Configurable User Threshold Support            |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| users_ldap_groups                    | 10.0.0.0.0 | |same|     | Adds user accounts to groups based on rules define |
+| users_ldap_groups                    | |halt|     | |same|     | Adds user accounts to groups based on rules define |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | users_ldap_mail                      | 10.0.1.0.0 | |same|     | LDAP mapping for user name and e-mail              |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -311,7 +311,7 @@ Support / Supporto
 ------------------
 
 
-|Zeroincombenze| This module is maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+|Zeroincombenze| This project is mainly maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
 
@@ -360,7 +360,7 @@ La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato ita
 
 |
 
-Last Update / Ultimo aggiornamento: 2019-04-12
+Last Update / Ultimo aggiornamento: 2019-04-13
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
