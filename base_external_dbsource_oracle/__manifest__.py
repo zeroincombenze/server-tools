@@ -20,6 +20,6 @@
     #         'cx_Oracle',
     #     ]
     # ],
-    'installable': True,
+    'installable': False,
     'auto_install': True,  # Remove this key for v11
 }

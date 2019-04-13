@@ -86,7 +86,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | base_external_dbsource_odbc          | 10.0.1.0.0 | |same|     | External Database Source - ODBC                    |
 +--------------------------------------+------------+------------+----------------------------------------------------+
-| base_external_dbsource_oracle        | 10.0.1.0.0 | |same|     | External Database Source - Oracle                  |
+| base_external_dbsource_oracle        | |halt|     | |same|     | External Database Source - Oracle                  |
 +--------------------------------------+------------+------------+----------------------------------------------------+
 | base_external_dbsource_sqlite        | 10.0.1.0.0 | |same|     | External Database Source - SQLite                  |
 +--------------------------------------+------------+------------+----------------------------------------------------+
@@ -311,7 +311,7 @@ Support / Supporto
 ------------------
 
 
-|Zeroincombenze| This project is mainly maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
+|Zeroincombenze| This module is maintained by the `SHS-AV s.r.l. <https://www.zeroincombenze.it/>`__
 
 
 
