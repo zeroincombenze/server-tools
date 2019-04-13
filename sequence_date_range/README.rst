@@ -4,8 +4,7 @@
 ==========================
 
 
-**Module used to use the year of the date_to
-    into sequences (instead of date_from)**
+**Module used to use the year of the date_to     into sequences (instead of date_from)**
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/server-tools/10.0/sequence_date_range/static/description/icon.png
 
@@ -31,38 +30,7 @@ You can setup this field into sequences configuration.
 
 |
 
-|it| Odoo è una suite di prodotti web open-source.
-
-Le principali applicazioni di Odoo includono un Open Source CRM e Enterprise Resource Planning.
-I principali moduli ERP sono: gestione Magazzino, gestione Progetti, Contabilità e Fatturazione, Punto vendite, Dipendenti, Produzione, gestione Acquisti, gestione vendite e molto altro ancora.
-
-
-Distributions / Distribuzioni Odoo 10.0:
-========================================
-
-
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| name / nome | description / descrizione        | Italy / Localizzazione Italiana    | Maintainers                                                  | License / Licenza |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-|             | Odoo EE - Enterprise Edition     | |check| Tramite partner        (1) | `Odoo S.A. <https://www.odoo.com/>`__                        | |license opl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| odoo        | Odoo CE - Community Edition      | |no_check|                         | `Odoo S.A. <https://www.odoo.com/>`__                        | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oca         | Odoo CE by OCA                   | |warning| Norme fiscali < 2107 (2) | `Odoo Community Association <http://odoo-community.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oia         | Odoo CE by OIA                   | |warning| Norme fiscali < 2107 (3) | `Associazione Odoo Italia <https://www.odoo-italia.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| zero        | Zeroincombenze(R)                | |warning| Norme fiscali < 2107 (3) | `SHS-AV s.r.l. <http://www.shs-av.com/>`__                   | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-
-Notes / Note:
--------------
-
-1. Localizzazione con supporto a pagamento tramite partner
-2. Manca software per norme fiscali 2017; OCA sta sviluppando il supporto per la Fattura Elettronica B2B
-3. Software per Fattura elettronica B2B in sviluppo
-
-
+|it| Descrizione in italiano non (ancora) disponibile
 
 |
 
@@ -222,9 +190,9 @@ which distributes and promotes ready-to-use **Odoo** on own cloud infrastructure
 `Zeroincombenze® distribution of Odoo <https://wiki.zeroincombenze.org/en/Odoo>`__
 is mainly designed to cover Italian law and markeplace.
 
-|it| **zeroincombenze®** è un marchio registrato di `SHS-AV s.r.l. <https://www.shs-av.com/>`__
-che distribuisce e promuove **Odoo** pronto all'uso sullla propria infrastuttura.
-La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato italiano.
+|it| **zeroincombenze®** è un marchio registrato da `SHS-AV s.r.l. <https://www.shs-av.com/>`__
+che distribuisce e promuove **Odoo** pronto all'uso sulla propria infrastuttura.
+La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ è progettata per le esigenze del mercato italiano.
 
 
 |chat_with_us|
@@ -232,7 +200,7 @@ La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato ita
 
 |
 
-Last Update / Ultimo aggiornamento: 2019-04-12
+Last Update / Ultimo aggiornamento: 2019-04-13
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
