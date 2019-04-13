@@ -24,6 +24,6 @@
     'images': [],
     'post_load': '',
     'application': False,
-    'installable': True,
+    'installable': False,
     'auto_install': False,
 }

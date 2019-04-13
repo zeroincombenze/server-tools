@@ -19,4 +19,5 @@
     'data': [
         'views/ir_sequence.xml',
     ],
+    'installable': False,
 }

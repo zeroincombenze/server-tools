@@ -26,4 +26,5 @@
     ],
     'development_status': 'Mature',
     'maintainers': ['lmignon'],
+    'installable': False,
 }
