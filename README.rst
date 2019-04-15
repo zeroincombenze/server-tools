@@ -138,7 +138,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 | database_cleanup                     | |halt|     | |same|     | Database cleanup                                                                 |
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
-| date_range                           | |halt|     | |same|     | Manage all kind of date range                                                    |
+| date_range                           | 10.0.3.0.0 | |same|     | Manage all kind of date range                                                    |
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 | datetime_formatter                   | 10.0.1.0.0 | |same|     | Helper functions to give correct format to date[time] fields                     |
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
@@ -359,7 +359,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 |
 
 
-Last Update / Ultimo aggiornamento: 2019-04-13
+Last Update / Ultimo aggiornamento: 2019-04-15
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
