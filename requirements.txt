@@ -1,0 +1,4 @@
+python-ldap
+raven
+raven_sanitize_openerp
+git
