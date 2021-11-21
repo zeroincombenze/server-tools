@@ -1,13 +1,15 @@
-# -*- coding: utf-8 -*-
-# © 2015 Therp BV <http://therp.nl>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# Copyright 2015 Therp BV <https://therp.nl>
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 from odoo.tests.common import TransactionCase
 
 
-class TestAuditlog(object):
+class AuditlogCommon(object):
 
     def test_LogCreation(self):
         """First test, caching some data."""
+
+        self.groups_rule.subscribe()
+
         auditlog_log = self.env['auditlog.log']
         group = self.env['res.groups'].create({
             'name': 'testgroup1',
@@ -32,6 +34,9 @@ class TestAuditlog(object):
 
     def test_LogCreation2(self):
         """Second test, using cached data of the first one."""
+
+        self.groups_rule.subscribe()
+
         auditlog_log = self.env['auditlog.log']
         testgroup2 = self.env['res.groups'].create({
             'name': 'testgroup2',
@@ -48,6 +53,8 @@ class TestAuditlog(object):
         of a 'write' log with a deleted resource (so with no text
         representation).
         """
+
+        self.groups_rule.subscribe()
         auditlog_log = self.env['auditlog.log']
         testgroup3 = testgroup3 = self.env['res.groups'].create({
             'name': 'testgroup3',
@@ -74,7 +81,7 @@ class TestAuditlog(object):
         ]).ensure_one())
 
 
-class TestAuditlogFull(TransactionCase, TestAuditlog):
+class TestAuditlogFull(TransactionCase, AuditlogCommon):
 
     def setUp(self):
         super(TestAuditlogFull, self).setUp()
@@ -86,7 +93,6 @@ class TestAuditlogFull(TransactionCase, TestAuditlog):
             'log_create': True,
             'log_write': True,
             'log_unlink': True,
-            'state': 'subscribed',
             'log_type': 'full',
         })
 
@@ -95,7 +101,7 @@ class TestAuditlogFull(TransactionCase, TestAuditlog):
         super(TestAuditlogFull, self).tearDown()
 
 
-class TestAuditlogFast(TransactionCase, TestAuditlog):
+class TestAuditlogFast(TransactionCase, AuditlogCommon):
 
     def setUp(self):
         super(TestAuditlogFast, self).setUp()
@@ -107,7 +113,6 @@ class TestAuditlogFast(TransactionCase, TestAuditlog):
             'log_create': True,
             'log_write': True,
             'log_unlink': True,
-            'state': 'subscribed',
             'log_type': 'fast',
         })
 

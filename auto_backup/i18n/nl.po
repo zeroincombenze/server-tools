@@ -7,14 +7,15 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-26 14:17+0000\n"
-"PO-Revision-Date: 2015-03-26 14:17+0000\n"
-"Last-Translator: <>\n"
+"PO-Revision-Date: 2018-06-19 09:00+0000\n"
+"Last-Translator: Jos De Graeve <jos.degraeve@accomodata.be>\n"
 "Language-Team: \n"
-"Language: \n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.0.1\n"
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -29,31 +30,37 @@ msgstr "Absoluut pad om backups te bewaren"
 #. module: auto_backup
 #: model:ir.actions.act_window,name:auto_backup.action_backup_conf_form
 #: model:ir.ui.menu,name:auto_backup.backup_conf_menu
-#, fuzzy
 msgid "Automated Backups"
-msgstr "Auto. backups verwijderen"
+msgstr "Automatische backups"
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Automatic backups of the database can be scheduled as follows:"
 msgstr ""
-"Automatische backups van de database kunnen als volgend gepland worden:"
+"Automatische backups van de database kunnen ingepland worden als volgt:"
 
 #. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_failure
-#, fuzzy
 msgid "Backup Failed"
-msgstr "Backup folder"
+msgstr "Backup mislukt"
+
+#. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Backup Format"
+msgstr "Backup mislukt"
+
+#. module: auto_backup
+#: model:ir.actions.server,name:auto_backup.ir_cron_backup_scheduler_0_ir_actions_server
+#: model:ir.cron,cron_name:auto_backup.ir_cron_backup_scheduler_0
+#: model:ir.cron,name:auto_backup.ir_cron_backup_scheduler_0
+msgid "Backup Scheduler"
+msgstr "Backup planner"
 
 #. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
 msgid "Backup Successful"
-msgstr ""
-
-#. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_tree
-msgid "Backups"
-msgstr "Backups"
+msgstr "Backup geslaagd"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_days_to_keep
@@ -61,41 +68,47 @@ msgid ""
 "Backups older than this will be deleted automatically. Set 0 to disable "
 "autodeletion."
 msgstr ""
+"Backups ouder dan deze waarde zullen automatisch verwijderd worden.  Zet op "
+"0 om niets te verwijderen."
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
-#, fuzzy
 msgid "Basic backup configuration"
-msgstr "Lokale backup configuratie"
+msgstr "Basis backup configuratie"
 
 #. module: auto_backup
 #: sql_constraint:db.backup:0
-#, fuzzy
 msgid "Cannot duplicate a configuration."
-msgstr "Lokale backup configuratie"
+msgstr "Kan een configuratie niet dupliceren."
+
+#. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Choose the format for this backup."
+msgstr "Kies een opslag methode voor deze backup."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_method
 msgid "Choose the storage method for this backup."
-msgstr ""
+msgstr "Kies een opslag methode voor deze backup."
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:253
+#: code:addons/auto_backup/models/db_backup.py:265
 #, python-format
 msgid "Cleanup of old database backups failed."
-msgstr ""
+msgstr "Opruimen oude database backups is mislukt."
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:133
+#: code:addons/auto_backup/models/db_backup.py:137
 #, python-format
 msgid "Connection Test Failed!"
-msgstr ""
+msgstr "Connectie test mislukt!"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:128
+#: code:addons/auto_backup/models/db_backup.py:132
 #, python-format
 msgid "Connection Test Succeeded!"
-msgstr ""
+msgstr "Connectie test geslaagd!"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_create_uid
@@ -108,34 +121,44 @@ msgid "Created on"
 msgstr "Gemaakt op"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:208
+#: model:ir.model,name:auto_backup.model_db_backup
+msgid "Database Backup"
+msgstr "Database backup"
+
+#. module: auto_backup
+#: code:addons/auto_backup/models/db_backup.py:219
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_failure
 #, python-format
 msgid "Database backup failed."
-msgstr ""
+msgstr "Database backup mislukt."
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:216
+#: code:addons/auto_backup/models/db_backup.py:227
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_success
 #, python-format
 msgid "Database backup succeeded."
-msgstr ""
+msgstr "Database backup geslaagd."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_days_to_keep
-msgid "Days to keep"
-msgstr ""
+msgid "Days To Keep"
+msgstr "Aantal dagen te houden"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Weergave naam"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:119
+#: code:addons/auto_backup/models/db_backup.py:123
 #, python-format
 msgid ""
 "Do not save backups on your filestore, or you will backup your backups too!"
+msgstr ""
+
+#. module: auto_backup
+#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
+msgid "Execute backup"
 msgstr ""
 
 #. module: auto_backup
@@ -170,7 +193,6 @@ msgstr "ID"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup___last_update
-#, fuzzy
 msgid "Last Modified on"
 msgstr "Laatst bijgewerkt op"
 
@@ -213,13 +235,11 @@ msgstr ""
 
 #. module: auto_backup
 #: selection:db.backup,method:0
-#, fuzzy
 msgid "Remote SFTP server"
 msgstr "Gebruikersnaam SFTP Server"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_password
-#, fuzzy
 msgid "SFTP Password"
 msgstr "SFTP poort"
 
@@ -230,7 +250,6 @@ msgstr "SFTP poort"
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_host
-#, fuzzy
 msgid "SFTP Server"
 msgstr "Gebruikersnaam SFTP Server"
 
@@ -238,11 +257,6 @@ msgstr "Gebruikersnaam SFTP Server"
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "SFTP Settings"
 msgstr ""
-
-#. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_search
-msgid "Search options"
-msgstr "Zoekopties"
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -268,14 +282,12 @@ msgstr "Test SFTP Connectie"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_host
-#, fuzzy
 msgid ""
 "The host name or IP address from your remote server. For example 192.168.0.1"
 msgstr "Het IP adres van uw externe server. Bijvoorbeeld: 192.168.0.1"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_password
-#, fuzzy
 msgid ""
 "The password for the SFTP connection. If you specify a private key file, "
 "then this is the password to decrypt it."
@@ -308,7 +320,6 @@ msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_user
-#, fuzzy
 msgid "Username in the SFTP Server"
 msgstr "Gebruikersnaam SFTP Server"
 
@@ -318,14 +329,13 @@ msgid "Warning:"
 msgstr "Waarschuwing:"
 
 #. module: auto_backup
-#: model:ir.model,name:auto_backup.model_db_backup
-#, fuzzy
-msgid "db.backup"
-msgstr "Backups"
-
-#. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "john"
+msgstr ""
+
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "pg_dump custom format (without filestore)"
 msgstr ""
 
 #. module: auto_backup
@@ -333,125 +343,7 @@ msgstr ""
 msgid "sftp.example.com"
 msgstr ""
 
-#~ msgid "%s"
-#~ msgstr "%s"
-
-#~ msgid "Auto. E-mail on backup fail"
-#~ msgstr "Auto. e-mailen wanneer backup mislukt"
-
-#~ msgid ""
-#~ "Choose after how many days the backup should be deleted from the FTP "
-#~ "server. For example:\n"
-#~ "If you fill in 5 the backups will be removed after 5 days from the FTP "
-#~ "server."
-#~ msgstr ""
-#~ "Kies na hoeveel dagen de backups verwijderd moeten worden van de FTP "
-#~ "server. Bijvoorbeeld:\n"
-#~ "Als u 5 invult zal de backup na 5 dagen verwijderd worden van de FTP "
-#~ "server."
-
-#~ msgid ""
-#~ "Choose after how many days the backup should be deleted. For example:\n"
-#~ "If you fill in 5 the backups will be removed after 5 days."
-#~ msgstr ""
-#~ "Kies na hoeveel dagen de backup verwijderd moet worden. Bijvoorbeeld:\n"
-#~ "Als u 5 invult zal de backup verwijderd worden na 5 dagen."
-
-#~ msgid "Configure Backup"
-#~ msgstr "Configureer backup"
-
-#~ msgid "Contact us!"
-#~ msgstr "Contacteer ons!"
-
-#~ msgid "Database"
-#~ msgstr "Database"
-
-#~ msgid "Database you want to schedule backups for"
-#~ msgstr "Database waar u backups voor wilt plannen"
-
-#~ msgid "E-mail to notify"
-#~ msgstr "E-mail om te verwittigen"
-
-#~ msgid "Error ! No such database exists!"
-#~ msgstr "Error! Deze database bestaat niet!"
-
-#~ msgid ""
-#~ "Fill in the e-mail where you want to be notified that the backup failed "
-#~ "on the FTP."
-#~ msgstr ""
-#~ "Vul de e-mail in waarop u wilt verwittigd worden als de backup mislukt op "
-#~ "de FTP."
-
-#~ msgid "For example: /odoo/backups/"
-#~ msgstr "Bijvoorbeeld: /odoo/backups/"
-
-#~ msgid "Host"
-#~ msgstr "Host"
-
-#~ msgid "IP Address SFTP Server"
-#~ msgstr "IP adres SFTP server"
-
-#~ msgid ""
-#~ "If you check this option you can choose to automaticly get e-mailed when "
-#~ "the backup to the external server failed."
-#~ msgstr ""
-#~ "Als u deze optie aanvinkt kan u kiezen om automatisch een e-mail aan te "
-#~ "krijgen als de backup naar de externe server mislukt."
-
-#~ msgid ""
-#~ "If you check this option you can choose to automaticly remove the backup "
-#~ "after xx days"
-#~ msgstr ""
-#~ "Als u deze optie aanvinkt kan u kiezen om automatisch backups te "
-#~ "verwijderen na xx dagen"
-
-#~ msgid ""
-#~ "If you check this option you can specify the details needed to write to a "
-#~ "remote server with SFTP."
-#~ msgstr ""
-#~ "Als u deze optie aanvinkt kan u de details invullen die nodig zijn om te "
-#~ "connecteren met de externe SFTP server."
-
-#~ msgid "Need more help?"
-#~ msgstr "Meer hulp nodig?"
-
-#~ msgid "Password User SFTP Server"
-#~ msgstr "Wachtwoord gebruiker SFTP server"
-
-#~ msgid "Path external server"
-#~ msgstr "Pad externe server"
-
-#~ msgid "Port"
-#~ msgstr "Poort"
-
-#~ msgid "Remove SFTP after x days"
-#~ msgstr "SFTP verwijderen na x dagen"
-
-#~ msgid "Remove after x days"
-#~ msgstr "Verwijderen na x dagen"
-
-#~ msgid "SFTP"
-#~ msgstr "SFTP"
-
-#~ msgid "Test"
-#~ msgstr "Test"
-
-#~ msgid ""
-#~ "The location to the folder where the dumps should be written to. For "
-#~ "example /odoo/backups/.\n"
-#~ "Files will then be written to /odoo/backups/ on your remote server."
-#~ msgstr ""
-#~ "De locatie naar de folder waar de backup naar toe moet geschreven worden. "
-#~ "Bijvoorbeeld odoo/backups/\n"
-#~ "Bestanden worden dan naar /odoo/backups/ geschreven op de externe server"
-
-#~ msgid ""
-#~ "This configures the scheduler for automatic backup of the given database "
-#~ "running on given host at given port on regular intervals."
-#~ msgstr ""
-#~ "Dit configureert de planner voor automatische backups op de ingegeven "
-#~ "database waar de host, poort en database op zijn ingegeven voor reguliere "
-#~ "intervallen."
-
-#~ msgid "Write to external server with sftp"
-#~ msgstr "Schrijf naar externe server met SFTP"
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "zip (includes filestore)"
+msgstr ""

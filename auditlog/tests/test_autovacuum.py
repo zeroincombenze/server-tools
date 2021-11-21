@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
-# © 2016 ABF OSIELL <http://osiell.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# Copyright 2016 ABF OSIELL <https://osiell.com>
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 import time
 
 from odoo.tests.common import TransactionCase

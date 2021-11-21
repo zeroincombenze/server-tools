@@ -1,13 +1,6 @@
-python-ldap
-unidecode
+checksumdir
+raven
+pysftp
 acme_tiny
 IPy
-email_validator
-pyotp
-pysftp
-fdb
-sqlalchemy
-raven
-checksumdir
-python-stdnum
 pyopenssl

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2017 LasLabs Inc.
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
@@ -10,8 +9,7 @@ from odoo.modules import get_module_path
 from odoo.tests.common import TransactionCase
 from odoo.tools import mute_logger
 
-from odoo.addons.module_auto_update.addon_hash import addon_hash
-
+from .. addon_hash import addon_hash
 from ..models.module_deprecated import PARAM_DEPRECATED
 
 

@@ -4,14 +4,13 @@
 #
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2016
-# falexandresilva <falexandresilva@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-22 01:11+0000\n"
-"PO-Revision-Date: 2017-06-22 01:11+0000\n"
-"Last-Translator: falexandresilva <falexandresilva@gmail.com>, 2017\n"
+"POT-Creation-Date: 2016-12-08 03:36+0000\n"
+"PO-Revision-Date: 2016-12-08 03:36+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/oca/"
 "teams/23907/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -47,13 +46,20 @@ msgid "Backup Failed"
 msgstr ""
 
 #. module: auto_backup
-#: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
-msgid "Backup Successful"
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup_backup_format
+msgid "Backup Format"
 msgstr ""
 
 #. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_tree
-msgid "Backups"
+#: model:ir.actions.server,name:auto_backup.ir_cron_backup_scheduler_0_ir_actions_server
+#: model:ir.cron,cron_name:auto_backup.ir_cron_backup_scheduler_0
+#: model:ir.cron,name:auto_backup.ir_cron_backup_scheduler_0
+msgid "Backup Scheduler"
+msgstr ""
+
+#. module: auto_backup
+#: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
+msgid "Backup Successful"
 msgstr ""
 
 #. module: auto_backup
@@ -74,24 +80,30 @@ msgid "Cannot duplicate a configuration."
 msgstr ""
 
 #. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Choose the format for this backup."
+msgstr "Caminho absoluto para armazenar os backups"
+
+#. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_method
 msgid "Choose the storage method for this backup."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:253
+#: code:addons/auto_backup/models/db_backup.py:265
 #, python-format
 msgid "Cleanup of old database backups failed."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:133
+#: code:addons/auto_backup/models/db_backup.py:137
 #, python-format
 msgid "Connection Test Failed!"
-msgstr "Teste de conexão falhou!"
+msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:128
+#: code:addons/auto_backup/models/db_backup.py:132
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr ""
@@ -107,14 +119,20 @@ msgid "Created on"
 msgstr "Criado em"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:208
+#: model:ir.model,name:auto_backup.model_db_backup
+#, fuzzy
+msgid "Database Backup"
+msgstr "Backups Automáticos"
+
+#. module: auto_backup
+#: code:addons/auto_backup/models/db_backup.py:219
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_failure
 #, python-format
 msgid "Database backup failed."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:216
+#: code:addons/auto_backup/models/db_backup.py:227
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_success
 #, python-format
 msgid "Database backup succeeded."
@@ -122,7 +140,7 @@ msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_days_to_keep
-msgid "Days to keep"
+msgid "Days To Keep"
 msgstr ""
 
 #. module: auto_backup
@@ -131,10 +149,15 @@ msgid "Display Name"
 msgstr "Nome para Mostrar"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:119
+#: code:addons/auto_backup/models/db_backup.py:123
 #, python-format
 msgid ""
 "Do not save backups on your filestore, or you will backup your backups too!"
+msgstr ""
+
+#. module: auto_backup
+#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
+msgid "Execute backup"
 msgstr ""
 
 #. module: auto_backup
@@ -155,7 +178,7 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Help"
-msgstr "Ajuda"
+msgstr ""
 
 #. module: auto_backup
 #: sql_constraint:db.backup:0
@@ -185,7 +208,7 @@ msgstr "Última atualização em"
 #. module: auto_backup
 #: selection:db.backup,method:0
 msgid "Local disk"
-msgstr "Disco local"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_method
@@ -227,17 +250,12 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_host
 msgid "SFTP Server"
-msgstr "Servidor SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "SFTP Settings"
-msgstr "Configurações SFTP"
-
-#. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_search
-msgid "Search options"
-msgstr "Opções de pesquisa"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -303,16 +321,21 @@ msgid "Warning:"
 msgstr ""
 
 #. module: auto_backup
-#: model:ir.model,name:auto_backup.model_db_backup
-msgid "db.backup"
-msgstr ""
-
-#. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "john"
 msgstr ""
 
 #. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "pg_dump custom format (without filestore)"
+msgstr ""
+
+#. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "sftp.example.com"
+msgstr ""
+
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "zip (includes filestore)"
 msgstr ""

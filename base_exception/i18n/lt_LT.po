@@ -31,31 +31,6 @@ msgid "Apply on"
 msgstr ""
 
 #. module: base_exception
-#: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
-#: model:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
-msgid "Blocked in draft due to exceptions"
-msgstr ""
-
-#. module: base_exception
-#: selection:exception.rule,exception_type:0
-msgid "By domain"
-msgstr ""
-
-#. module: base_exception
-#: selection:exception.rule,exception_type:0
-msgid "By python code"
-msgstr ""
-
-#. module: base_exception
-#: model:ir.model.fields,help:base_exception.field_exception_rule_exception_type
-msgid ""
-"By python code: allow to define any arbitrary check\n"
-"By domain: limited to a selection by an odoo domain:\n"
-"           performance can be better when exceptions            are "
-"evaluated with several records"
-msgstr ""
-
-#. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_create_uid
 msgid "Created by"
 msgstr "Sukūrė"
@@ -78,12 +53,7 @@ msgid "Display Name"
 msgstr ""
 
 #. module: base_exception
-#: model:ir.model.fields,field_description:base_exception.field_exception_rule_domain
-msgid "Domain"
-msgstr ""
-
-#. module: base_exception
-#: code:addons/base_exception/models/base_exception.py:259
+#: code:addons/base_exception/models/base_exception.py:220
 #, python-format
 msgid ""
 "Error when evaluating the exception.rule rule:\n"
@@ -111,11 +81,6 @@ msgstr ""
 #: model:ir.model,name:base_exception.model_exception_rule
 #: model:ir.ui.menu,name:base_exception.menu_action_exception
 msgid "Exception Rules"
-msgstr ""
-
-#. module: base_exception
-#: model:ir.model.fields,field_description:base_exception.field_exception_rule_exception_type
-msgid "Exception Type"
 msgstr ""
 
 #. module: base_exception
@@ -151,6 +116,15 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_exception
+#: model:ir.model.fields,help:base_exception.field_exception_rule_next_state
+msgid ""
+"If we detect exception we set the state of object (ex purchase) to the "
+"next_state (ex 'to approve'). If there are more than one exception detected "
+"and all have a value for next_state, we usethe exception having the smallest "
+"sequence value"
+msgstr ""
+
+#. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception_ignore_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm_ignore
 msgid "Ignore Exceptions"
@@ -179,6 +153,27 @@ msgid "Main Exception"
 msgstr ""
 
 #. module: base_exception
+#: model:ir.model.fields,field_description:base_exception.field_exception_rule_next_state
+msgid "Next state"
+msgstr ""
+
+#. module: base_exception
+#: code:addons/base_exception/wizard/base_exception_confirm.py:28
+#, python-format
+msgid "Only 1 ID accepted, got %r."
+msgstr ""
+
+#. module: base_exception
+#: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
+msgid "Outstanding exceptions to manage"
+msgstr ""
+
+#. module: base_exception
+#: model:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
+msgid "Outstanding exceptions to manager"
+msgstr ""
+
+#. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_code
 msgid "Python Code"
 msgstr ""
@@ -186,19 +181,20 @@ msgstr ""
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule_code
 msgid ""
-"Python code executed to check if the exception apply or not. The code must "
-"apply failed = True to apply the exception."
+"Python code executed to check if the exception apply or not. Use failed = "
+"True to block the exception"
 msgstr ""
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm_related_model_id
-msgid "Related model id"
-msgstr ""
+#, fuzzy
+msgid "Related Model"
+msgstr "Sukurta"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception_rule_group
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_rule_group
-msgid "Rule group"
+msgid "Rule Group"
 msgstr ""
 
 #. module: base_exception
@@ -211,6 +207,14 @@ msgstr ""
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_sequence
 msgid "Sequence"
+msgstr ""
+
+#. module: base_exception
+#: code:addons/base_exception/models/base_exception.py:88
+#, python-format
+msgid ""
+"The value \"%s\" you choose for the \"next state\" field state of \"%s\" is "
+"wrong. Value must be in this list %s"
 msgstr ""
 
 #. module: base_exception

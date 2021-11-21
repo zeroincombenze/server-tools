@@ -20,7 +20,7 @@ msgstr ""
 "%100==4 ? 2 : 3);\n"
 
 #. module: datetime_formatter
-#: code:addons/datetime_formatter/models/res_lang.py:60
+#: code:addons/datetime_formatter/models/res_lang.py:59
 #, python-format
 msgid "Best matched language (%s) not found."
 msgstr "Najbolj ujemajoč jezik (%s) ni najden."

@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-# © 2014-2016 Therp BV <http://therp.nl>
+# Copyright 2014-2016 Therp BV <http://therp.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# pylint: disable=consider-merging-classes-inherited
 from odoo import _, api, fields, models
 from odoo.exceptions import UserError
 from ..identifier_adapter import IdentifierAdapter
@@ -117,7 +117,7 @@ class CleanupPurgeWizardColumn(models.TransientModel):
                 model_pool._table, (model.id, [])
             )[1].append(model_pool)
 
-        for table, model_spec in table2model.iteritems():
+        for table, model_spec in table2model.items():
             for column in self.get_orphaned_columns(model_spec[1]):
                 res.append((0, 0, {
                             'name': column,

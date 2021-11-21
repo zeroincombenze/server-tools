@@ -19,7 +19,7 @@ a server-wide module.
 This can be done with the ``server_wide_modules`` parameter in ``/etc/odoo.conf``
 or with the ``--load`` command-line parameter
 
-``server_wide_modules = "web, web_kanban, dbfilter_from_header"``
+``server_wide_modules = "web, dbfilter_from_header"``
 
 Configuration
 =============
@@ -65,6 +65,7 @@ Contributors
 * Sandy Carter <sandy.carter@savoirfairelinux.com>
 * Fabio Vilchez <fabio.vilchez@clearcorp.co.cr>
 * Jos De Graeve <Jos.DeGraeve@apertoso.be>
+* Lai Tim Siu (Quaritle Limited) <info@quartile.co>
 
 Maintainer
 ----------

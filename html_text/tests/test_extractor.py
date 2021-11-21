@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
 # Copyright 2016-2017 Jairo Llopis <jairo.llopis@tecnativa.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo.tools import mute_logger
 from odoo.tests.common import TransactionCase
@@ -50,5 +49,5 @@ class ExtractorCase(TransactionCase):
     def test_false_html(self):
         """``False`` HTML handled correctly."""
         self.assertEqual(self.text_from_html(False), "")
-        with self.assertRaises(TypeError):
+        with self.assertRaises(Exception):
             self.text_from_html(False, fail=True)

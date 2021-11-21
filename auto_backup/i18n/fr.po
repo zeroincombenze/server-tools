@@ -3,16 +3,14 @@
 # * auto_backup
 #
 # Translators:
-# Alexandre Papin <papin.alexandre@me.com>, 2017
-# Nicolas JEUDY <njeudy@panda-chi.io>, 2017
-# OCA Transbot <transbot@odoo-community.org>, 2017
+# OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-01 02:09+0000\n"
-"PO-Revision-Date: 2017-12-01 02:09+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"POT-Creation-Date: 2018-03-03 10:08+0000\n"
+"PO-Revision-Date: 2018-03-03 10:08+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2018\n"
 "Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -49,14 +47,22 @@ msgid "Backup Failed"
 msgstr "Échec de la saugarde"
 
 #. module: auto_backup
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Backup Format"
+msgstr "Échec de la saugarde"
+
+#. module: auto_backup
+#: model:ir.actions.server,name:auto_backup.ir_cron_backup_scheduler_0_ir_actions_server
+#: model:ir.cron,cron_name:auto_backup.ir_cron_backup_scheduler_0
+#: model:ir.cron,name:auto_backup.ir_cron_backup_scheduler_0
+msgid "Backup Scheduler"
+msgstr ""
+
+#. module: auto_backup
 #: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
 msgid "Backup Successful"
 msgstr "Sauvegarde réussie"
-
-#. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_tree
-msgid "Backups"
-msgstr "Sauvegardes"
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_days_to_keep
@@ -78,24 +84,30 @@ msgid "Cannot duplicate a configuration."
 msgstr "Impossible de dupliquer une configuration."
 
 #. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Choose the format for this backup."
+msgstr "Choisissez la méthode de stockage pour cette sauvegarde."
+
+#. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_method
 msgid "Choose the storage method for this backup."
 msgstr "Choisissez la méthode de stockage pour cette sauvegarde."
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:253
+#: code:addons/auto_backup/models/db_backup.py:265
 #, python-format
 msgid "Cleanup of old database backups failed."
 msgstr "Échec du nettoyage des anciennes sauvegardes de la base de données."
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:133
+#: code:addons/auto_backup/models/db_backup.py:137
 #, python-format
 msgid "Connection Test Failed!"
 msgstr "Échec du test de connexion !"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:128
+#: code:addons/auto_backup/models/db_backup.py:132
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr "Test de connexion réussi !"
@@ -111,14 +123,19 @@ msgid "Created on"
 msgstr "Créé le"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:208
+#: model:ir.model,name:auto_backup.model_db_backup
+msgid "Database Backup"
+msgstr ""
+
+#. module: auto_backup
+#: code:addons/auto_backup/models/db_backup.py:219
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_failure
 #, python-format
 msgid "Database backup failed."
 msgstr "Échec de la sauvegarde de la base de données"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:216
+#: code:addons/auto_backup/models/db_backup.py:227
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_success
 #, python-format
 msgid "Database backup succeeded."
@@ -126,8 +143,8 @@ msgstr "Sauvegarde de la base de données réussie."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_days_to_keep
-msgid "Days to keep"
-msgstr "Nombre de jours avant suppression"
+msgid "Days To Keep"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_display_name
@@ -135,13 +152,18 @@ msgid "Display Name"
 msgstr "Nom affiché"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:119
+#: code:addons/auto_backup/models/db_backup.py:123
 #, python-format
 msgid ""
 "Do not save backups on your filestore, or you will backup your backups too!"
 msgstr ""
 "Ne conservez pas vos sauvegardes dans le filestore, sinon vos sauvegardes "
 "seront elles-mêmes sauvegardées ! "
+
+#. module: auto_backup
+#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
+msgid "Execute backup"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.actions.server,name:auto_backup.action_server_backup
@@ -168,7 +190,6 @@ msgstr "Aide"
 #: sql_constraint:db.backup:0
 msgid "I cannot remove backups from the future. Ask Doc for that."
 msgstr ""
-"Impossible de supprimer une sauvegarde future. Demander à Doc pour cela."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_id
@@ -217,66 +238,59 @@ msgstr ""
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_private_key
 msgid "Private key location"
-msgstr "Chemin de la clé privée"
+msgstr ""
 
 #. module: auto_backup
 #: selection:db.backup,method:0
 msgid "Remote SFTP server"
-msgstr "Serveur SFTP distant"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_password
 msgid "SFTP Password"
-msgstr "Mot de passe SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_port
 msgid "SFTP Port"
-msgstr "Port SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_host
 msgid "SFTP Server"
-msgstr "Serveur SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "SFTP Settings"
-msgstr "Paramètres SFTP"
-
-#. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_search
-msgid "Search options"
-msgstr "Options de recherche"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Search the action named 'Backup scheduler'."
-msgstr "Rechercher l'action 'Backup scheduler'."
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid ""
 "Set the scheduler to active and fill in how often you want backups generated."
 msgstr ""
-"Activer le programmateur et indiquer la fréquence de génération des "
-"sauvegardes."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_name
 msgid "Summary of this backup process"
-msgstr "Résumé de ce processus de backup"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Test SFTP Connection"
-msgstr "Tester la connection SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_host
 msgid ""
 "The host name or IP address from your remote server. For example 192.168.0.1"
-msgstr "L'Hôte ou l'adresse IP du serveur distant. Par exemple 192.168.0.1"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_password
@@ -284,13 +298,11 @@ msgid ""
 "The password for the SFTP connection. If you specify a private key file, "
 "then this is the password to decrypt it."
 msgstr ""
-"Le mot de passe pour la connection SFTP. Si vous ajouter une clé privée, "
-"cela correspond au mot de passe pour le décrypter."
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_port
 msgid "The port on the FTP server that accepts SSH/SFTP calls."
-msgstr "Le port sur lequel le serveur FTP accepte les connexions SSH/SFTP."
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_sftp_user
@@ -298,8 +310,6 @@ msgid ""
 "The username where the SFTP connection should be made with. This is the user "
 "on the external server."
 msgstr ""
-"L'identifiant utilisé pour la connexion SFTP. Cela correspond à "
-"l'utilisateur sur le serveur distant."
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
@@ -307,30 +317,33 @@ msgid ""
 "Use SFTP with caution! This writes files to external servers under the path "
 "you specify."
 msgstr ""
-"Utiliser SFTP avec attention ! Des fichiers sont écris sur le serveur "
-"distant dans l'arborescence spécifiée."
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_sftp_user
 msgid "Username in the SFTP Server"
-msgstr "Identifiant sur le serveur SFTP"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Warning:"
-msgstr "Attention:"
-
-#. module: auto_backup
-#: model:ir.model,name:auto_backup.model_db_backup
-msgid "db.backup"
-msgstr "db.backup"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "john"
-msgstr "john"
+msgstr ""
+
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "pg_dump custom format (without filestore)"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "sftp.example.com"
-msgstr "sftp.example.com"
+msgstr ""
+
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "zip (includes filestore)"
+msgstr ""

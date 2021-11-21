@@ -24,6 +24,13 @@ msgid "Configure the dead man's switch server"
 msgstr ""
 
 #. module: dead_mans_switch_client
+#: model:ir.actions.server,name:dead_mans_switch_client.cron_client_ir_actions_server
+#: model:ir.cron,cron_name:dead_mans_switch_client.cron_client
+#: model:ir.cron,name:dead_mans_switch_client.cron_client
+msgid "Dead man's switch client"
+msgstr ""
+
+#. module: dead_mans_switch_client
 #: model:ir.model.fields,field_description:dead_mans_switch_client.field_dead_mans_switch_client_display_name
 msgid "Display Name"
 msgstr "Név megjelenítése"

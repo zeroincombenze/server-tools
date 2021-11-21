@@ -3,14 +3,14 @@
 # * database_cleanup
 #
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
+# OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-01 02:10+0000\n"
-"PO-Revision-Date: 2017-12-01 02:10+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"POT-Creation-Date: 2017-04-19 18:00+0000\n"
+"PO-Revision-Date: 2017-04-19 18:00+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/oca/teams/23907/"
 "zh_CN/)\n"
 "Language: zh_CN\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_column_purge_line_ids
 msgid "Columns to purge"
-msgstr ""
+msgstr "要清除的栏位"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.cleanup_create_indexes_line_action
@@ -74,7 +74,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_property_create_uid
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table_create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_create_date
@@ -99,17 +99,17 @@ msgstr "创建时间"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_data_data_id
 msgid "Data entry"
-msgstr ""
+msgstr "数据录入"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_data_purge_line_ids
 msgid "Data to purge"
-msgstr ""
+msgstr "要清除的数据"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_database_cleanup
 msgid "Database cleanup"
-msgstr ""
+msgstr "数据库清理"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_display_name
@@ -145,7 +145,7 @@ msgstr ""
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_field_id
-msgid "Field id"
+msgid "Field"
 msgstr ""
 
 #. module: database_cleanup
@@ -240,12 +240,12 @@ msgstr "上次更新日期"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_menu_menu_id
 msgid "Menu entry"
-msgstr ""
+msgstr "菜单项"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_menu_purge_line_ids
 msgid "Menus to purge"
-msgstr ""
+msgstr "要清除的菜单"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_model_id
@@ -260,12 +260,12 @@ msgstr "模型"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_model_purge_line_ids
 msgid "Models to purge"
-msgstr ""
+msgstr "要清除的模型"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_module_purge_line_ids
 msgid "Modules to purge"
-msgstr ""
+msgstr "要清除的模块"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_name
@@ -299,7 +299,7 @@ msgid "No orphaned columns found"
 msgstr ""
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_data.py:69
+#: code:addons/database_cleanup/models/purge_data.py:68
 #, python-format
 msgid "No orphaned data entries found"
 msgstr ""
@@ -311,7 +311,7 @@ msgid "No orphaned models found"
 msgstr ""
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_tables.py:106
+#: code:addons/database_cleanup/models/purge_tables.py:105
 #, python-format
 msgid "No orphaned tables found"
 msgstr ""
@@ -328,7 +328,7 @@ msgstr ""
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_property_id
-msgid "Property id"
+msgid "Property"
 msgstr ""
 
 #. module: database_cleanup
@@ -341,7 +341,14 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.action_purge_table_line
 #: model:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
 msgid "Purge"
-msgstr ""
+msgstr "清除"
+
+#. module: database_cleanup
+#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard_purge_line_ids
+#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_purge_line_ids
+#, fuzzy
+msgid "Purge Line"
+msgstr "清除菜单"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_wizard_id
@@ -352,23 +359,23 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table_wizard_id
 msgid "Purge Wizard"
-msgstr ""
+msgstr "清除向导"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
 msgid "Purge all"
-msgstr ""
+msgstr "清除所有"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_columns
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_column
 msgid "Purge columns"
-msgstr ""
+msgstr "清除栏位"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_data
 msgid "Purge data"
-msgstr ""
+msgstr "清除数据"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_data
@@ -376,16 +383,10 @@ msgid "Purge data entries that refer to missing resources"
 msgstr ""
 
 #. module: database_cleanup
-#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard_purge_line_ids
-#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_purge_line_ids
-msgid "Purge line ids"
-msgstr ""
-
-#. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_menus
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_menu
 msgid "Purge menus"
-msgstr ""
+msgstr "清除菜单"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_models
@@ -393,38 +394,38 @@ msgstr ""
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_model
 #: model:ir.ui.view,arch_db:database_cleanup.tree_purge_line
 msgid "Purge models"
-msgstr ""
+msgstr "清除模型"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_modules
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_module
 msgid "Purge modules"
-msgstr ""
+msgstr "清除模块"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_columns
 msgid "Purge obsolete columns"
-msgstr ""
+msgstr "清除废弃的栏位"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_data
 msgid "Purge obsolete data entries"
-msgstr ""
+msgstr "清除废弃的数据项"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_menus
 msgid "Purge obsolete menu entries"
-msgstr ""
+msgstr "清除废弃的菜单项"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_models
 msgid "Purge obsolete models"
-msgstr ""
+msgstr "清除废弃的模型"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_modules
 msgid "Purge obsolete modules"
-msgstr ""
+msgstr "清除废弃的模块"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_property
@@ -434,7 +435,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_tables
 msgid "Purge obsolete tables"
-msgstr ""
+msgstr "清除废弃的表"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_property
@@ -452,12 +453,12 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.action_purge_tables
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_table
 msgid "Purge tables"
-msgstr ""
+msgstr "清除表"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.tree_purge_line
 msgid "Purge this model"
-msgstr ""
+msgstr "清除此模型"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_purged
@@ -469,12 +470,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_purged
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table_purged
 msgid "Purged"
-msgstr ""
+msgstr "已清除"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_reason
 msgid "Reason"
-msgstr ""
+msgstr "理由"
 
 #. module: database_cleanup
 #: selection:cleanup.purge.line.property,reason:0
@@ -487,7 +488,7 @@ msgid "Select lines"
 msgstr ""
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_wizard.py:73
+#: code:addons/database_cleanup/models/purge_wizard.py:74
 #, python-format
 msgid "Select lines to purge"
 msgstr ""
@@ -495,7 +496,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table_purge_line_ids
 msgid "Tables to purge"
-msgstr ""
+msgstr "要清除的表"
 
 #. module: database_cleanup
 #: selection:cleanup.purge.line.property,reason:0
@@ -505,8 +506,9 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_wizard_id
-msgid "Wizard id"
-msgstr ""
+#, fuzzy
+msgid "Wizard"
+msgstr "清除向导"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_create_indexes_line

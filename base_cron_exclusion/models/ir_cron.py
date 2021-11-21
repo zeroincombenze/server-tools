@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2017 Eficent Business and IT Consulting Services S.L.
 #   (http://www.eficent.com)
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
@@ -15,13 +14,13 @@ _logger = logging.getLogger(__name__)
 class IrCron(models.Model):
     _inherit = "ir.cron"
 
-    @api.one
     @api.constrains('mutually_exclusive_cron_ids')
     def _check_auto_exclusion(self):
-        if self in self.mutually_exclusive_cron_ids:
-            raise ValidationError(_(
-                "You can not mutually exclude a scheduled actions with "
-                "itself."))
+        for item in self:
+            if item in item.mutually_exclusive_cron_ids:
+                raise ValidationError(_(
+                    "You can not mutually exclude a scheduled actions with "
+                    "itself."))
 
     mutually_exclusive_cron_ids = fields.Many2many(
         comodel_name="ir.cron", relation="ir_cron_exclusion",
@@ -59,5 +58,5 @@ class IrCron(models.Model):
             res = super(IrCron, cls)._process_job(job_cr, job, cron_cr)
         finally:
             locked_crons.close()
-            _logger.debug("released blocks for cron job %s" % job['name'])
+            _logger.debug("released blocks for cron job %s" % job['cron_name'])
         return res

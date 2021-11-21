@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
 # Copyright 2017 LasLabs Inc.
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
     'name': 'Module Auto Update',
     'summary': 'Automatically update Odoo modules',
-    'version': '10.0.2.0.3',
+    'version': '11.0.2.0.4',
     'category': 'Extra Tools',
     'website': 'https://github.com/OCA/server-tools',
     'author': 'LasLabs, '
@@ -25,5 +24,4 @@
     ],
     'development_status': 'Production/Stable',
     'maintainers': ['sbidoul'],
-    'installable': False,
 }

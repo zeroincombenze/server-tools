@@ -46,14 +46,22 @@ msgid "Backup Failed"
 msgstr "Backup folder"
 
 #. module: auto_backup
-#: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
-msgid "Backup Successful"
+#: model:ir.model.fields,field_description:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Backup Format"
+msgstr "Backup folder"
+
+#. module: auto_backup
+#: model:ir.actions.server,name:auto_backup.ir_cron_backup_scheduler_0_ir_actions_server
+#: model:ir.cron,cron_name:auto_backup.ir_cron_backup_scheduler_0
+#: model:ir.cron,name:auto_backup.ir_cron_backup_scheduler_0
+msgid "Backup Scheduler"
 msgstr ""
 
 #. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_tree
-msgid "Backups"
-msgstr "Backups"
+#: model:mail.message.subtype,name:auto_backup.mail_message_subtype_success
+msgid "Backup Successful"
+msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_days_to_keep
@@ -75,24 +83,30 @@ msgid "Cannot duplicate a configuration."
 msgstr "Lokale backup configuratie"
 
 #. module: auto_backup
+#: model:ir.model.fields,help:auto_backup.field_db_backup_backup_format
+#, fuzzy
+msgid "Choose the format for this backup."
+msgstr "Absoluut pad om backups te bewaren"
+
+#. module: auto_backup
 #: model:ir.model.fields,help:auto_backup.field_db_backup_method
 msgid "Choose the storage method for this backup."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:253
+#: code:addons/auto_backup/models/db_backup.py:265
 #, python-format
 msgid "Cleanup of old database backups failed."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:133
+#: code:addons/auto_backup/models/db_backup.py:137
 #, python-format
 msgid "Connection Test Failed!"
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:128
+#: code:addons/auto_backup/models/db_backup.py:132
 #, python-format
 msgid "Connection Test Succeeded!"
 msgstr ""
@@ -108,14 +122,20 @@ msgid "Created on"
 msgstr "Gemaakt op"
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:208
+#: model:ir.model,name:auto_backup.model_db_backup
+#, fuzzy
+msgid "Database Backup"
+msgstr "Database"
+
+#. module: auto_backup
+#: code:addons/auto_backup/models/db_backup.py:219
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_failure
 #, python-format
 msgid "Database backup failed."
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:216
+#: code:addons/auto_backup/models/db_backup.py:227
 #: model:mail.message.subtype,description:auto_backup.mail_message_subtype_success
 #, python-format
 msgid "Database backup succeeded."
@@ -123,7 +143,7 @@ msgstr ""
 
 #. module: auto_backup
 #: model:ir.model.fields,field_description:auto_backup.field_db_backup_days_to_keep
-msgid "Days to keep"
+msgid "Days To Keep"
 msgstr ""
 
 #. module: auto_backup
@@ -132,10 +152,15 @@ msgid "Display Name"
 msgstr ""
 
 #. module: auto_backup
-#: code:addons/auto_backup/models/db_backup.py:119
+#: code:addons/auto_backup/models/db_backup.py:123
 #, python-format
 msgid ""
 "Do not save backups on your filestore, or you will backup your backups too!"
+msgstr ""
+
+#. module: auto_backup
+#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
+msgid "Execute backup"
 msgstr ""
 
 #. module: auto_backup
@@ -240,11 +265,6 @@ msgid "SFTP Settings"
 msgstr ""
 
 #. module: auto_backup
-#: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_search
-msgid "Search options"
-msgstr "Zoekopties"
-
-#. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "Search the action named 'Backup scheduler'."
 msgstr "Zoek de actie genaamd 'Backup scheduler'."
@@ -318,14 +338,13 @@ msgid "Warning:"
 msgstr "Waarschuwing:"
 
 #. module: auto_backup
-#: model:ir.model,name:auto_backup.model_db_backup
-#, fuzzy
-msgid "db.backup"
-msgstr "Backups"
-
-#. module: auto_backup
 #: model:ir.ui.view,arch_db:auto_backup.view_backup_conf_form
 msgid "john"
+msgstr ""
+
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "pg_dump custom format (without filestore)"
 msgstr ""
 
 #. module: auto_backup
@@ -333,11 +352,19 @@ msgstr ""
 msgid "sftp.example.com"
 msgstr ""
 
+#. module: auto_backup
+#: selection:db.backup,backup_format:0
+msgid "zip (includes filestore)"
+msgstr ""
+
 #~ msgid "%s"
 #~ msgstr "%s"
 
 #~ msgid "Auto. E-mail on backup fail"
 #~ msgstr "Auto. e-mailen wanneer backup mislukt"
+
+#~ msgid "Backups"
+#~ msgstr "Backups"
 
 #~ msgid ""
 #~ "Choose after how many days the backup should be deleted from the FTP "
@@ -362,9 +389,6 @@ msgstr ""
 
 #~ msgid "Contact us!"
 #~ msgstr "Contacteer ons!"
-
-#~ msgid "Database"
-#~ msgstr "Database"
 
 #~ msgid "Database you want to schedule backups for"
 #~ msgstr "Database waar u backups voor wilt plannen"
@@ -432,6 +456,9 @@ msgstr ""
 
 #~ msgid "SFTP"
 #~ msgstr "SFTP"
+
+#~ msgid "Search options"
+#~ msgstr "Zoekopties"
 
 #~ msgid "Test"
 #~ msgstr "Test"

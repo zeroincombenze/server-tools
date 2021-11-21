@@ -3,14 +3,14 @@
 # * database_cleanup
 #
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
+# OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-01 02:10+0000\n"
-"PO-Revision-Date: 2017-12-01 02:10+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"POT-Creation-Date: 2018-03-03 10:08+0000\n"
+"PO-Revision-Date: 2018-03-03 10:08+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2018\n"
 "Language-Team: Slovenian (https://www.transifex.com/oca/teams/23907/sl/)\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -22,13 +22,13 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_column_purge_line_ids
 msgid "Columns to purge"
-msgstr ""
+msgstr "Stolpci za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.cleanup_create_indexes_line_action
 #: model:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_wizard_view_form
 msgid "Create"
-msgstr ""
+msgstr "Ustvari"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.cleanup_create_indexes_wizard_view_form
@@ -54,7 +54,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_purged
 msgid "Created"
-msgstr ""
+msgstr "Nastanek"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_create_uid
@@ -99,17 +99,17 @@ msgstr "Ustvarjeno"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_data_data_id
 msgid "Data entry"
-msgstr ""
+msgstr "Podatkovni vnos"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_data_purge_line_ids
 msgid "Data to purge"
-msgstr ""
+msgstr "Podatki za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_database_cleanup
 msgid "Database cleanup"
-msgstr ""
+msgstr "Čiščenje podatkovne baze"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_display_name
@@ -145,8 +145,8 @@ msgstr ""
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_field_id
-msgid "Field id"
-msgstr ""
+msgid "Field"
+msgstr "Polje"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_ir_model_fields
@@ -215,7 +215,7 @@ msgstr "Zadnjič spremenjeno"
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_property_write_uid
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table_write_uid
 msgid "Last Updated by"
-msgstr "Zadnji posodobil"
+msgstr "Zadnjič posodobil"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_write_date
@@ -240,12 +240,12 @@ msgstr "Zadnjič posodobljeno"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_menu_menu_id
 msgid "Menu entry"
-msgstr ""
+msgstr "Menijski vnos"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_menu_purge_line_ids
 msgid "Menus to purge"
-msgstr ""
+msgstr "Meniji za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_model_id
@@ -260,12 +260,12 @@ msgstr "Modeli"
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_model_purge_line_ids
 msgid "Models to purge"
-msgstr ""
+msgstr "Modeli za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_module_purge_line_ids
 msgid "Modules to purge"
-msgstr ""
+msgstr "Moduli za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_name
@@ -284,37 +284,37 @@ msgstr "Naziv"
 #: code:addons/database_cleanup/models/purge_menus.py:54
 #, python-format
 msgid "No dangling menu entries found"
-msgstr ""
+msgstr "Noben odvečen meni ni najden"
 
 #. module: database_cleanup
 #: code:addons/database_cleanup/models/purge_modules.py:80
 #, python-format
 msgid "No modules found to purge"
-msgstr ""
+msgstr "Ni najdenih modulov za očiščenje"
 
 #. module: database_cleanup
 #: code:addons/database_cleanup/models/purge_columns.py:126
 #, python-format
 msgid "No orphaned columns found"
-msgstr ""
+msgstr "Noben opuščen stolpec ni najden"
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_data.py:69
+#: code:addons/database_cleanup/models/purge_data.py:68
 #, python-format
 msgid "No orphaned data entries found"
-msgstr ""
+msgstr "Noben opuščen podatkovni vnos ni najden"
 
 #. module: database_cleanup
 #: code:addons/database_cleanup/models/purge_models.py:113
 #, python-format
 msgid "No orphaned models found"
-msgstr ""
+msgstr "Noben opuščen model ni najden"
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_tables.py:106
+#: code:addons/database_cleanup/models/purge_tables.py:105
 #, python-format
 msgid "No orphaned tables found"
-msgstr ""
+msgstr "Nobena opuščena tabela ni najdena"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
@@ -328,7 +328,7 @@ msgstr ""
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_property_id
-msgid "Property id"
+msgid "Property"
 msgstr ""
 
 #. module: database_cleanup
@@ -344,6 +344,12 @@ msgid "Purge"
 msgstr ""
 
 #. module: database_cleanup
+#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard_purge_line_ids
+#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_purge_line_ids
+msgid "Purge Line"
+msgstr ""
+
+#. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_data_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_menu_wizard_id
@@ -352,7 +358,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table_wizard_id
 msgid "Purge Wizard"
-msgstr ""
+msgstr "Čarovnik za očiščenje"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.form_purge_wizard
@@ -363,29 +369,23 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.action_purge_columns
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_column
 msgid "Purge columns"
-msgstr ""
+msgstr "Očiščenje stolpcev"
 
 #. module: database_cleanup
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_data
 msgid "Purge data"
-msgstr ""
+msgstr "Očiščenje podatkov"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_data
 msgid "Purge data entries that refer to missing resources"
-msgstr ""
-
-#. module: database_cleanup
-#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_wizard_purge_line_ids
-#: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_purge_line_ids
-msgid "Purge line ids"
-msgstr ""
+msgstr "Očiščenje podatkovnih vnosov, ki se sklicujejo na manjkajoče vire"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_menus
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_menu
 msgid "Purge menus"
-msgstr ""
+msgstr "Očiščenje menijev"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_models
@@ -393,38 +393,38 @@ msgstr ""
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_model
 #: model:ir.ui.view,arch_db:database_cleanup.tree_purge_line
 msgid "Purge models"
-msgstr ""
+msgstr "Očiščenje modelov"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_modules
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_module
 msgid "Purge modules"
-msgstr ""
+msgstr "Očiščenje modulov"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_columns
 msgid "Purge obsolete columns"
-msgstr ""
+msgstr "Očiščenje opuščenih stolpcev"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_data
 msgid "Purge obsolete data entries"
-msgstr ""
+msgstr "Očiščenje opuščenih podatkovnih vnosov"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_menus
 msgid "Purge obsolete menu entries"
-msgstr ""
+msgstr "Očiščenje opuščenih menijskih vnosov"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_models
 msgid "Purge obsolete models"
-msgstr ""
+msgstr "Očiščenje opuščenih modelov"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_modules
 msgid "Purge obsolete modules"
-msgstr ""
+msgstr "Očiščenje opuščenih modulov"
 
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_property
@@ -434,7 +434,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.ui.menu,name:database_cleanup.menu_purge_tables
 msgid "Purge obsolete tables"
-msgstr ""
+msgstr "Očiščenje opuščenih tabel"
 
 #. module: database_cleanup
 #: model:ir.actions.server,name:database_cleanup.action_purge_property
@@ -452,12 +452,12 @@ msgstr ""
 #: model:ir.actions.server,name:database_cleanup.action_purge_tables
 #: model:ir.model,name:database_cleanup.model_cleanup_purge_wizard_table
 msgid "Purge tables"
-msgstr ""
+msgstr "Očiščenje tabel"
 
 #. module: database_cleanup
 #: model:ir.ui.view,arch_db:database_cleanup.tree_purge_line
 msgid "Purge this model"
-msgstr ""
+msgstr "Očisti ta model"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_column_purged
@@ -469,12 +469,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_purged
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_table_purged
 msgid "Purged"
-msgstr ""
+msgstr "Očiščeno"
 
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_property_reason
 msgid "Reason"
-msgstr ""
+msgstr "Razlog"
 
 #. module: database_cleanup
 #: selection:cleanup.purge.line.property,reason:0
@@ -487,7 +487,7 @@ msgid "Select lines"
 msgstr ""
 
 #. module: database_cleanup
-#: code:addons/database_cleanup/models/purge_wizard.py:73
+#: code:addons/database_cleanup/models/purge_wizard.py:74
 #, python-format
 msgid "Select lines to purge"
 msgstr ""
@@ -495,7 +495,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_wizard_table_purge_line_ids
 msgid "Tables to purge"
-msgstr ""
+msgstr "Tabele za očiščenje"
 
 #. module: database_cleanup
 #: selection:cleanup.purge.line.property,reason:0
@@ -505,7 +505,7 @@ msgstr ""
 #. module: database_cleanup
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_create_indexes_line_wizard_id
 #: model:ir.model.fields,field_description:database_cleanup.field_cleanup_purge_line_wizard_id
-msgid "Wizard id"
+msgid "Wizard"
 msgstr ""
 
 #. module: database_cleanup

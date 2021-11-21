@@ -1,18 +1,18 @@
-# -*- coding: utf-8 -*-
 # © 2015 Agile Business Group <http://www.agilebg.com>
 # © 2015 Alessio Gerace <alesiso.gerace@agilebg.com>
 # © 2016 Grupo ESOC Ingeniería de Servicios, S.L.U. - Jairo Llopis
+# © 2018 Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 # Copyright 2016 LasLabs Inc.
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 import os
+from contextlib import contextmanager
+from datetime import datetime, timedelta
+
 import mock
 
-from datetime import datetime
-from contextlib import contextmanager
-
-from odoo.tests import common
 from odoo import exceptions, tools
+from odoo.tests import common
 
 try:
     import pysftp
@@ -127,6 +127,23 @@ class TestDbBackup(common.TransactionCase):
                             if f >= filename]
         self.assertEqual(1, len(generated_backup))
 
+    def test_action_backup_local_cleanup(self):
+        """ Backup local database and cleanup old databases """
+        rec_id = self.new_record('local')
+        rec_id.days_to_keep = 1
+        old_date = datetime.now() - timedelta(days=3)
+        filename = rec_id.filename(old_date)
+        rec_id.action_backup()
+        generated_backup = [f for f in os.listdir(rec_id.folder)
+                            if f >= filename]
+        self.assertEqual(2, len(generated_backup))
+
+        filename = rec_id.filename(datetime.now())
+        rec_id.action_backup()
+        generated_backup = [f for f in os.listdir(rec_id.folder)
+                            if f >= filename]
+        self.assertEqual(1, len(generated_backup))
+
     def test_action_backup_sftp_mkdirs(self):
         """ It should create remote dirs """
         rec_id = self.new_record()
@@ -159,24 +176,24 @@ class TestDbBackup(common.TransactionCase):
                     'wb'
                 )
 
-    def test_action_backup_sftp_remote_open(self):
-        """ It should open remote file w/ proper args """
-        rec_id = self.new_record()
-        with self.mock_assets() as assets:
-            with self.patch_filtered_sftp(rec_id):
-                conn = rec_id.sftp_connection().__enter__()
-                rec_id.action_backup()
-                conn.open.assert_called_once_with(
-                    assets['os'].path.join(),
-                    'wb'
-                )
-
-    def test_action_backup_all_search(self):
-        """ It should search all records """
+    def test_action_backup_daily(self):
+        """ It should search all records with daily frequency"""
         rec_id = self.new_record()
         with mock.patch.object(rec_id, 'search'):
             rec_id.action_backup_all()
-            rec_id.search.assert_called_once_with([])
+            rec_id.search.assert_called_once_with(
+                [("frequency", "=", "daily")]
+            )
+
+    def test_action_backup_hourly(self):
+        """ It should search all records with daily frequency"""
+
+        rec_id = self.new_record()
+        with mock.patch.object(rec_id, 'search'):
+            rec_id.action_backup_all("hourly")
+            rec_id.search.assert_called_once_with(
+                [("frequency", "=", "hourly")]
+            )
 
     def test_action_backup_all_return(self):
         """ It should return result of backup operation """
@@ -225,8 +242,37 @@ class TestDbBackup(common.TransactionCase):
             pysftp.Connection(), res,
         )
 
-    def test_filename(self):
+    def test_filename_default(self):
         """ It should not error and should return a .dump.zip file str """
         now = datetime.now()
         res = self.Model.filename(now)
         self.assertTrue(res.endswith(".dump.zip"))
+
+    def test_filename_zip(self):
+        """ It should return a dump.zip filename"""
+        now = datetime.now()
+        res = self.Model.filename(now, ext='zip')
+        self.assertTrue(res.endswith(".dump.zip"))
+
+    def test_filename_dump(self):
+        """ It should return a dump filename"""
+        now = datetime.now()
+        res = self.Model.filename(now, ext='dump')
+        self.assertTrue(res.endswith(".dump"))
+
+    def test_default_frequence_daily(self):
+        """ The default frequency is daily"""
+        rec_id = self.new_record()
+        self.assertEqual(
+            'daily',
+            rec_id.frequency
+        )
+
+    def test_frequency_hourly(self):
+        """ The frequency can be set to hourly"""
+        rec_id = self.new_record()
+        rec_id.frequency = 'hourly'
+        self.assertEqual(
+            'hourly',
+            rec_id.frequency
+        )

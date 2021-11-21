@@ -51,3 +51,10 @@ msgstr "Ostatnio modyfikowano"
 #, python-format
 msgid "Let's encrypt doesn't work with private addresses or local domains!"
 msgstr ""
+
+#. module: letsencrypt
+#: model:ir.actions.server,name:letsencrypt.cronjob_ir_actions_server
+#: model:ir.cron,cron_name:letsencrypt.cronjob
+#: model:ir.cron,name:letsencrypt.cronjob
+msgid "Update letsencrypt certificates"
+msgstr ""

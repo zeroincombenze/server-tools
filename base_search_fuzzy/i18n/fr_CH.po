@@ -73,7 +73,7 @@ msgid "Index Type"
 msgstr ""
 
 #. module: base_search_fuzzy
-#: code:addons/base_search_fuzzy/models/ir_model.py:40
+#: code:addons/base_search_fuzzy/models/ir_model.py:39
 #, python-format
 msgid "Invalid field %r in domain term %r"
 msgstr ""
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 
 #. module: base_search_fuzzy
-#: code:addons/base_search_fuzzy/models/trgm_index.py:126
+#: code:addons/base_search_fuzzy/models/trgm_index.py:125
 #, python-format
 msgid "The pg_trgm extension does not exists or cannot be installed."
 msgstr ""

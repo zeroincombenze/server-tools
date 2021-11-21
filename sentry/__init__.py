@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2016-2017 Versada <https://versada.eu/>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
@@ -9,6 +8,8 @@ from odoo.tools import config as odoo_config
 
 from . import const
 from .logutils import LoggerNameFilter, OdooSentryHandler
+
+import collections
 
 _logger = logging.getLogger(__name__)
 HAS_RAVEN = True
@@ -28,7 +29,7 @@ def get_odoo_commit(odoo_dir):
         return raven.fetch_git_sha(odoo_dir)
     except raven.exceptions.InvalidGitRepository:
         _logger.debug(
-            u'Odoo directory: "%s" not a valid git repository', odoo_dir)
+            'Odoo directory: "%s" not a valid git repository', odoo_dir)
 
 
 def initialize_raven(config, client_cls=None):
@@ -41,12 +42,15 @@ def initialize_raven(config, client_cls=None):
     enabled = config.get('sentry_enabled', False)
     if not (HAS_RAVEN and enabled):
         return
+
+    if config.get('sentry_odoo_dir') and config.get('sentry_release'):
+        _logger.debug('Both sentry_odoo_dir and sentry_release defined, choosing sentry_release')
     options = {
-        'release': get_odoo_commit(config.get('sentry_odoo_dir')),
+        'release': config.get('sentry_release', get_odoo_commit(config.get('sentry_odoo_dir'))),
     }
     for option in const.get_sentry_options():
         value = config.get('sentry_%s' % option.key, option.default)
-        if callable(option.converter):
+        if isinstance(option.converter, collections.Callable):
             value = option.converter(value)
         options[option.key] = value
 

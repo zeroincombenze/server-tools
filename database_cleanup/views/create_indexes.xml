@@ -40,13 +40,6 @@
         <field name="state">code</field>
         <field name="model_id" ref="database_cleanup.model_cleanup_create_indexes_line" />
         <field name="code">records.purge()</field>
-    </record>
-
-    <record id="cleanup_create_indexes_line_action_value" model="ir.values">
-        <field name="name">Create indexes</field>
-        <field name="key">action</field>
-        <field name="key2">client_action_multi</field>
-        <field name="model">cleanup.create_indexes.line</field>
-        <field name="value" eval="'ir.actions.server,%d' % ref('database_cleanup.cleanup_create_indexes_line_action')" />
+        <field name="binding_model_id" ref="database_cleanup.model_cleanup_create_indexes_line" />
     </record>
 </odoo>

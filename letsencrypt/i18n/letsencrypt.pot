@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
@@ -43,5 +43,12 @@ msgstr ""
 #: code:addons/letsencrypt/models/letsencrypt.py:90
 #, python-format
 msgid "Let's encrypt doesn't work with private addresses or local domains!"
+msgstr ""
+
+#. module: letsencrypt
+#: model:ir.actions.server,name:letsencrypt.cronjob_ir_actions_server
+#: model:ir.cron,cron_name:letsencrypt.cronjob
+#: model:ir.cron,name:letsencrypt.cronjob
+msgid "Update letsencrypt certificates"
 msgstr ""
 

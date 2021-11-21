@@ -1,13 +1,12 @@
-# -*- coding: utf-8 -*-
-# © 2015 ABF OSIELL <http://osiell.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# Copyright 2015 ABF OSIELL <https://osiell.com>
+# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 {
     'name': "Audit Log",
-    'version': "10.0.1.0.0",
+    'version': "11.0.1.0.1",
     'author': "ABF OSIELL,Odoo Community Association (OCA)",
     'license': "AGPL-3",
-    'website': "http://www.osiell.com",
+    'website': "https://github.com/OCA/server-tools/",
     'category': "Tools",
     'depends': [
         'base',

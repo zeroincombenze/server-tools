@@ -4,13 +4,14 @@
 #
 # Translators:
 # OCA Transbot <transbot@odoo-community.org>, 2017
+# Nicolas JEUDY <njeudy@panda-chi.io>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-01 02:09+0000\n"
-"PO-Revision-Date: 2017-12-01 02:09+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"POT-Creation-Date: 2018-03-03 10:08+0000\n"
+"PO-Revision-Date: 2018-03-03 10:08+0000\n"
+"Last-Translator: Nicolas JEUDY <njeudy@panda-chi.io>, 2018\n"
 "Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -21,38 +22,12 @@ msgstr ""
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_active
 msgid "Active"
-msgstr "Active"
+msgstr "Actif"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_model
 msgid "Apply on"
 msgstr "Appliquer sur"
-
-#. module: base_exception
-#: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
-#: model:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
-msgid "Blocked in draft due to exceptions"
-msgstr "Bloqué à l'état brouillon à cause d'une restriction"
-
-#. module: base_exception
-#: selection:exception.rule,exception_type:0
-msgid "By domain"
-msgstr ""
-
-#. module: base_exception
-#: selection:exception.rule,exception_type:0
-#, fuzzy
-msgid "By python code"
-msgstr "Code Python"
-
-#. module: base_exception
-#: model:ir.model.fields,help:base_exception.field_exception_rule_exception_type
-msgid ""
-"By python code: allow to define any arbitrary check\n"
-"By domain: limited to a selection by an odoo domain:\n"
-"           performance can be better when exceptions            are "
-"evaluated with several records"
-msgstr ""
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_create_uid
@@ -74,15 +49,10 @@ msgstr "Description"
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm_display_name
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Nom à afficher"
 
 #. module: base_exception
-#: model:ir.model.fields,field_description:base_exception.field_exception_rule_domain
-msgid "Domain"
-msgstr ""
-
-#. module: base_exception
-#: code:addons/base_exception/models/base_exception.py:259
+#: code:addons/base_exception/models/base_exception.py:220
 #, python-format
 msgid ""
 "Error when evaluating the exception.rule rule:\n"
@@ -114,12 +84,6 @@ msgstr "Paramètre de la règle de l'exception"
 #: model:ir.ui.menu,name:base_exception.menu_action_exception
 msgid "Exception Rules"
 msgstr "Règles de restriction"
-
-#. module: base_exception
-#: model:ir.model.fields,field_description:base_exception.field_exception_rule_exception_type
-#, fuzzy
-msgid "Exception Type"
-msgstr "Nom de l'exception"
 
 #. module: base_exception
 #: model:res.groups,name:base_exception.group_exception_rule_manager
@@ -154,6 +118,19 @@ msgid "ID"
 msgstr "ID"
 
 #. module: base_exception
+#: model:ir.model.fields,help:base_exception.field_exception_rule_next_state
+msgid ""
+"If we detect exception we set the state of object (ex purchase) to the "
+"next_state (ex 'to approve'). If there are more than one exception detected "
+"and all have a value for next_state, we usethe exception having the smallest "
+"sequence value"
+msgstr ""
+"Si nous détectons une exception, nous plaçons l'état de l'objet (ex achat) "
+"sur next_state (ex' à approuver'). S'il y a plus d'une exception détectée et "
+"que toutes ont une valeur pour next_state, nous utilisons l'exception ayant "
+"la plus petite valeur de séquence"
+
+#. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception_ignore_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm_ignore
 msgid "Ignore Exceptions"
@@ -164,22 +141,43 @@ msgstr "Ignorer les exceptions"
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule___last_update
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm___last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr "Dernière Modification le"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_write_uid
 msgid "Last Updated by"
-msgstr "Mis à jour par"
+msgstr "Dernière mise à jour par"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_write_date
 msgid "Last Updated on"
-msgstr "Mis à jour le"
+msgstr "Dernière mise à jour le"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception_main_exception_id
 msgid "Main Exception"
 msgstr "Exception principale"
+
+#. module: base_exception
+#: model:ir.model.fields,field_description:base_exception.field_exception_rule_next_state
+msgid "Next state"
+msgstr "Etat suivant"
+
+#. module: base_exception
+#: code:addons/base_exception/wizard/base_exception_confirm.py:28
+#, python-format
+msgid "Only 1 ID accepted, got %r."
+msgstr "Seulement 1 ID est accepté, reçu %r."
+
+#. module: base_exception
+#: model:ir.actions.act_window,name:base_exception.action_exception_rule_confirm
+msgid "Outstanding exceptions to manage"
+msgstr "Exceptions en attente à gérer"
+
+#. module: base_exception
+#: model:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm
+msgid "Outstanding exceptions to manager"
+msgstr "Exceptions en attente à gérer"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_code
@@ -188,24 +186,23 @@ msgstr "Code Python"
 
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule_code
-#, fuzzy
 msgid ""
-"Python code executed to check if the exception apply or not. The code must "
-"apply failed = True to apply the exception."
+"Python code executed to check if the exception apply or not. Use failed = "
+"True to block the exception"
 msgstr ""
-"Code python à vérifier si l'exception est applicable ou pas. Le code doit "
-"renvoyer True pour appliquer l'exception."
+"Code Python exécuté pour vérifier si l'exception s'applique ou non. "
+"Utilisation failed = True pour bloquer l'exception"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_confirm_related_model_id
-msgid "Related model id"
-msgstr "Model (obj) lié"
+msgid "Related Model"
+msgstr "Model associé"
 
 #. module: base_exception
 #: model:ir.model.fields,field_description:base_exception.field_base_exception_rule_group
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_rule_group
-msgid "Rule group"
-msgstr "Groupe de règles"
+msgid "Rule Group"
+msgstr "Règle de groupe"
 
 #. module: base_exception
 #: model:ir.model.fields,help:base_exception.field_exception_rule_rule_group
@@ -221,6 +218,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:base_exception.field_exception_rule_sequence
 msgid "Sequence"
 msgstr "Séquence"
+
+#. module: base_exception
+#: code:addons/base_exception/models/base_exception.py:88
+#, python-format
+msgid ""
+"The value \"%s\" you choose for the \"next state\" field state of \"%s\" is "
+"wrong. Value must be in this list %s"
+msgstr ""
+"La valeur \"%s\" que vous choisissez pour l'état du champ \"suivant\" de \"%s"
+"\" est incorrecte. La valeur doit être dans cette liste %s"
 
 #. module: base_exception
 #: model:ir.ui.view,arch_db:base_exception.view_exception_rule_confirm

@@ -38,13 +38,6 @@
         <field name="state">code</field>
         <field name="model_id" ref="database_cleanup.model_cleanup_purge_line_column" />
         <field name="code">records.purge()</field>
-    </record>
-
-    <record id="action_purge_column_line_value" model="ir.values">
-        <field name="name">Purge</field>
-        <field name="key">action</field>
-        <field name="key2">client_action_multi</field>
-        <field name="model">cleanup.purge.line.column</field>
-        <field name="value" eval="'ir.actions.server,%d' % ref('database_cleanup.action_purge_column_line')" />
+        <field name="binding_model_id" ref="database_cleanup.model_cleanup_purge_line_column" />
     </record>
 </odoo>
