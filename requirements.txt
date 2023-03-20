@@ -1,4 +1,10 @@
-python-ldap
-raven
-raven_sanitize_openerp
-git
+sentry-sdk
+openpyxl
+xlrd
+xlwt
+pysftp
+pygount>1.2.1
+acme
+cryptography
+dnspython
+josepy
