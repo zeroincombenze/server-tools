@@ -1,0 +1,59 @@
+2024-02-01 19:12:59,000 1234553 DAEMON test_base_export_manager_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:13:57,993 1236077 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:13:57,993 1236077 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_export_manager/tests/logs/zero10.server-tools.base_export_manager.conf
+2024-02-01 18:13:57,993 1236077 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:13:57,993 1236077 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:13:58,013 1236077 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46177
+2024-02-01 18:13:58,036 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:13:58,125 1236077 INFO test_base_export_manager_10 odoo.modules.loading: 1 modules loaded in 0.09s, 0 queries
+2024-02-01 18:13:58,664 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading 12 modules...
+2024-02-01 18:13:58,715 1236077 INFO test_base_export_manager_10 odoo.modules.loading: 12 modules loaded in 0.05s, 0 queries
+2024-02-01 18:13:58,721 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 18:13:58,814 1236077 INFO test_base_export_manager_10 odoo.modules.registry: module base_export_manager: creating or updating database tables
+2024-02-01 18:13:58,958 1236077 INFO test_base_export_manager_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:13:58,981 1236077 INFO test_base_export_manager_10 odoo.models: Storing computed values of ir.exports fields model_id
+2024-02-01 18:13:59,020 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading base_export_manager/views/assets.xml
+2024-02-01 18:13:59,107 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading base_export_manager/views/ir_exports.xml
+2024-02-01 18:13:59,216 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading base_export_manager/views/ir_model.xml
+2024-02-01 18:13:59,276 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading base_export_manager/views/ir_model_access.xml
+2024-02-01 18:13:59,357 1236077 INFO test_base_export_manager_10 odoo.modules.loading: loading base_export_manager/views/res_groups.xml
+2024-02-01 18:13:59,552 1236077 INFO test_base_export_manager_10 odoo.modules.module: odoo.addons.base_export_manager.tests.test_ir_exports running tests.
+2024-02-01 18:13:59,553 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: test_create_with_basic_data (odoo.addons.base_export_manager.tests.test_ir_exports.TestIrExportsCase)
+2024-02-01 18:13:59,553 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: ` Emulate creation from original form. This form is handled entirely client-side, and lacks some required field values.
+2024-02-01 18:13:59,675 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: test_create_without_model (odoo.addons.base_export_manager.tests.test_ir_exports.TestIrExportsCase)
+2024-02-01 18:13:59,675 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: ` Creating a record without ``model_id`` and ``resource`` fails.
+2024-02-01 18:13:59,699 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: Ran 2 tests in 0.146s
+2024-02-01 18:13:59,699 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports: OK
+2024-02-01 18:13:59,700 1236077 INFO test_base_export_manager_10 odoo.modules.module: odoo.addons.base_export_manager.tests.test_ir_exports_line running tests.
+2024-02-01 18:13:59,700 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_check_name (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:13:59,774 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_compute_name (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:13:59,801 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_get_label_string (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:13:59,894 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_inverse_name (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:13:59,961 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_model_default_by_context (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:13:59,961 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: ` Fields inherit the model_id by context.
+2024-02-01 18:14:00,002 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: test_write_name_same_root (odoo.addons.base_export_manager.tests.test_ir_exports_line.TestIrExportsLineCase)
+2024-02-01 18:14:00,093 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: Ran 6 tests in 0.393s
+2024-02-01 18:14:00,093 1236077 INFO test_base_export_manager_10 odoo.addons.base_export_manager.tests.test_ir_exports_line: OK
+2024-02-01 18:14:00,121 1236077 INFO test_base_export_manager_10 odoo.modules.loading: 13 modules loaded in 1.40s, 519 queries
+2024-02-01 18:14:00,369 1236077 INFO test_base_export_manager_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:14:00,373 1236077 INFO test_base_export_manager_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:14:00,374 1236077 INFO test_base_export_manager_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:14:00,419 1236077 INFO test_base_export_manager_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:14:00,421 1236077 INFO test_base_export_manager_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:14:00,421 1236077 INFO test_base_export_manager_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_export_manager[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_export_manager/tests/logs/coverage_base_export_manager_10rc -m
+[34;107mName                                                         Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------------
+server-tools/base_export_manager/hooks.py                        5      3    40%   14-16
+server-tools/base_export_manager/models/ir_exports.py           30      7    77%   28, 35, 42-45, 48, 57
+server-tools/base_export_manager/models/ir_exports_line.py     104     20    81%   59, 65, 75, 86, 97, 108, 121-123, 128, 134, 153, 156, 167-174, 177
+server-tools/base_export_manager/models/ir_model_access.py       4      0   100%
+server-tools/base_export_manager/models/res_users.py             9      5    44%   13-22
+------------------------------------------------------------------------------------------
+TOTAL                                                          152     35    77%
+[0m

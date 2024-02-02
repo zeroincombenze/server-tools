@@ -1,0 +1,56 @@
+2024-02-01 19:18:05,000 1249821 DAEMON test_base_export_security_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:19:19,299 1252466 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:19:19,299 1252466 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_export_security/tests/logs/zero10.server-tools.base_export_security.conf
+2024-02-01 18:19:19,299 1252466 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:19:19,300 1252466 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:19:19,323 1252466 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46482
+2024-02-01 18:19:19,344 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:19:19,456 1252466 INFO test_base_export_security_10 odoo.modules.loading: 1 modules loaded in 0.11s, 0 queries
+2024-02-01 18:19:20,100 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading 19 modules...
+2024-02-01 18:19:20,219 1252466 INFO test_base_export_security_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 18:19:20,245 1252466 INFO test_base_export_security_10 odoo.modules.loading: 19 modules loaded in 0.14s, 0 queries
+2024-02-01 18:19:20,251 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading 20 modules...
+2024-02-01 18:19:20,528 1252466 INFO test_base_export_security_10 odoo.modules.registry: module base_export_security: creating or updating database tables
+2024-02-01 18:19:21,809 1252466 INFO test_base_export_security_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:19:22,634 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading base_export_security/data/export.xml
+2024-02-01 18:19:22,709 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading base_export_security/security/export_security.xml
+2024-02-01 18:19:22,930 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading base_export_security/security/ir.model.access.csv
+2024-02-01 18:19:22,965 1252466 INFO test_base_export_security_10 odoo.modules.loading: loading base_export_security/views/export_view.xml
+2024-02-01 18:19:23,325 1252466 INFO test_base_export_security_10 odoo.modules.module: odoo.addons.base_export_security.tests.test_export running tests.
+2024-02-01 18:19:23,326 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_export_data_access (odoo.addons.base_export_security.tests.test_export.TestExport)
+2024-02-01 18:19:23,326 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` It should raise AccessError if user does not have export rights
+2024-02-01 18:19:23,920 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_export_data_calls_log_export (odoo.addons.base_export_security.tests.test_export.TestExport)
+2024-02-01 18:19:23,920 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` It should call log_export if user has export rights
+2024-02-01 18:19:24,550 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_log_export (odoo.addons.base_export_security.tests.test_export.TestExport)
+2024-02-01 18:19:24,550 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` It should create a new Export record with correct data
+2024-02-01 18:19:25,305 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_log_export_posts_notification (odoo.addons.base_export_security.tests.test_export.TestExport)
+2024-02-01 18:19:25,305 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` It should call post_notification method
+2024-02-01 18:19:25,931 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_post_notification (odoo.addons.base_export_security.tests.test_export.TestExport)
+2024-02-01 18:19:25,931 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` It should post a notification with appropriate data to the #data export channel
+2024-02-01 18:19:26,634 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: test_export_visibility (odoo.addons.base_export_security.tests.test_export.TestJS)
+2024-02-01 18:19:26,634 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: ` Test visibility of export menu item
+2024-02-01 18:19:26,791 1252466 INFO test_base_export_security_10 odoo.tests.common: phantom_run executing phantomjs /home/odoo/10.0/odoo/tests/phantomtest.js {"code": "", "db": "test_base_export_security_10", "session_id": "740620493b700865e13f6feb6135a33e62598ef8", "timeout": 60, "ready": "window", "url_path": "/web/tests?debug=assets&module=base_export_security", "port": 46482}
+2024-02-01 18:19:26,846 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: skipped 'PhantomJS not found'
+2024-02-01 18:19:26,849 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: Ran 6 tests in 3.523s
+2024-02-01 18:19:26,849 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export: OK
+2024-02-01 18:19:26,849 1252466 INFO test_base_export_security_10 odoo.addons.base_export_security.tests.test_export:  (skipped=1)
+2024-02-01 18:19:26,873 1252466 INFO test_base_export_security_10 odoo.modules.loading: 20 modules loaded in 6.62s, 2020 queries
+2024-02-01 18:19:27,137 1252466 INFO test_base_export_security_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:19:27,142 1252466 INFO test_base_export_security_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:19:27,143 1252466 INFO test_base_export_security_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:19:27,186 1252466 INFO test_base_export_security_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:19:27,188 1252466 INFO test_base_export_security_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:19:27,188 1252466 INFO test_base_export_security_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_export_security[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_export_security/tests/logs/coverage_base_export_security_10rc -m
+[34;107mName                                                 Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------------
+server-tools/base_export_security/models/base.py        11      0   100%
+server-tools/base_export_security/models/export.py      30      2    93%   35, 61
+----------------------------------------------------------------------------------
+TOTAL                                                   41      2    95%
+[0m

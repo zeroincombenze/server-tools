@@ -1,0 +1,183 @@
+2024-02-01 19:44:46,000 1318729 DAEMON test_auth_totp_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:45:50,481 1320322 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:45:50,482 1320322 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/auth_totp/tests/logs/zero10.server-tools.auth_totp.conf
+2024-02-01 18:45:50,482 1320322 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:45:50,482 1320322 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:45:50,501 1320322 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:48084
+2024-02-01 18:45:50,534 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:45:50,646 1320322 INFO test_auth_totp_10 odoo.modules.loading: 1 modules loaded in 0.11s, 0 queries
+2024-02-01 18:45:51,315 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading 14 modules...
+2024-02-01 18:45:51,397 1320322 INFO test_auth_totp_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 18:45:51,408 1320322 INFO test_auth_totp_10 odoo.modules.loading: 14 modules loaded in 0.09s, 0 queries
+2024-02-01 18:45:51,413 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading 15 modules...
+2024-02-01 18:45:51,510 1320322 INFO test_auth_totp_10 odoo.modules.registry: module auth_totp: creating or updating database tables
+2024-02-01 18:45:51,608 1320322 INFO test_auth_totp_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:45:51,800 1320322 INFO test_auth_totp_10 odoo.models: Storing computed values of res.users fields trusted_device_cookie_key
+2024-02-01 18:45:51,841 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/data/ir_config_parameter.xml
+2024-02-01 18:45:51,880 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/security/ir.model.access.csv
+2024-02-01 18:45:51,925 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/security/res_users_authenticator_security.xml
+2024-02-01 18:45:51,991 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/wizards/res_users_authenticator_create.xml
+2024-02-01 18:45:52,075 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/views/auth_totp.xml
+2024-02-01 18:45:52,121 1320322 INFO test_auth_totp_10 odoo.modules.loading: loading auth_totp/views/res_users.xml
+2024-02-01 18:45:52,407 1320322 INFO test_auth_totp_10 odoo.modules.module: odoo.addons.auth_totp.tests.test_main running tests.
+2024-02-01 18:45:52,408 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_get (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,409 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should render mfa_login template with correct context
+2024-02-01 18:45:52,459 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_cookie_final_cookie (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,459 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should add correct cookie to response if remember flag set
+2024-02-01 18:45:52,507 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_cookie_final_cookie_secure (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,507 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should set secure cookie if config parameter set accordingly
+2024-02-01 18:45:52,553 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_cookie_werkzeug_cookie (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,553 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should create Werkzeug cookie w/right info if remember flag set
+2024-02-01 18:45:52,593 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_cookie_werkzeug_cookie_exp (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,594 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should serialize Werkzeug cookie w/right exp if remember flag set
+2024-02-01 18:45:52,632 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_firefox_response_returned (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,632 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should behave well if redirect returns Response (Firefox case)
+2024-02-01 18:45:52,670 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_invalid_conf_code (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,670 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should return correct redirect if confirmation code is invalid
+2024-02-01 18:45:52,706 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_invalid_login (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,706 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should redirect correctly if invalid login in session
+2024-02-01 18:45:52,740 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_no_login (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,740 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should redirect correctly if login missing from session
+2024-02-01 18:45:52,777 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_pass_auth_fail (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,777 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should not set success param if password auth fails
+2024-02-01 18:45:52,814 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_pass_auth_success (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,814 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should set success param if password auth succeeds
+2024-02-01 18:45:52,851 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_redir_def (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,851 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should return redirect to /web if info valid and no redirect
+2024-02-01 18:45:52,888 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_redirect (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,888 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should return correct redirect if info valid and redirect present
+2024-02-01 18:45:52,960 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_mfa_login_post_valid_conf_code (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,960 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should correctly update session if confirmation code is valid
+2024-02-01 18:45:52,995 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_web_login_mfa_needed (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:52,996 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should update session and redirect correctly if MFA login needed
+2024-02-01 18:45:53,029 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: test_web_login_mfa_not_needed (odoo.addons.auth_totp.tests.test_main.TestAuthTotp)
+2024-02-01 18:45:53,029 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: ` Should return result of calling super if MFA login not needed
+2024-02-01 18:45:53,060 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: Ran 16 tests in 0.652s
+2024-02-01 18:45:53,060 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_main: OK
+2024-02-01 18:45:53,061 1320322 INFO test_auth_totp_10 odoo.modules.module: odoo.addons.auth_totp.tests.test_post_migrate running tests.
+2024-02-01 18:45:53,061 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_call_field_helper (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:53,061 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should call update helper on all device model field records
+2024-02-01 18:45:53,508 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_clean_up_constraints (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:53,508 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should clean up all constraints associated with device model
+2024-02-01 18:45:53,921 1320322 INFO test_auth_totp_10 odoo.models.unlink: User #1 deleted ir.model.constraint records with IDs: [149, 150]
+2024-02-01 18:45:53,925 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_clean_up_ir_record (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:53,925 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should clean up device model ir.model record
+2024-02-01 18:45:54,362 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_clean_up_xml_ids (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:54,362 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should clean up XML IDs tied to device model
+2024-02-01 18:45:54,797 1320322 INFO test_auth_totp_10 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [5595, 5596]
+2024-02-01 18:45:54,801 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_mfa_disabled (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:54,801 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should leave users with MFA disabled without a key
+2024-02-01 18:45:55,219 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: test_migrate_mfa_enabled (odoo.addons.auth_totp.tests.test_post_migrate.TestPostMigrate)
+2024-02-01 18:45:55,219 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: ` It should give users with MFA enabled a new key
+2024-02-01 18:45:55,640 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: Ran 6 tests in 2.579s
+2024-02-01 18:45:55,640 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_post_migrate: OK
+2024-02-01 18:45:55,641 1320322 INFO test_auth_totp_10 odoo.modules.module: odoo.addons.auth_totp.tests.test_res_users running tests.
+2024-02-01 18:45:55,641 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_build_model_mfa_fields_in_self_writeable_list (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:55,641 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should add MFA fields to list of fields users can modify for self
+2024-02-01 18:45:55,674 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_and_no_request (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:55,674 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should raise correct exception if MFA enabled and no request
+2024-02-01 18:45:55,900 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_cookie_from_wrong_user (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:55,900 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should raise and update session if MFA and wrong user's cookie
+2024-02-01 18:45:56,318 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_correct_device_cookie (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:56,318 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should check password if MFA and correct device cookie
+2024-02-01 18:45:56,560 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_corrupted_device_cookie (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:56,560 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should correctly raise/update session if MFA and corrupted cookie
+2024-02-01 18:45:56,791 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_different_login_active (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:56,791 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should correctly raise/update if other user finished MFA auth
+2024-02-01 18:45:57,027 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_login_active (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,027 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should check password if user has finished MFA auth this session
+2024-02-01 18:45:57,250 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_no_device_cookie (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,250 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should correctly raise/update session if MFA and no device cookie
+2024-02-01 18:45:57,491 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_not_enabled (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,491 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should check password if user does not have MFA enabled
+2024-02-01 18:45:57,761 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_credentials_mfa_uid_cache (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,761 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should add user's ID to MFA UID cache if MFA enabled
+2024-02-01 18:45:57,894 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_enabled_with_authenticator_mfa_no_auth (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,894 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should raise correct error if MFA enabled without authenticators
+2024-02-01 18:45:57,934 1320322 INFO test_auth_totp_10 odoo.models.unlink: User #1 deleted res.users.authenticator records with IDs: [34]
+2024-02-01 18:45:57,943 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_enabled_with_authenticator_no_mfa_auth (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,943 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should not raise error if MFA not enabled with authenticators
+2024-02-01 18:45:57,981 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_mfa_invalid_mfa_session (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:57,981 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should remove UID if in MFA cache but invalid MFA session
+2024-02-01 18:45:58,125 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_mfa_no_mfa_session (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,125 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should remove UID from cache if MFA cache but no MFA session
+2024-02-01 18:45:58,269 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_mfa_valid_session (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,269 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should not remove UID if in MFA cache and valid session
+2024-02-01 18:45:58,302 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_mfa_without_request (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,302 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should remove UID from cache if in MFA cache and no request
+2024-02-01 18:45:58,439 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_check_no_mfa (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,439 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should not remove UID from cache if not in MFA cache
+2024-02-01 18:45:58,470 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_compute_trusted_device_cookie_key_disable_mfa (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,470 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should clear out existing key when MFA is disabled
+2024-02-01 18:45:58,512 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_compute_trusted_device_cookie_key_enable_mfa (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,513 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` It should generate a new key when MFA is enabled
+2024-02-01 18:45:58,561 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_validate_mfa_confirmation_code_not_singleton (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,561 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should raise correct error when recordset is not singleton
+2024-02-01 18:45:58,597 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: test_validate_mfa_confirmation_code_singleton_return (odoo.addons.auth_totp.tests.test_res_users.TestResUsers)
+2024-02-01 18:45:58,597 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: ` Should return validate_conf_code() value if singleton recordset
+2024-02-01 18:45:58,627 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: Ran 21 tests in 2.986s
+2024-02-01 18:45:58,627 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users: OK
+2024-02-01 18:45:58,628 1320322 INFO test_auth_totp_10 odoo.modules.module: odoo.addons.auth_totp.tests.test_res_users_authenticator running tests.
+2024-02-01 18:45:58,628 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: test_check_has_user (odoo.addons.auth_totp.tests.test_res_users_authenticator.TestResUsersAuthenticator)
+2024-02-01 18:45:58,628 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: ` Should delete record when it no longer has a user_id
+2024-02-01 18:45:58,645 1320322 INFO test_auth_totp_10 odoo.models.unlink: User #1 deleted res.users.authenticator records with IDs: [45]
+2024-02-01 18:45:58,656 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: test_validate_conf_code_empty_recordset (odoo.addons.auth_totp.tests.test_res_users_authenticator.TestResUsersAuthenticator)
+2024-02-01 18:45:58,656 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: ` Should return False if recordset is empty
+2024-02-01 18:45:58,658 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: test_validate_conf_code_match (odoo.addons.auth_totp.tests.test_res_users_authenticator.TestResUsersAuthenticator)
+2024-02-01 18:45:58,658 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: ` Should return True if code matches at least one record in set
+2024-02-01 18:45:58,670 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: test_validate_conf_code_no_match (odoo.addons.auth_totp.tests.test_res_users_authenticator.TestResUsersAuthenticator)
+2024-02-01 18:45:58,670 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: ` Should return False if code does not match any records in set
+2024-02-01 18:45:58,679 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: test_validate_conf_code_pyotp_use (odoo.addons.auth_totp.tests.test_res_users_authenticator.TestResUsersAuthenticator)
+2024-02-01 18:45:58,679 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: ` Should call PyOTP 2x/record with correct arguments until match
+2024-02-01 18:45:58,693 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: Ran 5 tests in 0.065s
+2024-02-01 18:45:58,694 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator: OK
+2024-02-01 18:45:58,694 1320322 INFO test_auth_totp_10 odoo.modules.module: odoo.addons.auth_totp.tests.test_res_users_authenticator_create running tests.
+2024-02-01 18:45:58,695 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_action_create_helper_use (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,695 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should call correct helper methods with proper arguments
+2024-02-01 18:45:58,758 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_action_create_return_info (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,758 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should return info of user preferences action with user_id added
+2024-02-01 18:45:58,821 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_compute_qr_code_tag_no_user_id (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,821 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should not call PyOTP or set field if no user_id present
+2024-02-01 18:45:58,826 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_compute_qr_code_tag_pyotp_use (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,826 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should call PyOTP twice with correct arguments if user_id present
+2024-02-01 18:45:58,851 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_compute_qr_code_tag_user_id (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,852 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should set field to image with encoded PyOTP URI if user present
+2024-02-01 18:45:58,869 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_create_authenticator (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,869 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should create single authenticator record with correct info
+2024-02-01 18:45:58,883 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_default_user_id_no_uid_in_context (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,884 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should return empty user recordset when no uid in context
+2024-02-01 18:45:58,888 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_default_user_id_uid_in_context (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,888 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should return correct user record when there is a uid in context
+2024-02-01 18:45:58,892 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_perform_validations_pyotp_use (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,892 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should call PyOTP twice with correct arguments
+2024-02-01 18:45:58,903 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_perform_validations_right_confirmation (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,903 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should not raise error if PyOTP can verify code
+2024-02-01 18:45:58,912 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_perform_validations_wrong_confirmation (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,912 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should raise correct error if PyOTP cannot verify code
+2024-02-01 18:45:58,928 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: test_secret_key_default (odoo.addons.auth_totp.tests.test_res_users_authenticator_create.TestResUsersAuthenticatorCreate)
+2024-02-01 18:45:58,929 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: ` Should default to random string generated by PyOTP
+2024-02-01 18:45:58,934 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: Ran 12 tests in 0.240s
+2024-02-01 18:45:58,934 1320322 INFO test_auth_totp_10 odoo.addons.auth_totp.tests.test_res_users_authenticator_create: OK
+2024-02-01 18:45:58,950 1320322 INFO test_auth_totp_10 odoo.modules.loading: 15 modules loaded in 7.54s, 3313 queries
+2024-02-01 18:45:59,194 1320322 INFO test_auth_totp_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:45:59,202 1320322 INFO test_auth_totp_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:45:59,204 1320322 INFO test_auth_totp_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:45:59,205 1320322 INFO test_auth_totp_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:45:59,206 1320322 INFO test_auth_totp_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mauth_totp[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/auth_totp/tests/logs/coverage_auth_totp_10rc -m
+[34;107mName                                                               Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------------------
+server-tools/auth_totp/controllers/main.py                            53      3    94%   20, 40, 44
+server-tools/auth_totp/exceptions.py                                   3      0   100%
+server-tools/auth_totp/migrations/10.0.2.0.0/post-migrate.py          15      0   100%
+server-tools/auth_totp/models/res_users.py                            60      6    90%   19, 41, 50, 60, 69, 103
+server-tools/auth_totp/models/res_users_authenticator.py              23      2    91%   45, 49
+server-tools/auth_totp/wizards/res_users_authenticator_create.py      48      5    90%   60, 70, 92, 102, 113
+------------------------------------------------------------------------------------------------
+TOTAL                                                                202     16    92%
+[0m

@@ -1,0 +1,928 @@
+2024-02-01 19:53:28,000 1343837 DAEMON test_module_prototyper_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:53:29,548 1344951 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:53:29,548 1344951 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/module_prototyper/tests/logs/zero10.server-tools.module_prototyper.conf
+2024-02-01 18:53:29,548 1344951 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:53:29,548 1344951 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:53:29,585 1344951 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:48605
+2024-02-01 18:53:29,625 1344951 INFO ? odoo.modules.loading: init db
+2024-02-01 18:53:40,333 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:53:40,504 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module base: creating or updating database tables
+2024-02-01 18:53:41,452 1344951 INFO test_module_prototyper_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:53:44,379 1344951 INFO test_module_prototyper_10 odoo.models: Computing parent left and right for table res_partner_category...
+2024-02-01 18:53:46,071 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.attachment fields res_name
+2024-02-01 18:53:46,073 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.actions.server fields crud_model_name, wkf_model_name
+2024-02-01 18:53:46,074 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.ui.view fields model_data_id
+2024-02-01 18:53:46,075 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of res.partner.bank fields sanitized_acc_number
+2024-02-01 18:53:46,076 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.rule fields global
+2024-02-01 18:53:46,077 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of res.company fields email, logo_web, phone
+2024-02-01 18:53:46,078 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of res.users fields share
+2024-02-01 18:53:46,080 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of res.partner fields commercial_company_name, commercial_partner_id, display_name, partner_share
+2024-02-01 18:53:46,081 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.actions.report.xml fields report_file
+2024-02-01 18:53:46,082 1344951 INFO test_module_prototyper_10 odoo.models: Storing computed values of ir.module.module fields menus_by_module, reports_by_module, views_by_module
+2024-02-01 18:53:46,711 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res.lang.csv
+2024-02-01 18:53:47,465 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/base_data.xml
+2024-02-01 18:53:48,049 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_currency_data.xml
+2024-02-01 18:53:48,797 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_country_data.xml
+2024-02-01 18:53:53,173 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/security/base_security.xml
+2024-02-01 18:53:53,744 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/base_menu.xml
+2024-02-01 18:53:54,078 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_config.xml
+2024-02-01 18:53:54,141 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res.country.state.csv
+2024-02-01 18:53:57,735 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_actions.xml
+2024-02-01 18:53:58,580 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_config_parameter_view.xml
+2024-02-01 18:53:58,713 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_cron_view.xml
+2024-02-01 18:53:58,886 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_filters.xml
+2024-02-01 18:53:59,112 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_mail_server_view.xml
+2024-02-01 18:53:59,268 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_model_view.xml
+2024-02-01 18:54:00,055 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_attachment_view.xml
+2024-02-01 18:54:00,167 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_rule_view.xml
+2024-02-01 18:54:00,286 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_sequence_view.xml
+2024-02-01 18:54:00,392 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_translation_view.xml
+2024-02-01 18:54:00,579 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_ui_menu_view.xml
+2024-02-01 18:54:00,714 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_ui_view_view.xml
+2024-02-01 18:54:01,043 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_values_view.xml
+2024-02-01 18:54:01,250 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_autovacuum.xml
+2024-02-01 18:54:01,259 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_model_report.xml
+2024-02-01 18:54:01,277 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/report_ir_model.xml
+2024-02-01 18:54:01,316 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_logging_view.xml
+2024-02-01 18:54:01,442 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/ir/ir_qweb.xml
+2024-02-01 18:54:01,477 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/workflow/workflow_view.xml
+2024-02-01 18:54:02,304 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/module_view.xml
+2024-02-01 18:54:02,669 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/module_data.xml
+2024-02-01 18:54:03,087 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/module_report.xml
+2024-02-01 18:54:03,102 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/report/report_ir_module_reference.xml
+2024-02-01 18:54:03,136 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_module_update_view.xml
+2024-02-01 18:54:03,186 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_language_install_view.xml
+2024-02-01 18:54:03,255 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_import_language_view.xml
+2024-02-01 18:54:03,307 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_module_upgrade_view.xml
+2024-02-01 18:54:03,420 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_module_configuration_view.xml
+2024-02-01 18:54:03,458 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_export_language_view.xml
+2024-02-01 18:54:03,538 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_update_translations_view.xml
+2024-02-01 18:54:03,603 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/module/wizard/base_module_immediate_install.xml
+2024-02-01 18:54:03,630 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_company_view.xml
+2024-02-01 18:54:03,769 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_request_view.xml
+2024-02-01 18:54:03,902 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_lang_view.xml
+2024-02-01 18:54:04,047 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_partner_view.xml
+2024-02-01 18:54:04,599 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_bank_view.xml
+2024-02-01 18:54:04,973 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_country_view.xml
+2024-02-01 18:54:05,304 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_currency_view.xml
+2024-02-01 18:54:05,601 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_users_view.xml
+2024-02-01 18:54:06,242 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_partner_data.xml
+2024-02-01 18:54:06,277 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/ir_property_view.xml
+2024-02-01 18:54:06,407 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_security.xml
+2024-02-01 18:54:06,505 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/security/ir.model.access.csv
+2024-02-01 18:54:08,932 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/base_demo.xml
+2024-02-01 18:54:09,201 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_currency_demo.xml
+2024-02-01 18:54:10,200 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_bank_demo.xml
+2024-02-01 18:54:10,216 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_partner_demo.xml
+2024-02-01 18:54:11,224 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_partner_demo.yml
+2024-02-01 18:54:16,210 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base/res/res_partner_image_demo.xml
+2024-02-01 18:54:19,193 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_acl running tests.
+2024-02-01 18:54:19,193 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_field_crud_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,194 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Read/Write RPC access to restricted field should be forbidden
+2024-02-01 18:54:19,468 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_field_visibility_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,469 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Check that model-level ``groups`` parameter effectively restricts access to that field for users who do not belong to one of the explicitly allowed groups
+2024-02-01 18:54:19,648 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_fields_browse_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,648 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Test access to records having restricted fields
+2024-02-01 18:54:19,681 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_m2o_field_create_edit_invisibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,681 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Test many2one field Create and Edit option visibility based on access rights of relation field
+2024-02-01 18:54:19,722 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_m2o_field_create_edit_visibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,722 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Test many2one field Create and Edit option visibility based on access rights of relation field
+2024-02-01 18:54:19,885 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_view_create_edit_button_invisibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,885 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Test form view Create, Edit, Delete button visibility based on access right of model
+2024-02-01 18:54:19,926 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_view_create_edit_button_visibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-01 18:54:19,926 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: ` Test form view Create, Edit, Delete button visibility based on access right of model
+2024-02-01 18:54:20,100 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: test_ir_rule (odoo.addons.base.tests.test_acl.TestIrRule)
+2024-02-01 18:54:20,487 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [3835, 3833, 3832, 4602, 3836, 3834, 3829, 4827]
+2024-02-01 18:54:20,500 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [1, 20, 6, 8, 4, 5, 15, 7]
+2024-02-01 18:54:20,516 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: Ran 8 tests in 1.322s
+2024-02-01 18:54:20,516 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_acl: OK
+2024-02-01 18:54:20,517 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_api running tests.
+2024-02-01 18:54:20,517 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_00_query (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,517 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Build a recordset, and check its contents.
+2024-02-01 18:54:20,520 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_01_query_offset (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,520 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2024-02-01 18:54:20,523 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_02_query_limit (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,523 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2024-02-01 18:54:20,528 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_03_query_offset_limit (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,528 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset and limit, and check equivalence.
+2024-02-01 18:54:20,533 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_04_query_count (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,533 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Test the search method with count=True.
+2024-02-01 18:54:20,536 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_05_immutable (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,537 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check that a recordset remains the same, even after updates.
+2024-02-01 18:54:20,564 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_06_fields (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,564 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check that relation fields return records, recordsets or nulls.
+2024-02-01 18:54:20,645 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_07_null (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,645 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check behavior of null instances.
+2024-02-01 18:54:20,650 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_40_new_new (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,650 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Call new-style methods in the new API style.
+2024-02-01 18:54:20,681 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_45_new_new (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,682 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Call new-style methods on records (new API style).
+2024-02-01 18:54:20,754 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_50_environment (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,754 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Test environment on records.
+2024-02-01 18:54:20,894 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_55_draft (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,894 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Test draft mode nesting.
+2024-02-01 18:54:20,895 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_60_cache (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:20,895 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check the record cache behavior
+2024-02-01 18:54:21,279 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [47]
+2024-02-01 18:54:21,307 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_60_prefetch (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,308 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check the record cache prefetching
+2024-02-01 18:54:21,370 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_60_prefetch_object (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,371 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check the prefetching model.
+2024-02-01 18:54:21,483 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_60_prefetch_read (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,483 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check that reading a field computes it on self only.
+2024-02-01 18:54:21,612 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_70_one (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,612 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check method one().
+2024-02-01 18:54:21,616 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_80_contains (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,616 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Test membership on recordset.
+2024-02-01 18:54:21,620 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_80_filter (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,621 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check filter on recordsets.
+2024-02-01 18:54:21,685 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_80_map (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,685 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check map on recordsets.
+2024-02-01 18:54:21,734 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_80_set_operations (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,734 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check set operations on recordsets.
+2024-02-01 18:54:21,822 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: test_80_sorted (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-01 18:54:21,822 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: ` Check sorted on recordsets.
+2024-02-01 18:54:21,855 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: Ran 22 tests in 1.339s
+2024-02-01 18:54:21,856 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_api: OK
+2024-02-01 18:54:21,857 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_base running tests.
+2024-02-01 18:54:21,857 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_00_res_partner_name_create (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,007 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_10_res_partner_find_or_create (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,194 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_15_res_partner_name_search (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,346 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_20_res_partner_address_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,474 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_30_res_partner_first_contact_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,474 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Test initial creation of company/contact pair where contact address gets copied to company
+2024-02-01 18:54:22,563 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_40_res_partner_address_get (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:22,563 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Test address_get address resolution mechanism: it should first go down through descendants, stopping when encountering another is_copmany entity, then go up, stopping again at the first is_company entity or the root ancestor and if nothing matches, it should use the provided partner itself
+2024-02-01 18:54:22,978 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_50_res_partner_commercial_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:23,465 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_60_read_group (odoo.addons.base.tests.test_base.TestBase)
+2024-02-01 18:54:24,011 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_res_group_copy (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-01 18:54:24,372 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_res_group_recursion (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-01 18:54:24,793 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_res_groups_fullname_search (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-01 18:54:24,814 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_duplicate_children_01 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-01 18:54:24,814 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (1st method).
+2024-02-01 18:54:24,936 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_duplicate_children_02 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-01 18:54:24,936 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (2nd method).
+2024-02-01 18:54:25,074 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_duplicate_children_03 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-01 18:54:25,074 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (3rd method).
+2024-02-01 18:54:25,187 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_duplicate_parent (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-01 18:54:25,188 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Duplicate the parent category and verify that the children have been duplicated too
+2024-02-01 18:54:25,280 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_100_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:25,414 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_101_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:25,592 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_102_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:25,722 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_103_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:25,883 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_104_res_partner_recursion_indirect_cycle (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:25,883 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Indirect hacky write to create cycle in children
+2024-02-01 18:54:26,161 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_110_res_partner_recursion_multi_update (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-01 18:54:26,161 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` multi-write on several partners in same hierarchy must not trigger a false cycle detection
+2024-02-01 18:54:26,321 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_01_safe_eval (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-01 18:54:26,322 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Try a few common expressions to verify they work with safe_eval
+2024-02-01 18:54:26,322 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_02_literal_eval (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-01 18:54:26,322 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Try simple literal definition to verify it works with literal_eval
+2024-02-01 18:54:26,323 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_03_literal_eval_arithmetic (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-01 18:54:26,323 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Try arithmetic expression in literal_eval to verify it does not work
+2024-02-01 18:54:26,323 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_04_literal_eval_forbidden (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-01 18:54:26,323 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Try forbidden expressions in literal_eval to verify they are not allowed
+2024-02-01 18:54:26,324 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: test_05_safe_eval_forbiddon (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-01 18:54:26,324 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: ` Try forbidden expressions in safe_eval to verify they are not allowed (open)
+2024-02-01 18:54:26,324 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: Ran 26 tests in 4.467s
+2024-02-01 18:54:26,324 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_base: OK
+2024-02-01 18:54:26,325 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_basecase running tests.
+2024-02-01 18:54:26,327 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_00 (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-01 18:54:26,327 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Create a partner.
+2024-02-01 18:54:26,361 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_01 (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-01 18:54:26,362 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Find the created partner.
+2024-02-01 18:54:26,363 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_20a (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-01 18:54:26,363 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Create a partner with a XML ID
+2024-02-01 18:54:26,393 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_20b (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-01 18:54:26,393 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Resolve xml id with ref() and browse_ref()
+2024-02-01 18:54:26,396 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_00 (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-01 18:54:26,396 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Create a partner.
+2024-02-01 18:54:26,444 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_01 (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-01 18:54:26,444 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Don't find the created partner.
+2024-02-01 18:54:26,447 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: test_20a (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-01 18:54:26,447 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: ` Create a partner with a XML ID then resolve xml id with ref() and browse_ref()
+2024-02-01 18:54:26,494 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: Ran 7 tests in 0.169s
+2024-02-01 18:54:26,495 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_basecase: OK
+2024-02-01 18:54:26,495 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_db_cursor running tests.
+2024-02-01 18:54:26,495 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: test_execute_bad_params (odoo.addons.base.tests.test_db_cursor.TestExecute)
+2024-02-01 18:54:26,496 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: test_single_cursor (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-01 18:54:26,497 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a single test cursor.
+2024-02-01 18:54:26,549 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: test_sub_commit (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-01 18:54:26,550 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a subcursor that commits.
+2024-02-01 18:54:26,599 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: test_sub_rollback (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-01 18:54:26,600 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a subcursor that rollbacks.
+2024-02-01 18:54:26,652 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: Ran 4 tests in 0.157s
+2024-02-01 18:54:26,653 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_db_cursor: OK
+2024-02-01 18:54:26,654 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_expression running tests.
+2024-02-01 18:54:26,654 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_auto_join (odoo.addons.base.tests.test_expression.TestAutoJoin)
+2024-02-01 18:54:26,928 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_00_in_not_in_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,184 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_05_not_str_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,458 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_10_equivalent_id (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,470 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_10_hierarchy_in_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,492 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_15_equivalent_one2many_1 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,951 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_15_equivalent_one2many_2 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:27,978 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_15_m2o (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,492 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_15_o2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,510 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_20_expression_parse (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,737 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_30_normalize_domain (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,738 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_40_negating_long_expression (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,751 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_accent (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,753 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_active (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,839 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_in_operator (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,839 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: ` check that we can use the 'in' operator for plain fields
+2024-02-01 18:54:28,916 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_invalid (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,916 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: ` verify that invalid expressions are refused, even for magic fields
+2024-02-01 18:54:28,919 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_like_wildcards (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,925 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_long_table_alias (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,928 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_lp1071710 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:28,928 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: ` Check that we can exclude translated fields (bug lp:1071710)
+2024-02-01 18:54:28,935 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:28,935 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:30,849 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_proper_combine_unit_leaves (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:30,850 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: test_translate_search (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-01 18:54:30,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: Ran 21 tests in 4.204s
+2024-02-01 18:54:30,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_expression: OK
+2024-02-01 18:54:30,859 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_float running tests.
+2024-02-01 18:54:30,860 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: test_rounding_02 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-01 18:54:30,860 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: ` Test rounding methods with 2 digits.
+2024-02-01 18:54:30,865 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: test_rounding_03 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-01 18:54:30,865 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: ` Test rounding methods with 3 digits.
+2024-02-01 18:54:30,926 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: test_rounding_04 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-01 18:54:30,926 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: ` check that proper rounding is performed for float persistence
+2024-02-01 18:54:30,944 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: test_rounding_invalid (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-01 18:54:30,945 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: ` verify that invalid parameters are forbidden
+2024-02-01 18:54:30,946 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: Ran 4 tests in 0.086s
+2024-02-01 18:54:30,946 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_float: OK
+2024-02-01 18:54:30,946 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_func running tests.
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: test_basic (odoo.addons.base.tests.test_func.TestCompose)
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: test_decorator (odoo.addons.base.tests.test_func.TestCompose)
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: ` ensure compose() can be partially applied as a decorator
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: test_frozendict_hash (odoo.addons.base.tests.test_func.TestFrozendict)
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: ` Ensure that a frozendict is hashable.
+2024-02-01 18:54:30,947 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: test_frozendict_immutable (odoo.addons.base.tests.test_func.TestFrozendict)
+2024-02-01 18:54:30,948 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: ` Ensure that a frozendict is immutable.
+2024-02-01 18:54:30,948 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: Ran 4 tests in 0.001s
+2024-02-01 18:54:30,948 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_func: OK
+2024-02-01 18:54:30,948 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_actions running tests.
+2024-02-01 18:54:30,949 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_create_custom (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:30,949 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` custom field names must be start with 'x_'
+2024-02-01 18:54:30,996 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_create_unique (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:30,996 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` one cannot create two fields with the same name on a given model
+2024-02-01 18:54:31,209 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_create_valid (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:31,209 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` field names must be valid pg identifiers
+2024-02-01 18:54:31,266 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_remove_with_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:31,267 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` try removing a custom field that occurs in a view
+2024-02-01 18:54:31,481 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_ui_view: Field `x_foo` does not exist
+
+Error context:
+View `yet another view`
+[view_id: 161, xml_id: n/a, model: res.partner, parent_id: n/a]
+2024-02-01 18:54:31,557 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_remove_without_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:31,557 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` try removing a custom field that does not occur in views
+2024-02-01 18:54:31,756 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [1255]
+2024-02-01 18:54:31,789 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_rename_custom (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:31,789 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` custom field names must be start with 'x_'
+2024-02-01 18:54:32,013 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_rename_unique (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:32,013 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` one cannot create two fields with the same name on a given model
+2024-02-01 18:54:32,377 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_rename_valid (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:32,377 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` field names must be valid pg identifiers
+2024-02-01 18:54:32,554 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_rename_with_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:32,554 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` try renaming a custom field that occurs in a view
+2024-02-01 18:54:32,714 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_ui_view: Field `x_foo` does not exist
+
+Error context:
+View `yet another view`
+[view_id: 162, xml_id: n/a, model: res.partner, parent_id: n/a]
+2024-02-01 18:54:32,770 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_rename_without_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-01 18:54:32,771 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: ` try renaming a custom field that does not occur in views
+2024-02-01 18:54:33,114 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_00_action (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,212 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.values records with IDs: [8]
+2024-02-01 18:54:33,213 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_10_code (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,317 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_20_trigger (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,502 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_30_client (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,564 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_40_crud_create (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,706 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [82, 83]
+2024-02-01 18:54:33,803 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [84, 85]
+2024-02-01 18:54:33,850 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [86, 87]
+2024-02-01 18:54:33,899 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_50_crud_write (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:33,999 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [91]
+2024-02-01 18:54:34,039 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [92]
+2024-02-01 18:54:34,073 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: test_60_multi (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-01 18:54:34,232 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: Ran 17 tests in 3.284s
+2024-02-01 18:54:34,232 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_actions: OK
+2024-02-01 18:54:34,233 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_attachment running tests.
+2024-02-01 18:54:34,233 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: test_01_store_in_db (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-01 18:54:34,281 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: test_02_store_on_disk (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-01 18:54:34,301 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: test_03_no_duplication (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-01 18:54:34,331 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: test_04_keep_file (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-01 18:54:34,372 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [357]
+2024-02-01 18:54:34,373 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: test_05_change_data_change_file (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-01 18:54:34,402 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: Ran 5 tests in 0.169s
+2024-02-01 18:54:34,402 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_attachment: OK
+2024-02-01 18:54:34,403 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_filters running tests.
+2024-02-01 18:54:34,403 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_global_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-01 18:54:34,442 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_no_third_party_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-01 18:54:34,482 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_own_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-01 18:54:34,524 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_existing_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-01 18:54:34,524 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter where an existing filter is already @is_default, an error should be generated
+2024-02-01 18:54:34,559 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_not_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-01 18:54:34,559 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with existing non-default filters, the new filter gets the flag
+2024-02-01 18:54:34,603 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_update_default_filter (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-01 18:54:34,604 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` Replacing the current default global filter should not generate any error
+2024-02-01 18:54:34,645 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_update_filter_set_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-01 18:54:34,645 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When updating an existing filter to @is_default, if an other filter already has the flag an error should be generated
+2024-02-01 18:54:34,680 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_existing_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-01 18:54:34,680 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter where an existing filter is already @is_default, the flag should be *moved* from the old to the new filter
+2024-02-01 18:54:34,732 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_not_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-01 18:54:34,732 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with existing non-default filters, the new filter gets the flag
+2024-02-01 18:54:34,782 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_new_no_filter (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-01 18:54:34,782 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with no existing filter, that new filter gets the default flag
+2024-02-01 18:54:34,822 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_update_filter_set_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-01 18:54:34,822 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: ` When updating an existing filter to @is_default, if an other filter already has the flag the flag should be moved
+2024-02-01 18:54:34,870 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: test_read_group_1 (odoo.addons.base.tests.test_ir_filters.TestReadGroup)
+2024-02-01 18:54:34,886 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: Ran 12 tests in 0.483s
+2024-02-01 18:54:34,886 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_filters: OK
+2024-02-01 18:54:34,887 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_http running tests.
+2024-02-01 18:54:34,887 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_attachment (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-01 18:54:34,887 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for attachment
+2024-02-01 18:54:34,904 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_attachment_name (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-01 18:54:34,904 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for attachment with bad name
+2024-02-01 18:54:34,923 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_basic_field (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-01 18:54:34,923 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for classic field
+2024-02-01 18:54:35,000 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_computed_field (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-01 18:54:35,000 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for computed field wich resize picture
+2024-02-01 18:54:35,016 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: Ran 4 tests in 0.130s
+2024-02-01 18:54:35,017 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_http: OK
+2024-02-01 18:54:35,017 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_sequence running tests.
+2024-02-01 18:54:35,017 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_1_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-01 18:54:35,018 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-01 18:54:35,034 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_2_write (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-01 18:54:35,057 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_3_unlink (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-01 18:54:35,066 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [1, 2]
+2024-02-01 18:54:35,074 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceGenerate)
+2024-02-01 18:54:35,074 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-01 18:54:35,109 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceGenerate)
+2024-02-01 18:54:35,110 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-01 18:54:35,169 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [3]
+2024-02-01 18:54:35,181 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [4]
+2024-02-01 18:54:35,184 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_00 (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceInit)
+2024-02-01 18:54:35,184 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` test whether the read method returns the right number_next value (from postgreSQL sequence and not ir_sequence value)
+2024-02-01 18:54:35,197 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-01 18:54:35,197 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-01 18:54:35,207 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-01 18:54:35,207 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2024-02-01 18:54:35,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-01 18:54:35,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2024-02-01 18:54:35,254 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [6]
+2024-02-01 18:54:35,257 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-01 18:54:35,258 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-01 18:54:35,266 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-01 18:54:35,266 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2024-02-01 18:54:35,277 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-01 18:54:35,277 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2024-02-01 18:54:35,290 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_search (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-01 18:54:35,291 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: ` Try a search.
+2024-02-01 18:54:35,300 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [7]
+2024-02-01 18:54:35,305 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: Ran 13 tests in 0.287s
+2024-02-01 18:54:35,305 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence: OK
+2024-02-01 18:54:35,306 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_sequence_date_range running tests.
+2024-02-01 18:54:35,307 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-01 18:54:35,307 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object.
+2024-02-01 18:54:35,314 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_use (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-01 18:54:35,314 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Make some use of the sequences to create some subsequences
+2024-02-01 18:54:35,409 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_write (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-01 18:54:35,409 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` swap the implementation method on both
+2024-02-01 18:54:35,427 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_4_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-01 18:54:35,433 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [8, 9]
+2024-02-01 18:54:35,438 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create_no_gap (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-01 18:54:35,438 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object.
+2024-02-01 18:54:35,443 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_change_dates (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-01 18:54:35,443 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Draw numbers to create a first subsequence then change its date range. Then, try to draw a new number adn check a new subsequence was correctly created.
+2024-02-01 18:54:35,481 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-01 18:54:35,487 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [10]
+2024-02-01 18:54:35,489 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-01 18:54:35,489 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object with date ranges enabled.
+2024-02-01 18:54:35,496 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_change_dates (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-01 18:54:35,496 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Draw numbers to create a first subsequence then change its date range. Then, try to draw a new number adn check a new subsequence was correctly created.
+2024-02-01 18:54:35,535 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-01 18:54:35,541 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [11]
+2024-02-01 18:54:35,544 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: Ran 10 tests in 0.238s
+2024-02-01 18:54:35,544 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_sequence_date_range: OK
+2024-02-01 18:54:35,544 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ir_values running tests.
+2024-02-01 18:54:35,544 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_values: test_00 (odoo.addons.base.tests.test_ir_values.TestIrValues)
+2024-02-01 18:54:35,587 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.values records with IDs: [12]
+2024-02-01 18:54:35,627 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_values: Ran 1 test in 0.083s
+2024-02-01 18:54:35,627 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ir_values: OK
+2024-02-01 18:54:35,628 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_mail running tests.
+2024-02-01 18:54:35,628 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_email_split (odoo.addons.base.tests.test_mail.TestEmailTools)
+2024-02-01 18:54:35,628 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_append_to_html (odoo.addons.base.tests.test_mail.TestHtmlTools)
+2024-02-01 18:54:35,631 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_plaintext2html (odoo.addons.base.tests.test_mail.TestHtmlTools)
+2024-02-01 18:54:35,632 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_basic_sanitizer (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,634 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_edi_source (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,636 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_evil_malicious_code (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,641 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,642 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_mako (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,643 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_misc (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,644 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_basic_text (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,645 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_blockquote (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,646 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_bugs (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,646 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_gmail (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,648 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_hotmail_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,650 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_signature (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,651 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_text (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,651 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_thunderbird (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,653 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_quote_thunderbird_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,653 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_sanitize_escape_emails (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,654 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_sanitize_unescape_emails (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,655 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_style_class (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,656 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_style_class_only (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,657 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: test_style_parsing (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-01 18:54:35,658 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: Ran 23 tests in 0.030s
+2024-02-01 18:54:35,658 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mail: OK
+2024-02-01 18:54:35,658 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_menu running tests.
+2024-02-01 18:54:35,659 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_menu: test_00_menu_deletion (odoo.addons.base.tests.test_menu.TestMenu)
+2024-02-01 18:54:35,659 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_menu: ` Verify that menu deletion works properly when there are child menus, and those are indeed made orphans
+2024-02-01 18:54:35,722 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [67]
+2024-02-01 18:54:35,725 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_menu: Ran 1 test in 0.065s
+2024-02-01 18:54:35,725 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_menu: OK
+2024-02-01 18:54:35,725 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_mimetypes running tests.
+2024-02-01 18:54:35,725 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_default_mimetype (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,725 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_default_mimetype_empty (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,726 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_bmp (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,726 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_gif (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,727 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_jpg (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,727 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_octet_stream (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,727 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_png (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-01 18:54:35,727 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: Ran 7 tests in 0.002s
+2024-02-01 18:54:35,727 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_mimetypes: OK
+2024-02-01 18:54:35,728 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_non_regression running tests.
+2024-02-01 18:54:35,728 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_non_regression: test_issue26036 (odoo.addons.base.tests.test_non_regression.TestNR)
+2024-02-01 18:54:36,259 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_non_regression: Ran 1 test in 0.531s
+2024-02-01 18:54:36,259 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_non_regression: OK
+2024-02-01 18:54:36,259 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_orm running tests.
+2024-02-01 18:54:36,259 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_copy (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,260 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` copying a user should automatically copy its partner, too
+2024-02-01 18:54:36,521 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_copy_with_ancestor (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,521 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` copying a user with 'parent_id' in defaults should not duplicate the partner
+2024-02-01 18:54:36,760 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_create (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,760 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` creating a user should automatically create a new partner
+2024-02-01 18:54:36,838 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_create_with_ancestor (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,838 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` creating a user with a specific 'partner_id' should not create a new partner
+2024-02-01 18:54:36,914 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_default (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,914 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` `default_get` cannot return a dictionary or a new id
+2024-02-01 18:54:36,917 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_read (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-01 18:54:36,917 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` inherited fields should be read without any indirection
+2024-02-01 18:54:37,054 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_CREATE_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,054 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` returns the VALUES dict as-is
+2024-02-01 18:54:37,057 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_DELETE_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,057 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` deleted records are not returned at all.
+2024-02-01 18:54:37,166 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_LINK_TO_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,166 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` reads the records from the database, records are returned with their ids.
+2024-02-01 18:54:37,271 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_LINK_TO_pairs (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,271 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` LINK_TO commands can be written as pairs, instead of triplets
+2024-02-01 18:54:37,376 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_UPDATE_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,377 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` take the in-db records and merge the provided information in
+2024-02-01 18:54:37,487 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_bare_ids_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,488 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` same as the equivalent LINK_TO commands
+2024-02-01 18:54:37,599 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_mixed_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,806 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_no_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,806 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` empty list of commands yields an empty list of records
+2024-02-01 18:54:37,808 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_singleton_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-01 18:54:37,808 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` DELETE_ALL can appear as a singleton
+2024-02-01 18:54:37,809 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_access_deleted_records (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:37,809 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` Verify that accessing deleted records works as expected
+2024-02-01 18:54:37,902 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [194]
+2024-02-01 18:54:38,007 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [194]
+2024-02-01 18:54:38,012 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_access_filtered_records (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,012 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` Verify that accessing filtered records works as expected for non-admin user
+2024-02-01 18:54:38,189 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: write, uid: 28, model: res.partner
+2024-02-01 18:54:38,201 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: unlink, uid: 28, model: res.partner
+2024-02-01 18:54:38,223 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [198]
+2024-02-01 18:54:38,237 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: unlink, uid: 28, model: res.partner
+2024-02-01 18:54:38,238 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_exists (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,251 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_groupby_date (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,518 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_m2m_store_trigger (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,842 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_read (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,897 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_search_read (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,976 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_unlink_with_property (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:38,976 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: ` Verify that unlink removes the related ir.property as unprivileged user
+2024-02-01 18:54:39,134 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #1 deleted ir.property records with IDs: [2]
+2024-02-01 18:54:39,151 1344951 INFO test_module_prototyper_10 odoo.models.unlink: User #30 deleted res.partner records with IDs: [212]
+2024-02-01 18:54:39,154 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: test_write_duplicate (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-01 18:54:39,209 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: Ran 24 tests in 2.949s
+2024-02-01 18:54:39,209 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_orm: OK
+2024-02-01 18:54:39,209 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_ormcache running tests.
+2024-02-01 18:54:39,210 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ormcache: test_ormcache (odoo.addons.base.tests.test_ormcache.TestOrmcache)
+2024-02-01 18:54:39,210 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ormcache: ` Test the effectiveness of the ormcache() decorator.
+2024-02-01 18:54:39,215 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ormcache: Ran 1 test in 0.005s
+2024-02-01 18:54:39,215 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_ormcache: OK
+2024-02-01 18:54:39,215 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_osv running tests.
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: test_basic_query (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: test_mixed_query_chained_explicit_implicit_joins (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: test_query_chained_explicit_joins (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: test_raise_missing_lhs (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: Ran 4 tests in 0.001s
+2024-02-01 18:54:39,216 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_osv: OK
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_phase running tests.
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: test_00_setup (odoo.addons.base.tests.test_phase.TestPhaseInstall00)
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: test_02_check (odoo.addons.base.tests.test_phase.TestPhaseInstall00)
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: test_set_run (odoo.addons.base.tests.test_phase.TestPhaseInstall01)
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: test_check_state (odoo.addons.base.tests.test_phase.TestPhaseInstall02)
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: Ran 4 tests in 0.000s
+2024-02-01 18:54:39,217 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_phase: OK
+2024-02-01 18:54:39,227 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_qweb running tests.
+2024-02-01 18:54:39,228 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_i18n (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-01 18:54:39,367 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_reject_crummy_tags (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-01 18:54:39,376 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_reject_t_tag (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-01 18:54:39,378 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_trivial (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-01 18:54:39,514 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_call (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,526 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_output (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,535 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_foreach (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,547 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_attributes (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,563 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_utf8tags (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,567 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_widgets (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,585 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_set (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,595 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_global (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,606 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: test_qweb_conditionals (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-01 18:54:39,615 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: Ran 13 tests in 0.388s
+2024-02-01 18:54:39,616 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_qweb: OK
+2024-02-01 18:54:39,616 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_res_config running tests.
+2024-02-01 18:54:39,616 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: test_00_get_option_path (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-01 18:54:39,616 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: ` The get_option_path() method should return a tuple containing a string and an integer
+2024-02-01 18:54:39,627 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: test_10_get_option_name (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-01 18:54:39,628 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: ` The get_option_name() method should return a string
+2024-02-01 18:54:39,640 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: test_20_get_config_warning (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-01 18:54:39,640 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: ` The get_config_warning() method should return a RedirectWarning
+2024-02-01 18:54:39,658 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: test_30_get_config_warning_wo_menu (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-01 18:54:39,658 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: ` The get_config_warning() method should return a Warning exception
+2024-02-01 18:54:39,669 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: Ran 4 tests in 0.053s
+2024-02-01 18:54:39,669 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_config: OK
+2024-02-01 18:54:39,670 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_res_lang running tests.
+2024-02-01 18:54:39,670 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_lang: test_00_intersperse (odoo.addons.base.tests.test_res_lang.test_res_lang)
+2024-02-01 18:54:39,671 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_lang: Ran 1 test in 0.001s
+2024-02-01 18:54:39,671 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_lang: OK
+2024-02-01 18:54:39,672 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_res_partner running tests.
+2024-02-01 18:54:39,672 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner: test_name_search (odoo.addons.base.tests.test_res_partner.TestPartner)
+2024-02-01 18:54:39,672 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner: ` Check name_search on partner, especially with domain based on auto_join user_ids field. Check specific SQL of name_search correctly handle joined tables.
+2024-02-01 18:54:39,788 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner: Ran 1 test in 0.116s
+2024-02-01 18:54:39,788 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner: OK
+2024-02-01 18:54:39,788 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_res_partner_bank running tests.
+2024-02-01 18:54:39,788 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner_bank: test_sanitized_acc_number (odoo.addons.base.tests.test_res_partner_bank.TestResPartnerBank)
+2024-02-01 18:54:39,808 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner_bank: Ran 1 test in 0.020s
+2024-02-01 18:54:39,808 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_res_partner_bank: OK
+2024-02-01 18:54:39,809 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_search running tests.
+2024-02-01 18:54:39,809 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: test_00_search_order (odoo.addons.base.tests.test_search.test_search)
+2024-02-01 18:54:40,028 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: test_10_inherits_m2order (odoo.addons.base.tests.test_search.test_search)
+2024-02-01 18:54:40,347 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: test_11_indirect_inherits_m2o_order (odoo.addons.base.tests.test_search.test_search)
+2024-02-01 18:54:40,559 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: test_12_m2o_order_loop_self (odoo.addons.base.tests.test_search.test_search)
+2024-02-01 18:54:40,575 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: test_13_m2o_order_loop_multi (odoo.addons.base.tests.test_search.test_search)
+2024-02-01 18:54:40,953 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: Ran 5 tests in 1.144s
+2024-02-01 18:54:40,954 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_search: OK
+2024-02-01 18:54:40,955 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_translate running tests.
+2024-02-01 18:54:40,955 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_101_create_translated_record (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-01 18:54:40,963 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:40,963 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:42,780 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_102_duplicate_record (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-01 18:54:42,789 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:42,789 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:44,548 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_103_duplicate_record_fr (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-01 18:54:44,555 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:44,555 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:46,299 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_104_orderby_translated_field (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-01 18:54:46,300 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test search ordered by a translated field.
+2024-02-01 18:54:46,308 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:46,309 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:48,167 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_copy (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-01 18:54:48,167 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Create a simple view, fill in translations, and copy it.
+2024-02-01 18:54:48,181 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:48,181 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:49,910 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-01 18:54:49,910 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-01 18:54:51,939 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_spaces (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-01 18:54:51,939 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Create translations where value has surrounding spaces.
+2024-02-01 18:54:51,954 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:51,954 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:54,086 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-01 18:54:54,086 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-01 18:54:56,210 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_sync (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-01 18:54:56,210 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Check translations after minor change in source terms.
+2024-02-01 18:54:56,224 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-01 18:54:56,224 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-01 18:54:58,508 1344951 INFO test_module_prototyper_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-01 18:54:58,508 1344951 INFO test_module_prototyper_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-01 18:55:00,380 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_quote_unquote (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,381 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_html (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,381 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() and html_translate() with <i> elements.
+2024-02-01 18:55:00,381 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_a (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,381 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with <a> elements.
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_attribute (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with <attribute> elements.
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_base (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() without formatting elements.
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline1 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,382 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements.
+2024-02-01 18:55:00,383 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline2 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,383 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements embedding other elements.
+2024-02-01 18:55:00,383 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline3 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,383 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements without actual text.
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_off (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with attribute translate="off".
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_t (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with t-* attributes.
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_text (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,384 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() on plain text.
+2024-02-01 18:55:00,387 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: test_translate_xml_text_entity (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-01 18:55:00,387 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() on plain text with HTML escaped entities.
+2024-02-01 18:55:00,387 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: Ran 19 tests in 19.432s
+2024-02-01 18:55:00,387 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_translate: OK
+2024-02-01 18:55:00,387 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_translate tested in 19.43s, 41738 queries
+2024-02-01 18:55:00,388 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_user_has_group running tests.
+2024-02-01 18:55:00,388 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_user_has_group: test_env_uid (odoo.addons.base.tests.test_user_has_group.TestHasGroup)
+2024-02-01 18:55:00,620 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_user_has_group: test_record (odoo.addons.base.tests.test_user_has_group.TestHasGroup)
+2024-02-01 18:55:00,857 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_user_has_group: Ran 2 tests in 0.469s
+2024-02-01 18:55:00,857 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_user_has_group: OK
+2024-02-01 18:55:00,857 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_view_validation running tests.
+2024-02-01 18:55:00,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_all_field_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_all_label_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_col_datatype_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_colspan_datatype_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,858 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_form_string_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_graph_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_page_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: test_tree_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-01 18:55:00,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: Ran 8 tests in 0.002s
+2024-02-01 18:55:00,859 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_view_validation: OK
+2024-02-01 18:55:00,861 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_views running tests.
+2024-02-01 18:55:00,861 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_delete (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,863 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_incorrect_version (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,875 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_insert_after (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,876 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_insert_before (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,878 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_insert_inside (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,879 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_invalid_position (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,891 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_replace (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,892 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_target_not_found (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,903 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_unpack_data (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-01 18:55:00,905 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_replace (odoo.addons.base.tests.test_views.TestApplyInheritanceWrapSpecs)
+2024-02-01 18:55:00,907 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testDefaultViewBase (odoo.addons.base.tests.test_views.TestDefaultView)
+2024-02-01 18:55:00,965 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testDefaultViewPrimary (odoo.addons.base.tests.test_views.TestDefaultView)
+2024-02-01 18:55:01,058 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_create_view_nomodel (odoo.addons.base.tests.test_views.TestNoModel)
+2024-02-01 18:55:01,088 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_qweb_translation (odoo.addons.base.tests.test_views.TestNoModel)
+2024-02-01 18:55:01,088 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Test if translations work correctly without a model
+2024-02-01 18:55:01,130 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_attribute_filter (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,132 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_attribute_mismatch (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,132 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Non-xpath non-field are filtered by matching attributes on spec and matched nodes
+2024-02-01 18:55:01,133 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_match_field (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,135 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_match_other (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,136 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_match_xpath (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,137 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_no_match_field (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,137 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` A field spec will match by @name against all fields of the view
+2024-02-01 18:55:01,138 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_no_match_other (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,138 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Non-xpath non-fields are matched by node name first
+2024-02-01 18:55:01,139 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_no_match_xpath (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,140 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` xpath simply uses the provided @expr pattern to find a node
+2024-02-01 18:55:01,141 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_version_mismatch (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-01 18:55:01,141 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` A @version on the spec will be matched against the view's version
+2024-02-01 18:55:01,142 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_applied (odoo.addons.base.tests.test_views.TestOptionalViews)
+2024-02-01 18:55:01,142 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` mandatory and enabled views should be applied
+2024-02-01 18:55:01,280 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_applied_state_toggle (odoo.addons.base.tests.test_views.TestOptionalViews)
+2024-02-01 18:55:01,280 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Change active states of v2 and v3, check that the results are as expected
+2024-02-01 18:55:01,474 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_render (odoo.addons.base.tests.test_views.TestQWebRender)
+2024-02-01 18:55:01,626 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_branding_distribute_inner (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-01 18:55:01,626 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Checks that the branding is correctly distributed within a view extension
+2024-02-01 18:55:01,697 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_branding_inherit (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-01 18:55:01,763 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_esc_no_branding (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-01 18:55:01,799 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_ignore_unbrand (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-01 18:55:01,864 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_basic_read (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-01 18:55:02,226 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_cross_model_double (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-01 18:55:02,601 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_cross_model_simple (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-01 18:55:02,987 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_read_from_child (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-01 18:55:03,350 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_read_from_child_primary (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-01 18:55:03,721 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_default_view (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-01 18:55:04,125 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_get_inheriting_views_arch (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-01 18:55:04,555 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_no_default_view (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-01 18:55:04,994 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_no_recursion (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-01 18:55:05,624 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_custom_view_validation (odoo.addons.base.tests.test_views.TestViews)
+2024-02-01 18:55:05,674 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_modifiers (odoo.addons.base.tests.test_views.TestViews)
+2024-02-01 18:55:05,677 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_nonexistent_attribute_removal (odoo.addons.base.tests.test_views.TestViews)
+2024-02-01 18:55:05,720 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_view_inheritance (odoo.addons.base.tests.test_views.TestViews)
+2024-02-01 18:55:05,838 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_view_inheritance_divergent_models (odoo.addons.base.tests.test_views.TestViews)
+2024-02-01 18:55:05,948 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_hasclass (odoo.addons.base.tests.test_views.TestXPathExtentions)
+2024-02-01 18:55:05,949 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testChangeInheritOfPrimary (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:05,949 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` A primary view with an inherit_id must remain primary when changing the inherit_id
+2024-02-01 18:55:06,048 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testDefaultExtensionToPrimary (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:06,048 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` An extension view can be converted to primary
+2024-02-01 18:55:06,117 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testInheritPrimaryToExtension (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:06,117 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` A primary view with an inherit_id can be converted to extension
+2024-02-01 18:55:06,186 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testModeExplicit (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:06,250 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testModeImplicitValue (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:06,250 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` mode is auto-generated from inherit_id: * inherit_id -> mode=extension * not inherit_id -> mode=primary
+2024-02-01 18:55:06,332 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: testPurePrimaryToExtension (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-01 18:55:06,332 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` A primary view with inherit_id=None can't be converted to extension
+2024-02-01 18:55:06,367 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: test_model_data_id (odoo.addons.base.tests.test_views.ViewXMLID)
+2024-02-01 18:55:06,367 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: ` Check whether views know their xmlid record.
+2024-02-01 18:55:06,373 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: Ran 52 tests in 5.512s
+2024-02-01 18:55:06,373 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_views: OK
+2024-02-01 18:55:06,373 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_views tested in 5.51s, 5659 queries
+2024-02-01 18:55:06,518 1344951 INFO test_module_prototyper_10 odoo.modules.loading: 1 modules loaded in 86.18s, 70762 queries
+2024-02-01 18:55:06,545 1344951 INFO test_module_prototyper_10 odoo.modules.loading: updating modules list
+2024-02-01 18:55:24,734 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 18:55:24,804 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module module_prototyper: creating or updating database tables
+2024-02-01 18:55:25,370 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading module_prototyper/data/module_prototyper_api_version_data.xml
+2024-02-01 18:55:25,401 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading module_prototyper/wizard/module_prototyper_module_export_view.xml
+2024-02-01 18:55:25,462 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading module_prototyper/views/module_prototyper_view.xml
+2024-02-01 18:55:25,638 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading module_prototyper/views/ir_model_fields_view.xml
+2024-02-01 18:55:25,749 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading module_prototyper/security/ir.model.access.csv
+2024-02-01 18:55:25,937 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.module_prototyper.tests.test_prototype running tests.
+2024-02-01 18:55:25,937 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: test_friendly_name_return (odoo.addons.module_prototyper.tests.test_prototype.TestModulePrototyper)
+2024-02-01 18:55:25,937 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: ` Test if the returns match the pattern.
+2024-02-01 18:55:25,941 1344951 WARNING test_module_prototyper_10 odoo.models: module_prototyper.create() includes unknown fields: dependencies
+2024-02-01 18:55:25,949 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: test_generate_files (odoo.addons.module_prototyper.tests.test_prototype.TestModulePrototyper)
+2024-02-01 18:55:25,949 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: ` Test generate_files returns a tuple.
+2024-02-01 18:55:25,953 1344951 WARNING test_module_prototyper_10 odoo.models: module_prototyper.create() includes unknown fields: dependencies
+2024-02-01 18:55:26,001 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: test_generate_files_assert_if_no_env (odoo.addons.module_prototyper.tests.test_prototype.TestModulePrototyper)
+2024-02-01 18:55:26,004 1344951 WARNING test_module_prototyper_10 odoo.models: module_prototyper.create() includes unknown fields: dependencies
+2024-02-01 18:55:26,010 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: test_generate_files_raise_templatenotfound_if_not_found (odoo.addons.module_prototyper.tests.test_prototype.TestModulePrototyper)
+2024-02-01 18:55:26,012 1344951 WARNING test_module_prototyper_10 odoo.models: module_prototyper.create() includes unknown fields: dependencies
+2024-02-01 18:55:26,024 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: test_set_env (odoo.addons.module_prototyper.tests.test_prototype.TestModulePrototyper)
+2024-02-01 18:55:26,024 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: ` test the jinja2 environment is set.
+2024-02-01 18:55:26,026 1344951 WARNING test_module_prototyper_10 odoo.models: module_prototyper.create() includes unknown fields: dependencies
+2024-02-01 18:55:26,034 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: Ran 5 tests in 0.097s
+2024-02-01 18:55:26,034 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype: OK
+2024-02-01 18:55:26,034 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.module_prototyper.tests.test_prototype_module_export running tests.
+2024-02-01 18:55:26,035 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: test_action_export_assert_for_wrong_active_model (odoo.addons.module_prototyper.tests.test_prototype_module_export.TestPrototypeModuleExport)
+2024-02-01 18:55:26,035 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: ` Test if the assertion raises.
+2024-02-01 18:55:26,045 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: test_action_export_update_wizard (odoo.addons.module_prototyper.tests.test_prototype_module_export.TestPrototypeModuleExport)
+2024-02-01 18:55:26,045 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: ` Test if the wizard is updated during the process.
+2024-02-01 18:55:26,101 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: test_zip_files_returns_tuple (odoo.addons.module_prototyper.tests.test_prototype_module_export.TestPrototypeModuleExport)
+2024-02-01 18:55:26,101 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: ` Test the method return of the method that generate the zip file.
+2024-02-01 18:55:26,138 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: Ran 3 tests in 0.103s
+2024-02-01 18:55:26,138 1344951 INFO test_module_prototyper_10 odoo.addons.module_prototyper.tests.test_prototype_module_export: OK
+2024-02-01 18:55:26,214 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module auth_crypt: creating or updating database tables
+2024-02-01 18:55:26,253 1344951 INFO test_module_prototyper_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:55:26,656 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web: creating or updating database tables
+2024-02-01 18:55:26,697 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web/views/webclient_templates.xml
+2024-02-01 18:55:27,440 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.web.tests.test_js running tests.
+2024-02-01 18:55:27,440 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_js: test_01_js (odoo.addons.web.tests.test_js.WebSuite)
+2024-02-01 18:55:27,441 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_js: skipped 'Memory leak in this test lead to phantomjs crash, making it unreliable'
+2024-02-01 18:55:27,441 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_js: Ran 1 test in 0.001s
+2024-02-01 18:55:27,441 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_js: OK
+2024-02-01 18:55:27,441 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_js:  (skipped=1)
+2024-02-01 18:55:27,442 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.web.tests.test_menu running tests.
+2024-02-01 18:55:27,443 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_menu: test_actual_treeview (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-01 18:55:27,443 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_menu: test_list_view (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-01 18:55:27,443 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_menu: test_redundant_views (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-01 18:55:27,444 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_menu: Ran 3 tests in 0.001s
+2024-02-01 18:55:27,444 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_menu: OK
+2024-02-01 18:55:27,445 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.web.tests.test_serving_base running tests.
+2024-02-01 18:55:27,445 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_serving_base: test_topological_sort (odoo.addons.web.tests.test_serving_base.TestModulesLoading)
+2024-02-01 18:55:27,566 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_serving_base: Ran 1 test in 0.120s
+2024-02-01 18:55:27,566 1344951 INFO test_module_prototyper_10 odoo.addons.web.tests.test_serving_base: OK
+2024-02-01 18:55:27,660 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_calendar: creating or updating database tables
+2024-02-01 18:55:27,677 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_calendar/views/web_calendar_templates.xml
+2024-02-01 18:55:27,818 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_diagram: creating or updating database tables
+2024-02-01 18:55:27,847 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_diagram/views/web_diagram_templates.xml
+2024-02-01 18:55:28,023 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_editor: creating or updating database tables
+2024-02-01 18:55:28,373 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_editor/security/ir.model.access.csv
+2024-02-01 18:55:28,412 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_editor/views/editor.xml
+2024-02-01 18:55:28,761 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_editor/views/iframe.xml
+2024-02-01 18:55:28,840 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_editor/views/snippets.xml
+2024-02-01 18:55:29,102 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.web_editor.tests.test_converter running tests.
+2024-02-01 18:55:29,102 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_char (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,117 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_float (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,137 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_integer (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,149 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_m2o (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,150 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: ` the M2O field conversion (from html) is markedly different from others as it directly writes into the m2o and returns nothing at all.
+2024-02-01 18:55:29,172 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_numeric (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,186 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_selection (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,198 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_selection_str (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,206 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_text (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-01 18:55:29,215 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_br (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,215 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_div (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,216 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_inline (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,216 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_other_block (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,216 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_p (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,217 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_rawstring (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,217 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: test_whitespace (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-01 18:55:29,217 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: Ran 15 tests in 0.115s
+2024-02-01 18:55:29,217 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_converter: OK
+2024-02-01 18:55:29,380 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_kanban: creating or updating database tables
+2024-02-01 18:55:29,406 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_kanban/views/web_kanban_templates.xml
+2024-02-01 18:55:29,695 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_planner: creating or updating database tables
+2024-02-01 18:55:29,782 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_planner/security/ir.model.access.csv
+2024-02-01 18:55:29,853 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_planner/security/web_planner_security.xml
+2024-02-01 18:55:29,898 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_planner/views/web_planner_templates.xml
+2024-02-01 18:55:30,097 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_planner/views/web_planner_views.xml
+2024-02-01 18:55:30,395 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_tour: creating or updating database tables
+2024-02-01 18:55:30,510 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_tour/security/ir.model.access.csv
+2024-02-01 18:55:30,530 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_tour/views/tour_templates.xml
+2024-02-01 18:55:30,642 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_tour/views/tour_views.xml
+2024-02-01 18:55:30,984 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module base_import: creating or updating database tables
+2024-02-01 18:55:31,698 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base_import/security/ir.model.access.csv
+2024-02-01 18:55:32,022 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading base_import/views/base_import_templates.xml
+2024-02-01 18:55:32,149 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base_import.tests.test_base_import running tests.
+2024-02-01 18:55:32,150 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_base (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,150 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` A basic field is not required
+2024-02-01 18:55:32,178 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_m2o (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,178 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` M2O fields should allow import of themselves (name_get), their id and their xid
+2024-02-01 18:55:32,211 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_m2o_required (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,211 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` If an m2o field is required, its three sub-fields are required as well (the client has to handle that: requiredness is id-based)
+2024-02-01 18:55:32,230 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_readonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,230 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields should be filtered out
+2024-02-01 18:55:32,255 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,255 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with states should not be filtered out
+2024-02-01 18:55:32,280 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states_noreadonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,281 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with states having nothing to do with readonly should still be filtered out
+2024-02-01 18:55:32,304 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states_stillreadonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,304 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with readonly states leaving them readonly always... filtered out
+2024-02-01 18:55:32,324 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_required (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-01 18:55:32,324 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Required fields should be flagged (so they can be fill-required)
+2024-02-01 18:55:32,336 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_mixed (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-01 18:55:32,337 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_noheaders (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-01 18:55:32,339 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-01 18:55:32,349 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_match_by_name (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-01 18:55:32,350 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_match_by_string (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-01 18:55:32,352 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-01 18:55:32,354 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_recursive_match (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-01 18:55:32,356 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_recursive_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-01 18:55:32,356 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Match first level, fail to match second level
+2024-02-01 18:55:32,358 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_shallow (odoo.addons.base_import.tests.test_base_import.TestO2M)
+2024-02-01 18:55:32,419 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_csv_errors (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,603 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_csv_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,654 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_encoding (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,723 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_ods_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,723 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: skipped 'ODFPY not available'
+2024-02-01 18:55:32,723 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_xls_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,767 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_xlsx_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-01 18:55:32,795 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_all (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,801 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_date_fields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,816 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.models.base_import: importing 1 rows...
+2024-02-01 18:55:32,866 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.models.base_import: done
+2024-02-01 18:55:32,868 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_empty_rows (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,877 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_falsefields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,888 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_filtered (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,889 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` If ``False`` is provided as field mapping for a column, that column should be removed from importable data
+2024-02-01 18:55:32,895 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_newline_import (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,895 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Ensure importing keep newlines
+2024-02-01 18:55:32,904 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_nofield (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,919 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_norow (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,919 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` If a row is composed only of empty values (due to having filtered out non-empty values from it), it should be removed
+2024-02-01 18:55:32,926 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_parse_relational_fields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-01 18:55:32,927 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Ensure that relational fields float and date are correctly parsed during the import call.
+2024-02-01 18:55:32,941 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: test_big_attachments (odoo.addons.base_import.tests.test_base_import.test_failures)
+2024-02-01 18:55:32,941 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: ` Ensure big fields (e.g. b64-encoded image data) can be imported and we're not hitting limits of the default CSV parser config
+2024-02-01 18:55:33,654 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.models.base_import: importing 1 rows...
+2024-02-01 18:55:33,931 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.models.base_import: done
+2024-02-01 18:55:33,938 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: Ran 33 tests in 1.788s
+2024-02-01 18:55:33,938 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import: OK
+2024-02-01 18:55:33,938 1344951 INFO test_module_prototyper_10 odoo.addons.base_import.tests.test_base_import:  (skipped=1)
+2024-02-01 18:55:34,011 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_kanban_gauge: creating or updating database tables
+2024-02-01 18:55:34,045 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_kanban_gauge/views/web_kanban_gauge_templates.xml
+2024-02-01 18:55:34,262 1344951 INFO test_module_prototyper_10 odoo.modules.registry: module web_settings_dashboard: creating or updating database tables
+2024-02-01 18:55:34,293 1344951 INFO test_module_prototyper_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:55:34,314 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_settings_dashboard/views/dashboard_views.xml
+2024-02-01 18:55:34,351 1344951 INFO test_module_prototyper_10 odoo.modules.loading: loading web_settings_dashboard/views/dashboard_templates.xml
+2024-02-01 18:55:34,513 1344951 INFO test_module_prototyper_10 odoo.modules.loading: 13 modules loaded in 9.78s, 455 queries
+2024-02-01 18:55:34,735 1344951 INFO test_module_prototyper_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:55:34,738 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.web_editor.tests.test_ui running tests.
+2024-02-01 18:55:34,739 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: test_01_admin_rte (odoo.addons.web_editor.tests.test_ui.TestUi)
+2024-02-01 18:55:34,878 1344951 INFO test_module_prototyper_10 odoo.tests.common: phantom_run executing phantomjs /home/odoo/10.0/odoo/tests/phantomtest.js {"code": "odoo.__DEBUG__.services['web_tour.tour'].run('rte')", "db": "test_module_prototyper_10", "session_id": "ec380b9709aeceec2f6acddce2b341c238ab393d", "timeout": 60, "ready": "odoo.__DEBUG__.services['web_tour.tour'].tours.rte.ready", "url_path": "/web", "port": 48605}
+2024-02-01 18:55:34,944 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: skipped 'PhantomJS not found'
+2024-02-01 18:55:34,946 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: test_02_admin_rte_inline (odoo.addons.web_editor.tests.test_ui.TestUi)
+2024-02-01 18:55:35,058 1344951 INFO test_module_prototyper_10 odoo.tests.common: phantom_run executing phantomjs /home/odoo/10.0/odoo/tests/phantomtest.js {"code": "odoo.__DEBUG__.services['web_tour.tour'].run('rte_inline')", "db": "test_module_prototyper_10", "session_id": "a733b1cb84f389cfebb54bd8a80d54fc044104f3", "timeout": 60, "ready": "odoo.__DEBUG__.services['web_tour.tour'].tours.rte_inline.ready", "url_path": "/web", "port": 48605}
+2024-02-01 18:55:35,100 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: skipped 'PhantomJS not found'
+2024-02-01 18:55:35,102 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: Ran 2 tests in 0.363s
+2024-02-01 18:55:35,103 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui: OK
+2024-02-01 18:55:35,103 1344951 INFO test_module_prototyper_10 odoo.addons.web_editor.tests.test_ui:  (skipped=2)
+2024-02-01 18:55:35,123 1344951 INFO test_module_prototyper_10 odoo.modules.module: odoo.addons.base.tests.test_xmlrpc running tests.
+2024-02-01 18:55:35,124 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: test_01_xmlrpc_login (odoo.addons.base.tests.test_xmlrpc.TestXMLRPC)
+2024-02-01 18:55:35,124 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: ` Try to login on the common service.
+2024-02-01 18:55:35,233 1344951 INFO test_module_prototyper_10 odoo.service.common: successful login from 'admin' using database 'test_module_prototyper_10'
+2024-02-01 18:55:35,234 1344951 INFO test_module_prototyper_10 werkzeug: 127.0.0.1 - - [01/Feb/2024 18:55:35] "POST /xmlrpc/2/common HTTP/1.1" 200 -
+2024-02-01 18:55:35,237 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: test_xmlrpc_ir_model_search (odoo.addons.base.tests.test_xmlrpc.TestXMLRPC)
+2024-02-01 18:55:35,237 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: ` Try a search on the object service.
+2024-02-01 18:55:35,339 1344951 INFO test_module_prototyper_10 werkzeug: 127.0.0.1 - - [01/Feb/2024 18:55:35] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2024-02-01 18:55:35,346 1344951 INFO test_module_prototyper_10 werkzeug: 127.0.0.1 - - [01/Feb/2024 18:55:35] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2024-02-01 18:55:35,348 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: Ran 2 tests in 0.225s
+2024-02-01 18:55:35,349 1344951 INFO test_module_prototyper_10 odoo.addons.base.tests.test_xmlrpc: OK
+2024-02-01 18:55:35,350 1344951 INFO test_module_prototyper_10 odoo.modules.loading: All post-tested in 0.61s, 58 queries
+2024-02-01 18:55:35,353 1344951 INFO test_module_prototyper_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:55:35,390 1344951 INFO test_module_prototyper_10 odoo.models: Computing parent left and right for table res_partner_category...
+2024-02-01 18:55:35,397 1344951 INFO test_module_prototyper_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:55:35,398 1344951 INFO test_module_prototyper_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:55:35,398 1344951 INFO test_module_prototyper_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mmodule_prototyper[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/module_prototyper/tests/logs/coverage_module_prototyper_10rc -m
+[34;107mName                                                                                       Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------------------------------------------
+/home/odoo/10.0/server-tools/module_prototyper/models/ir_model_fields.py                       9      0   100%
+/home/odoo/10.0/server-tools/module_prototyper/models/licenses.py                             19      3    84%   70-73
+/home/odoo/10.0/server-tools/module_prototyper/models/module_prototyper.py                   206     86    58%   58-61, 214, 238-249, 252, 276, 281-292, 298, 310, 321, 338-339, 349, 354, 366, 370, 374-384, 389, 393-397, 401-412, 417-425, 434, 446-449, 456-460, 470-473, 476-477, 480, 484-492, 495-519, 522, 565-571
+/home/odoo/10.0/server-tools/module_prototyper/models/module_prototyper_api_version.py         5      0   100%
+/home/odoo/10.0/server-tools/module_prototyper/wizard/module_prototyper_module_export.py      46      3    93%   55, 82, 103
+------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                        285     92    68%
+[0m

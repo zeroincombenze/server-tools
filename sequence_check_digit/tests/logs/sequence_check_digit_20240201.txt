@@ -1,0 +1,43 @@
+2024-02-01 19:20:15,000 1257689 DAEMON test_sequence_check_digit_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:21:19,217 1260373 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:21:19,218 1260373 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/sequence_check_digit/tests/logs/zero10.server-tools.sequence_check_digit.conf
+2024-02-01 18:21:19,218 1260373 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:21:19,218 1260373 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:21:19,237 1260373 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46613
+2024-02-01 18:21:19,260 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:21:19,372 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: 1 modules loaded in 0.11s, 0 queries
+2024-02-01 18:21:20,002 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: loading 12 modules...
+2024-02-01 18:21:20,053 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: 12 modules loaded in 0.05s, 0 queries
+2024-02-01 18:21:20,062 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 18:21:20,167 1260373 INFO test_sequence_check_digit_10 odoo.modules.registry: module sequence_check_digit: creating or updating database tables
+2024-02-01 18:21:20,251 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: loading sequence_check_digit/views/sequence_views.xml
+2024-02-01 18:21:20,381 1260373 INFO test_sequence_check_digit_10 odoo.modules.module: odoo.addons.sequence_check_digit.tests.test_check_digit running tests.
+2024-02-01 18:21:20,381 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_damm (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,406 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_luhn (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,418 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_mod11_10 (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,430 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_mod37_2 (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,449 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_mod37_36 (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,462 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_mod97_10 (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,475 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_mod_11_2 (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,488 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_validation (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,515 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: test_verhoeff (odoo.addons.sequence_check_digit.tests.test_check_digit.TestSequenceCheckDigit)
+2024-02-01 18:21:20,529 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: Ran 9 tests in 0.148s
+2024-02-01 18:21:20,530 1260373 INFO test_sequence_check_digit_10 odoo.addons.sequence_check_digit.tests.test_check_digit: OK
+2024-02-01 18:21:20,544 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: 13 modules loaded in 0.48s, 77 queries
+2024-02-01 18:21:20,789 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:21:20,793 1260373 INFO test_sequence_check_digit_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:21:20,794 1260373 INFO test_sequence_check_digit_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:21:20,795 1260373 INFO test_sequence_check_digit_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:21:20,795 1260373 INFO test_sequence_check_digit_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36msequence_check_digit[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/sequence_check_digit/tests/logs/coverage_sequence_check_digit_10rc -m
+[34;107mName                                                      Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------
+server-tools/sequence_check_digit/models/ir_sequence.py      33      5    85%   14-15, 36, 46, 67
+---------------------------------------------------------------------------------------
+TOTAL                                                        33      5    85%
+[0m

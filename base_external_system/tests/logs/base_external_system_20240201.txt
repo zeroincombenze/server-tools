@@ -1,0 +1,73 @@
+2024-02-01 19:06:19,000 1216775 DAEMON test_base_external_system_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:07:15,420 1218300 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:07:15,420 1218300 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_external_system/tests/logs/zero10.server-tools.base_external_system.conf
+2024-02-01 18:07:15,420 1218300 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:07:15,420 1218300 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:07:15,440 1218300 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:45776
+2024-02-01 18:07:15,462 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:07:15,555 1218300 INFO test_base_external_system_10 odoo.modules.loading: 1 modules loaded in 0.09s, 0 queries
+2024-02-01 18:07:16,106 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading 12 modules...
+2024-02-01 18:07:16,158 1218300 INFO test_base_external_system_10 odoo.modules.loading: 12 modules loaded in 0.05s, 0 queries
+2024-02-01 18:07:16,164 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 18:07:16,264 1218300 INFO test_base_external_system_10 odoo.modules.registry: module base_external_system: creating or updating database tables
+2024-02-01 18:07:16,617 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading base_external_system/demo/external_system_os_demo.xml
+2024-02-01 18:07:16,658 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading base_external_system/security/ir.model.access.csv
+2024-02-01 18:07:16,726 1218300 INFO test_base_external_system_10 odoo.modules.loading: loading base_external_system/views/external_system_view.xml
+2024-02-01 18:07:16,985 1218300 INFO test_base_external_system_10 odoo.modules.module: odoo.addons.base_external_system.tests.test_external_system running tests.
+2024-02-01 18:07:16,986 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_action_test_connection (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:16,986 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should proxy to the interface connection tester.
+2024-02-01 18:07:17,026 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_check_fingerprint_allowed (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:17,027 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should not raise a validation error if there is a fingerprint.
+2024-02-01 18:07:17,044 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_check_fingerprint_blank (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:17,044 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should not allow blank fingerprints when checking enabled.
+2024-02-01 18:07:17,063 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_client (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:17,064 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should yield the open interface client.
+2024-02-01 18:07:17,074 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_create_creates_and_assigns_interface (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:17,074 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should create and assign the interface on record create.
+2024-02-01 18:07:17,085 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: test_get_system_types (odoo.addons.base_external_system.tests.test_external_system.TestExternalSystem)
+2024-02-01 18:07:17,085 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: ` It should return at least the test record's interface.
+2024-02-01 18:07:17,091 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: Ran 6 tests in 0.105s
+2024-02-01 18:07:17,091 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system: OK
+2024-02-01 18:07:17,091 1218300 INFO test_base_external_system_10 odoo.modules.module: odoo.addons.base_external_system.tests.test_external_system_adapter running tests.
+2024-02-01 18:07:17,092 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: test_client_destroys_client (odoo.addons.base_external_system.tests.test_external_system_adapter.TestExternalSystemAdapter)
+2024-02-01 18:07:17,092 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: ` It should destroy the client after use.
+2024-02-01 18:07:17,100 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: test_client_yields_client (odoo.addons.base_external_system.tests.test_external_system_adapter.TestExternalSystemAdapter)
+2024-02-01 18:07:17,101 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: ` It should yield the client.
+2024-02-01 18:07:17,108 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: test_external_destroy_client_ensure_one (odoo.addons.base_external_system.tests.test_external_system_adapter.TestExternalSystemAdapter)
+2024-02-01 18:07:17,108 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: ` It should assert singletons.
+2024-02-01 18:07:17,115 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: test_external_get_client_ensure_one (odoo.addons.base_external_system.tests.test_external_system_adapter.TestExternalSystemAdapter)
+2024-02-01 18:07:17,115 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: ` It should assert singletons.
+2024-02-01 18:07:17,123 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: test_external_test_connection (odoo.addons.base_external_system.tests.test_external_system_adapter.TestExternalSystemAdapter)
+2024-02-01 18:07:17,123 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: ` It should raise a UserError.
+2024-02-01 18:07:17,138 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: Ran 5 tests in 0.046s
+2024-02-01 18:07:17,138 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_adapter: OK
+2024-02-01 18:07:17,138 1218300 INFO test_base_external_system_10 odoo.modules.module: odoo.addons.base_external_system.tests.test_external_system_os running tests.
+2024-02-01 18:07:17,139 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: test_external_destroy_client_changes_directory (odoo.addons.base_external_system.tests.test_external_system_os.TestExternalSystemOs)
+2024-02-01 18:07:17,139 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: ` It should change back to the previous working directory.
+2024-02-01 18:07:17,144 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: test_external_get_client_changes_directories (odoo.addons.base_external_system.tests.test_external_system_os.TestExternalSystemOs)
+2024-02-01 18:07:17,144 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: ` It should change to the proper directory.
+2024-02-01 18:07:17,155 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: test_external_get_client_returns_os (odoo.addons.base_external_system.tests.test_external_system_os.TestExternalSystemOs)
+2024-02-01 18:07:17,155 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: ` It should return the Pyhton OS module.
+2024-02-01 18:07:17,165 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: Ran 3 tests in 0.027s
+2024-02-01 18:07:17,166 1218300 INFO test_base_external_system_10 odoo.addons.base_external_system.tests.test_external_system_os: OK
+2024-02-01 18:07:17,189 1218300 INFO test_base_external_system_10 odoo.modules.loading: 13 modules loaded in 1.02s, 87 queries
+2024-02-01 18:07:17,481 1218300 INFO test_base_external_system_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:07:17,484 1218300 INFO test_base_external_system_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:07:17,485 1218300 INFO test_base_external_system_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:07:17,523 1218300 INFO test_base_external_system_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:07:17,524 1218300 INFO test_base_external_system_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:07:17,525 1218300 INFO test_base_external_system_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_external_system[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_external_system/tests/logs/coverage_base_external_system_10rc -m
+[34;107mName                                                                  Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------------
+server-tools/base_external_system/models/external_system.py              45      5    89%   78, 87, 98, 112, 122
+server-tools/base_external_system/models/external_system_adapter.py      24      4    83%   30, 47, 52, 62
+server-tools/base_external_system/models/external_system_os.py           20      4    80%   24, 33, 42-43
+---------------------------------------------------------------------------------------------------
+TOTAL                                                                    89     13    85%
+[0m

@@ -25,5 +25,4 @@
     ],
     'development_status': 'Production/Stable',
     'maintainers': ['sbidoul'],
-    'installable': False,
 }

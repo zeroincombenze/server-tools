@@ -1,18 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * mass_editing
+#	* mass_editing
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
-# Paolo Valier <paolo.valier@hotmail.it>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo (10.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-06 02:25+0000\n"
-"PO-Revision-Date: 2018-01-06 02:25+0000\n"
-"Last-Translator: Paolo Valier <paolo.valier@hotmail.it>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
+"POT-Creation-Date: 2024-02-01 19:38+0000\n"
+"PO-Revision-Date: 2024-02-01 19:38+0000\n"
+"Last-Translator: Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>\n"
+"Language-Team: Zeroincombenze (https://www.zeroincombenze.it)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,123 +17,191 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mass_editing
-#: code:addons/mass_editing/models/mass_object.py:99
+#: code:addons/mass_editing/models/mass_editing.py:118
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copia)"
 
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
-msgid "Add Sidebar Button"
+msgid ""
+"<b>WARNING</b>: Take into account that adding a field with a domain, and not "
+"including the fields of such domain in this operation definition, will lead to an error when trying to perform it. Make sure you include them."
 msgstr ""
+"<b>WARNING</b>: Preleva into conto that adding a campo with a dominio, e le "
+"not including il modulo \" campi di such dominio in questo operazione definizione, will potenziale nominativo e an errore è impostato a form solamente trying e perform it. Marca sure tu include them."
+
+#. module: mass_editing
+#: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Add Sidebar Button"
+msgstr "Aggiungere sidebar pulsante"
+
+#. module: mass_editing
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_line_widget_option
+msgid ""
+"Add widget text that will be used to display the field in the wizard. Example :\n"
+"'many2many_tags', 'selection'"
+msgstr ""
+"Add widget text that will be used to display the field in the wizard. Example :\n"
+"'many2many_tags', 'selection'"
 
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
 msgid "Advanced"
-msgstr "Avanzato"
+msgstr "Avanzate"
 
 #. module: mass_editing
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_line_apply_domain
+msgid "Apply default domain related to field"
+msgstr "Apply default domain related to field"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_apply_domain
+msgid "Apply domain"
+msgstr "Apply domain"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_apply_domain_in_lines
+msgid "Apply domain in lines"
+msgstr "Apply domain in lines"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_create_uid
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_create_uid
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_create_uid
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_create_uid
 msgid "Created by"
 msgstr "Creato da"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_create_date
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_create_date
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_create_date
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_create_date
 msgid "Created on"
 msgstr "Creato il"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_display_name
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_display_name
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_display_name
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_display_name
 msgid "Display Name"
-msgstr "Nome da visualizzare"
+msgstr "Nome visualizzato"
 
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
 msgid ""
-"Display a button in the sidebar of related documents to open a composition "
-"wizard"
+"Display a button in the sidebar of related documents to open a composition wizard"
 msgstr ""
+"Mostrare a pulsante in il modulo \" sidebar di collegato documenti a aprire a "
+"composition procedura guidata"
 
 #. module: mass_editing
-#: model:ir.model,name:mass_editing.model_ir_model_fields
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_field_ids
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_field_id
+msgid "Field"
+msgstr "Campo"
+
+#. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
 msgid "Fields"
 msgstr "Campi"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_group_ids
+msgid "Groups"
+msgstr "Gruppi"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_id
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_id
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_id
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_id
 msgid "ID"
 msgstr "ID"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing___last_update
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line___last_update
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard___last_update
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object___last_update
 msgid "Last Modified on"
 msgstr "Ultima modifica il"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_write_uid
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_write_uid
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_write_uid
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultimo aggiornamento di"
 
 #. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_write_date
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard_write_date
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_write_date
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Ultimo aggiornamento il"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_ids
+msgid "Line ids"
+msgstr "Line ids"
 
 #. module: mass_editing
 #: model:ir.actions.act_window,name:mass_editing.action_mass_object_form
 #: model:ir.ui.menu,name:mass_editing.menu_mass_editing
 #: model:ir.ui.menu,name:mass_editing.menu_mass_object_view
 msgid "Mass Editing"
-msgstr ""
+msgstr "Editing di massa"
 
 #. module: mass_editing
-#: code:addons/mass_editing/models/mass_object.py:58
+#: code:addons/mass_editing/models/mass_editing.py:76
 #, python-format
 msgid "Mass Editing (%s)"
-msgstr ""
+msgstr "Editing di massa (%s)"
 
 #. module: mass_editing
-#: model:ir.model,name:mass_editing.model_mass_object
+#: model:ir.model,name:mass_editing.model_mass_editing_line
+msgid "Mass Editing Line"
+msgstr "Mass Editing Riga"
+
+#. module: mass_editing
+#: model:ir.model,name:mass_editing.model_mass_editing
 msgid "Mass Editing Object"
-msgstr ""
+msgstr "Mass Editing Oggetto"
 
 #. module: mass_editing
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_model_id
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_mass_editing_id
+msgid "Mass editing id"
+msgstr "Mass editing id"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_model_id
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_model_id
 msgid "Model"
 msgstr "Modello"
 
 #. module: mass_editing
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_model_list
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_model_list
 msgid "Model List"
 msgstr "Lista Modello"
 
 #. module: mass_editing
-#: model:ir.model.fields,help:mass_editing.field_mass_object_model_id
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_line_model_id
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_model_id
 msgid ""
-"Model is used for Selecting Fields. This is editable until Sidebar menu is "
-"not created."
+"Model is used for Selecting Fields. This is editable until Sidebar menu is not "
+"created."
 msgstr ""
+"Model is used for Selecting Fields. This is editable until Sidebar menu is not "
+"created."
 
 #. module: mass_editing
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_name
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_name
 msgid "Name"
 msgstr "Nome"
 
 #. module: mass_editing
-#: code:addons/mass_editing/models/mass_object.py:34
-#: sql_constraint:mass.object:0
+#: code:addons/mass_editing/models/mass_editing.py:52
+#: sql_constraint:mass.editing:0
 #, python-format
 msgid "Name must be unique!"
-msgstr ""
+msgstr "Il nome deve essere univoco!"
 
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
@@ -147,36 +212,56 @@ msgstr "Oggetto"
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
 msgid "Remove Sidebar Button"
-msgstr ""
+msgstr "Rimuovere sidebar pulsante"
 
 #. module: mass_editing
 #: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
 msgid "Remove the contextual action to use this template on related documents"
 msgstr ""
+"Rimuove l'azione contestuale in uso sul template del documento relativo"
 
 #. module: mass_editing
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_ref_ir_act_window_id
+#: model:ir.ui.view,arch_db:mass_editing.view_mass_object_form
+msgid "Security"
+msgstr "Sicurezza"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_sequence
+msgid "Sequence"
+msgstr "Sequence"
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_ref_ir_act_window_id
 msgid "Sidebar action"
-msgstr ""
+msgstr "Azioni barra laterale"
 
 #. module: mass_editing
-#: model:ir.model.fields,help:mass_editing.field_mass_object_ref_ir_act_window_id
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_ref_ir_act_window_id
 msgid ""
 "Sidebar action to make this template available on records of the related "
 "document model."
 msgstr ""
+"Sidebar action to make this template available on records of the related "
+"document model."
 
 #. module: mass_editing
-#: model:ir.model.fields,field_description:mass_editing.field_mass_object_ref_ir_value_id
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_ref_ir_value_id
 msgid "Sidebar button"
-msgstr ""
+msgstr "Sidebar button"
 
 #. module: mass_editing
-#: model:ir.model.fields,help:mass_editing.field_mass_object_ref_ir_value_id
+#: model:ir.model.fields,help:mass_editing.field_mass_editing_ref_ir_value_id
 msgid "Sidebar button to open the sidebar action."
-msgstr ""
+msgstr "Sidebar button to open the sidebar action."
+
+#. module: mass_editing
+#: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line_widget_option
+msgid "Widget Option"
+msgstr "Widget Option"
 
 #. module: mass_editing
 #: model:ir.model,name:mass_editing.model_mass_editing_wizard
 msgid "mass.editing.wizard"
 msgstr "mass.editing.wizard"
+
+

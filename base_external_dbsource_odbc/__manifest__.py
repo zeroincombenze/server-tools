@@ -24,6 +24,6 @@
     'demo': [
         'demo/base_external_dbsource.xml',
     ],
-    'installable': True,
+    'installable': False,
     'auto_install': True,  # Remove this key for v11
 }

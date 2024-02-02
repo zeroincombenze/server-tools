@@ -1,0 +1,1040 @@
+2024-02-01 19:56:55,000 1350973 DAEMON test_base_import_odoo_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:58:11,554 1352634 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:58:11,554 1352634 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_import_odoo/tests/logs/zero10.server-tools.base_import_odoo.conf
+2024-02-01 18:58:11,555 1352634 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:58:11,555 1352634 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:58:11,577 1352634 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:48813
+2024-02-01 18:58:11,599 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:58:11,745 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: 1 modules loaded in 0.15s, 0 queries
+2024-02-01 18:58:12,571 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading 19 modules...
+2024-02-01 18:58:12,690 1352634 INFO test_base_import_odoo_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 18:58:12,727 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: 19 modules loaded in 0.16s, 0 queries
+2024-02-01 18:58:12,736 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading 20 modules...
+2024-02-01 18:58:12,914 1352634 INFO test_base_import_odoo_10 odoo.modules.registry: module base_import_odoo: creating or updating database tables
+2024-02-01 18:58:13,335 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/views/import_odoo_database_field.xml
+2024-02-01 18:58:13,433 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/security/ir.model.access.csv
+2024-02-01 18:58:13,527 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/views/import_odoo_database.xml
+2024-02-01 18:58:13,634 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/views/menu.xml
+2024-02-01 18:58:13,695 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/res_partner.xml
+2024-02-01 18:58:13,737 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/res_users.xml
+2024-02-01 18:58:14,134 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/ir_attachment.xml
+2024-02-01 18:58:14,173 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/import_odoo_database.xml
+2024-02-01 18:58:14,228 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/import_odoo_database_field.xml
+2024-02-01 18:58:14,402 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: loading base_import_odoo/demo/import_odoo_database_model.xml
+2024-02-01 18:58:14,655 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: 20 modules loaded in 1.92s, 0 queries
+2024-02-01 18:58:14,968 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:58:14,972 1352634 INFO test_base_import_odoo_10 odoo.modules.module: odoo.addons.base_import_odoo.tests.test_base_import_odoo running tests.
+2024-02-01 18:58:14,973 1352634 INFO test_base_import_odoo_10 odoo.addons.base_import_odoo.tests.test_base_import_odoo: test_base_import_odoo (odoo.addons.base_import_odoo.tests.test_base_import_odoo.TestBaseImportOdoo)
+2024-02-01 18:58:15,036 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4d/4da899434dda3cfd61b24585d31d6378d4f78967
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4d/4da899434dda3cfd61b24585d31d6378d4f78967'
+2024-02-01 18:58:15,039 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d6/d6c84c13589b2232842fdbb26d2c476c52075227
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d6/d6c84c13589b2232842fdbb26d2c476c52075227'
+2024-02-01 18:58:15,039 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca47d6ff6ef86a9ffdf443dacd347535dab4c42a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca47d6ff6ef86a9ffdf443dacd347535dab4c42a'
+2024-02-01 18:58:15,039 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/3403ce136d3a1430b8f25485b03244403b4aeb15
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/3403ce136d3a1430b8f25485b03244403b4aeb15'
+2024-02-01 18:58:15,039 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c2/c28cdedc140a4b729eb9f679eeaf01e26c8ed0f5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c2/c28cdedc140a4b729eb9f679eeaf01e26c8ed0f5'
+2024-02-01 18:58:15,040 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/99/99c346f57f6dade6c4d71b538dcd430d5599a211
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/99/99c346f57f6dade6c4d71b538dcd430d5599a211'
+2024-02-01 18:58:15,040 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d09153474b298ca772444a2b48da0031e6f7018f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d09153474b298ca772444a2b48da0031e6f7018f'
+2024-02-01 18:58:15,040 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d197a763add7a2b921ce56cc6e032a30d623b193
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d197a763add7a2b921ce56cc6e032a30d623b193'
+2024-02-01 18:58:15,040 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/da/da5a06d79c3efc5cfe6a09d3c64a9645a39f75f6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/da/da5a06d79c3efc5cfe6a09d3c64a9645a39f75f6'
+2024-02-01 18:58:15,040 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ae/ae1e71d6335daaef28316dee1feaf5135f40328e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ae/ae1e71d6335daaef28316dee1feaf5135f40328e'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ba/ba716e7795b1d60835945f8fddfad9a697037dce
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ba/ba716e7795b1d60835945f8fddfad9a697037dce'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a6/a6cfce6d9bef64ec1fad216a655aa020b523cec1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a6/a6cfce6d9bef64ec1fad216a655aa020b523cec1'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d14c47365e8727928238f36d61c9c1468bf715a8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d14c47365e8727928238f36d61c9c1468bf715a8'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/09/0919117aa5fbea2cd5e9a11a81640c6d9045ad89
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/09/0919117aa5fbea2cd5e9a11a81640c6d9045ad89'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ee/eee638f6fb94dd3076fa92637caa2f7e7ab7b4d3
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ee/eee638f6fb94dd3076fa92637caa2f7e7ab7b4d3'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/94/94a897d04e04c41cd017eac0f667693778bfb9d5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/94/94a897d04e04c41cd017eac0f667693778bfb9d5'
+2024-02-01 18:58:15,041 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/75/75fb40ad891a8a8ea797cb99f3bbfcf60458ac27
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/75/75fb40ad891a8a8ea797cb99f3bbfcf60458ac27'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/be/becc5df9a8e1dcc89a0245263b54f62c4f4220c4
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/be/becc5df9a8e1dcc89a0245263b54f62c4f4220c4'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/44/44621a4c2656be9e0c6cd644cd47c04d4601c983
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/44/44621a4c2656be9e0c6cd644cd47c04d4601c983'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/98/987db84370580568f15d4253e5e69a084b8fd3f5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/98/987db84370580568f15d4253e5e69a084b8fd3f5'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7c57b0633c4342b0a5c36c950248c84a4cf1344
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7c57b0633c4342b0a5c36c950248c84a4cf1344'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/346178a68d73c21d4f49a9b7b1e887fdfda99f55
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/346178a68d73c21d4f49a9b7b1e887fdfda99f55'
+2024-02-01 18:58:15,042 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/01/01ffc93194ea57412f56165615bb72c97264a9d7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/01/01ffc93194ea57412f56165615bb72c97264a9d7'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/eb/ebe9e69301275eaacd689221bf438dceb3c45380
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/eb/ebe9e69301275eaacd689221bf438dceb3c45380'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/43/43b843674db710520c8f232162a3784cdad70205
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/43/43b843674db710520c8f232162a3784cdad70205'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/6d/6dc90751d177a0ef8815652d8e5be19e45fa0ded
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/6d/6dc90751d177a0ef8815652d8e5be19e45fa0ded'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/40/4077d16bf32f17b2c1159c84cd764173d4b14459
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/40/4077d16bf32f17b2c1159c84cd764173d4b14459'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/30/306dce6847977877b34617c89a58d2fff0722c77
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/30/306dce6847977877b34617c89a58d2fff0722c77'
+2024-02-01 18:58:15,043 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52af9442339205025c538e25170692ccd522ef69
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52af9442339205025c538e25170692ccd522ef69'
+2024-02-01 18:58:15,044 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/07/078fdc9128bc0272967d00e4dad07f41f0eaf927
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/07/078fdc9128bc0272967d00e4dad07f41f0eaf927'
+2024-02-01 18:58:15,044 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9b/9b7f5c572b5dc42bff14c38bd4f2d9aad402b0a1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9b/9b7f5c572b5dc42bff14c38bd4f2d9aad402b0a1'
+2024-02-01 18:58:15,044 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58fd4f74ff005d177019f05fa0a5fad6562b5fcf
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58fd4f74ff005d177019f05fa0a5fad6562b5fcf'
+2024-02-01 18:58:15,044 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/055ce1cc832e5942a88aadb0e4e8dfa525e387cd
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/055ce1cc832e5942a88aadb0e4e8dfa525e387cd'
+2024-02-01 18:58:15,076 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32e24a813a4c96b134a173a3d78339b2cbce0f7f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32e24a813a4c96b134a173a3d78339b2cbce0f7f'
+2024-02-01 18:58:15,077 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93c770bac9c314c3c5d50d500072651a7edf5b50
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93c770bac9c314c3c5d50d500072651a7edf5b50'
+2024-02-01 18:58:15,077 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/925c8bdc1deb430fc458d5af391bd5f1b9d91e4c
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/925c8bdc1deb430fc458d5af391bd5f1b9d91e4c'
+2024-02-01 18:58:15,077 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/588ec18ef5a475c07297da9f7bf135379e831a8d
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/588ec18ef5a475c07297da9f7bf135379e831a8d'
+2024-02-01 18:58:15,077 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fae0daba9ac52617e56fd4c858cb03efaf5805af
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fae0daba9ac52617e56fd4c858cb03efaf5805af'
+2024-02-01 18:58:15,077 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1a/1a268e9ea140a737c7342efaf8dacb9b6d1e6a26
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1a/1a268e9ea140a737c7342efaf8dacb9b6d1e6a26'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d0d9cfd524a4a3e55f6317238a866d03405f1a98
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d0d9cfd524a4a3e55f6317238a866d03405f1a98'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/de/de2e149991e2a75cf71c604d7cbdc79710a37a48
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/de/de2e149991e2a75cf71c604d7cbdc79710a37a48'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261f6fcafc6e3b482d5ece32b9c5373bee1243ed
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261f6fcafc6e3b482d5ece32b9c5373bee1243ed'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7f/7fa7888e6ef64e7cebd6e8b255c928f7493d3b08
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7f/7fa7888e6ef64e7cebd6e8b255c928f7493d3b08'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58ea51c9dd5568e461f852726a319b3a72d44653
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58ea51c9dd5568e461f852726a319b3a72d44653'
+2024-02-01 18:58:15,078 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c4/c4358f0b56703ba5d0113edc66eaf2279f077555
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c4/c4358f0b56703ba5d0113edc66eaf2279f077555'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7b/7b010053b58817a80675a3dea1e2aff1e3dffa12
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7b/7b010053b58817a80675a3dea1e2aff1e3dffa12'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c1c6bb774e22df79813ed72c43d05c014e969174
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c1c6bb774e22df79813ed72c43d05c014e969174'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32b8bd94f2293aaceaf6744a4493312e20bf463a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32b8bd94f2293aaceaf6744a4493312e20bf463a'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9f/9fcd13775f426da0a8c1a274b63a362c36fd6996
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9f/9fcd13775f426da0a8c1a274b63a362c36fd6996'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f8/f8b536f9c6e86e76835e80684fd04cc568a8ed93
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f8/f8b536f9c6e86e76835e80684fd04cc568a8ed93'
+2024-02-01 18:58:15,079 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261bbf30bfbbbae6c27182c379ec2c3c6fa660ee
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261bbf30bfbbbae6c27182c379ec2c3c6fa660ee'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7a110359c3a01ac6e1cf7ca43f3c685945e965c
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7a110359c3a01ac6e1cf7ca43f3c685945e965c'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32d101075637ff66b97aeae7dbec070be8fae885
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32d101075637ff66b97aeae7dbec070be8fae885'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/80/807500e377c96c48eadb73e06e8075ee379634d8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/80/807500e377c96c48eadb73e06e8075ee379634d8'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/55/55c7aa087fe968986663cd7bdea271c88ec61dd7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/55/55c7aa087fe968986663cd7bdea271c88ec61dd7'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/60/60111646c207f1d76c96c22fdb1811c5f4d83ff2
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/60/60111646c207f1d76c96c22fdb1811c5f4d83ff2'
+2024-02-01 18:58:15,080 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b5/b56aa89fb8c7097bc116005dd819d9e182ed2688
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b5/b56aa89fb8c7097bc116005dd819d9e182ed2688'
+2024-02-01 18:58:15,081 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b8/b80fe1b72fb12f737c2743bc05160e71b438b711
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b8/b80fe1b72fb12f737c2743bc05160e71b438b711'
+2024-02-01 18:58:15,081 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52931a33d675a2cdbf3b3433925b7a4e4402a246
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52931a33d675a2cdbf3b3433925b7a4e4402a246'
+2024-02-01 18:58:15,081 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c12690a83c93ab2cef0ee9d8f421eefe89340a4f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c12690a83c93ab2cef0ee9d8f421eefe89340a4f'
+2024-02-01 18:58:15,081 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/2e/2edf7873943253dd4063272a776e1eafd8f5874e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/2e/2edf7873943253dd4063272a776e1eafd8f5874e'
+2024-02-01 18:58:15,081 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e3/e378a9918ac4fc4da8cab778702e61b7a3675115
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e3/e378a9918ac4fc4da8cab778702e61b7a3675115'
+2024-02-01 18:58:15,082 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ad/ada2bae924ce2f5076c480ef4534144e5650ad63
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ad/ada2bae924ce2f5076c480ef4534144e5650ad63'
+2024-02-01 18:58:15,082 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/9394f2fcc1feffb2a883b3664fc9e6b4c592e61f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/9394f2fcc1feffb2a883b3664fc9e6b4c592e61f'
+2024-02-01 18:58:15,082 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e5/e5991cc1e396c38055d0560d484a4cdf3bef6c5a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e5/e5991cc1e396c38055d0560d484a4cdf3bef6c5a'
+2024-02-01 18:58:15,082 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/64/64c7ebc9213986633675f860efc37ae07a82aeff
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/64/64c7ebc9213986633675f860efc37ae07a82aeff'
+2024-02-01 18:58:15,098 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a5/a512ea5f80b5ea21b707654f0b81ed51e1a0e052
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a5/a512ea5f80b5ea21b707654f0b81ed51e1a0e052'
+2024-02-01 18:58:15,098 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52a3d662c4150d797cfa48d8bdcdc5b877d58b1e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52a3d662c4150d797cfa48d8bdcdc5b877d58b1e'
+2024-02-01 18:58:15,098 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/18/18c97b93f481f599dcb96b913f0e52a714d9e5df
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/18/18c97b93f481f599dcb96b913f0e52a714d9e5df'
+2024-02-01 18:58:15,099 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/85/859a987d3756aaa27f1e1400b643b1e8c7fde5b9
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/85/859a987d3756aaa27f1e1400b643b1e8c7fde5b9'
+2024-02-01 18:58:15,099 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93e4ea3248d19ebf93540577f3446d1df7106c29
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93e4ea3248d19ebf93540577f3446d1df7106c29'
+2024-02-01 18:58:15,099 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fabf21bfb971c1f32839d074e3202d112fbbed86
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fabf21bfb971c1f32839d074e3202d112fbbed86'
+2024-02-01 18:58:15,099 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ea/ea3eef68ff1ef67a3269f5d8e10cd01306afd008
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ea/ea3eef68ff1ef67a3269f5d8e10cd01306afd008'
+2024-02-01 18:58:15,100 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5b/5beb323b364cfb1715952e3c74cd8851d5bca6a0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5b/5beb323b364cfb1715952e3c74cd8851d5bca6a0'
+2024-02-01 18:58:15,100 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ab/aba4b4ffe669c03bd26c41f013afb7e36b9a1dc1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ab/aba4b4ffe669c03bd26c41f013afb7e36b9a1dc1'
+2024-02-01 18:58:15,100 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f7/f7814a0f9860fee562449113d98145ad109d86a8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f7/f7814a0f9860fee562449113d98145ad109d86a8'
+2024-02-01 18:58:15,100 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f1/f1932a9854dd5d5d11ae91ee7845ced350813af0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f1/f1932a9854dd5d5d11ae91ee7845ced350813af0'
+2024-02-01 18:58:15,100 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca7914f1c21bdb65b2b1c68717718b18f6a6c43b
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca7914f1c21bdb65b2b1c68717718b18f6a6c43b'
+2024-02-01 18:58:15,101 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/924219b70d8654b046def632748becc58bd54e12
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/924219b70d8654b046def632748becc58bd54e12'
+2024-02-01 18:58:15,101 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f0/f0eddf695d122a6ea07d9deb7000b268d8f8d0b7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f0/f0eddf695d122a6ea07d9deb7000b268d8f8d0b7'
+2024-02-01 18:58:15,101 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca55f3a52ec2da14e3a40a39c6f72eeaef543b84
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca55f3a52ec2da14e3a40a39c6f72eeaef543b84'
+2024-02-01 18:58:15,101 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/96/96c9a3fa512219ac24be67b1aa67a673e7280ced
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/96/96c9a3fa512219ac24be67b1aa67a673e7280ced'
+2024-02-01 18:58:15,101 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/72/72978497688b337eda983a2245e8e1eef26f0aa7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/72/72978497688b337eda983a2245e8e1eef26f0aa7'
+2024-02-01 18:58:15,102 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/0f/0ffd7edd6476be2d9e0dba6ef18e5bea40fcd2d0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/0f/0ffd7edd6476be2d9e0dba6ef18e5bea40fcd2d0'
+2024-02-01 18:58:15,102 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/95/95ddcfc8d8728008b10e91245d1e03d51bc07839
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/95/95ddcfc8d8728008b10e91245d1e03d51bc07839'
+2024-02-01 18:58:15,102 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4e/4ea83ce06b5d2dbcaec90fe8a01019facbe1e979
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4e/4ea83ce06b5d2dbcaec90fe8a01019facbe1e979'
+2024-02-01 18:58:15,102 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5f/5f818215eb315724530dc9adb706360e4872b18a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5f/5f818215eb315724530dc9adb706360e4872b18a'
+2024-02-01 18:58:15,102 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1c/1cb6c6537c1d136bdb607af647823ce7ee866ee0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1c/1cb6c6537c1d136bdb607af647823ce7ee866ee0'
+2024-02-01 18:58:15,103 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/15/15b82f1a2ad01ad00e58eeedfa14624c95ff1de6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/15/15b82f1a2ad01ad00e58eeedfa14624c95ff1de6'
+2024-02-01 18:58:15,103 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a0/a0ad3d9825a6d819668abd5a4495b5c15333a5fc
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a0/a0ad3d9825a6d819668abd5a4495b5c15333a5fc'
+2024-02-01 18:58:15,103 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/74/74430da625262a641c7f324895aca0639eea7f32
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/74/74430da625262a641c7f324895aca0639eea7f32'
+2024-02-01 18:58:15,103 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/af/af5e2e43fe03110ba8a6742807c0ee6d935b4e17
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/af/af5e2e43fe03110ba8a6742807c0ee6d935b4e17'
+2024-02-01 18:58:15,103 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/36/3656b85a73c56e2902d7a9b81c6600a0bfecb5c1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/36/3656b85a73c56e2902d7a9b81c6600a0bfecb5c1'
+2024-02-01 18:58:15,104 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/28/2834062587418140dc99f833541998eeff7764a2
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/28/2834062587418140dc99f833541998eeff7764a2'
+2024-02-01 18:58:15,104 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/bd/bd64e00e288fb812a63eed40f1fadb7903a22cc6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/bd/bd64e00e288fb812a63eed40f1fadb7903a22cc6'
+2024-02-01 18:58:15,104 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a7/a710deb8c85b390a6e1efac1b3ecd916d7a6fced
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a7/a710deb8c85b390a6e1efac1b3ecd916d7a6fced'
+2024-02-01 18:58:15,104 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b2/b2bc679a551debaceee6aede9b0fbd2ed0740405
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b2/b2bc679a551debaceee6aede9b0fbd2ed0740405'
+2024-02-01 18:58:15,105 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/0510850065abec0743e6d034afa1238e3e9af40b
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/0510850065abec0743e6d034afa1238e3e9af40b'
+2024-02-01 18:58:15,105 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b4/b41fdd4eb832200c486ab7e07df22b93f3d77b2a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b4/b41fdd4eb832200c486ab7e07df22b93f3d77b2a'
+2024-02-01 18:58:19,867 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4d/4da899434dda3cfd61b24585d31d6378d4f78967
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4d/4da899434dda3cfd61b24585d31d6378d4f78967'
+2024-02-01 18:58:19,867 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d6/d6c84c13589b2232842fdbb26d2c476c52075227
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d6/d6c84c13589b2232842fdbb26d2c476c52075227'
+2024-02-01 18:58:19,867 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca47d6ff6ef86a9ffdf443dacd347535dab4c42a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca47d6ff6ef86a9ffdf443dacd347535dab4c42a'
+2024-02-01 18:58:19,868 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/3403ce136d3a1430b8f25485b03244403b4aeb15
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/3403ce136d3a1430b8f25485b03244403b4aeb15'
+2024-02-01 18:58:19,868 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c2/c28cdedc140a4b729eb9f679eeaf01e26c8ed0f5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c2/c28cdedc140a4b729eb9f679eeaf01e26c8ed0f5'
+2024-02-01 18:58:19,868 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/99/99c346f57f6dade6c4d71b538dcd430d5599a211
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/99/99c346f57f6dade6c4d71b538dcd430d5599a211'
+2024-02-01 18:58:19,868 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d09153474b298ca772444a2b48da0031e6f7018f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d09153474b298ca772444a2b48da0031e6f7018f'
+2024-02-01 18:58:19,868 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d197a763add7a2b921ce56cc6e032a30d623b193
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d197a763add7a2b921ce56cc6e032a30d623b193'
+2024-02-01 18:58:19,869 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/da/da5a06d79c3efc5cfe6a09d3c64a9645a39f75f6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/da/da5a06d79c3efc5cfe6a09d3c64a9645a39f75f6'
+2024-02-01 18:58:19,869 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ae/ae1e71d6335daaef28316dee1feaf5135f40328e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ae/ae1e71d6335daaef28316dee1feaf5135f40328e'
+2024-02-01 18:58:19,869 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ba/ba716e7795b1d60835945f8fddfad9a697037dce
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ba/ba716e7795b1d60835945f8fddfad9a697037dce'
+2024-02-01 18:58:19,869 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a6/a6cfce6d9bef64ec1fad216a655aa020b523cec1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a6/a6cfce6d9bef64ec1fad216a655aa020b523cec1'
+2024-02-01 18:58:19,870 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d14c47365e8727928238f36d61c9c1468bf715a8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d1/d14c47365e8727928238f36d61c9c1468bf715a8'
+2024-02-01 18:58:19,870 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/09/0919117aa5fbea2cd5e9a11a81640c6d9045ad89
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/09/0919117aa5fbea2cd5e9a11a81640c6d9045ad89'
+2024-02-01 18:58:19,870 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ee/eee638f6fb94dd3076fa92637caa2f7e7ab7b4d3
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ee/eee638f6fb94dd3076fa92637caa2f7e7ab7b4d3'
+2024-02-01 18:58:19,870 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/94/94a897d04e04c41cd017eac0f667693778bfb9d5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/94/94a897d04e04c41cd017eac0f667693778bfb9d5'
+2024-02-01 18:58:19,871 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/75/75fb40ad891a8a8ea797cb99f3bbfcf60458ac27
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/75/75fb40ad891a8a8ea797cb99f3bbfcf60458ac27'
+2024-02-01 18:58:19,871 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/be/becc5df9a8e1dcc89a0245263b54f62c4f4220c4
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/be/becc5df9a8e1dcc89a0245263b54f62c4f4220c4'
+2024-02-01 18:58:19,871 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/44/44621a4c2656be9e0c6cd644cd47c04d4601c983
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/44/44621a4c2656be9e0c6cd644cd47c04d4601c983'
+2024-02-01 18:58:19,871 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/98/987db84370580568f15d4253e5e69a084b8fd3f5
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/98/987db84370580568f15d4253e5e69a084b8fd3f5'
+2024-02-01 18:58:19,872 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7c57b0633c4342b0a5c36c950248c84a4cf1344
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7c57b0633c4342b0a5c36c950248c84a4cf1344'
+2024-02-01 18:58:19,872 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/346178a68d73c21d4f49a9b7b1e887fdfda99f55
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/34/346178a68d73c21d4f49a9b7b1e887fdfda99f55'
+2024-02-01 18:58:19,872 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/01/01ffc93194ea57412f56165615bb72c97264a9d7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/01/01ffc93194ea57412f56165615bb72c97264a9d7'
+2024-02-01 18:58:19,873 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/eb/ebe9e69301275eaacd689221bf438dceb3c45380
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/eb/ebe9e69301275eaacd689221bf438dceb3c45380'
+2024-02-01 18:58:19,873 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/43/43b843674db710520c8f232162a3784cdad70205
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/43/43b843674db710520c8f232162a3784cdad70205'
+2024-02-01 18:58:19,873 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/6d/6dc90751d177a0ef8815652d8e5be19e45fa0ded
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/6d/6dc90751d177a0ef8815652d8e5be19e45fa0ded'
+2024-02-01 18:58:19,873 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/40/4077d16bf32f17b2c1159c84cd764173d4b14459
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/40/4077d16bf32f17b2c1159c84cd764173d4b14459'
+2024-02-01 18:58:19,874 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/30/306dce6847977877b34617c89a58d2fff0722c77
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/30/306dce6847977877b34617c89a58d2fff0722c77'
+2024-02-01 18:58:19,874 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52af9442339205025c538e25170692ccd522ef69
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52af9442339205025c538e25170692ccd522ef69'
+2024-02-01 18:58:19,875 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/07/078fdc9128bc0272967d00e4dad07f41f0eaf927
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/07/078fdc9128bc0272967d00e4dad07f41f0eaf927'
+2024-02-01 18:58:19,875 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9b/9b7f5c572b5dc42bff14c38bd4f2d9aad402b0a1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9b/9b7f5c572b5dc42bff14c38bd4f2d9aad402b0a1'
+2024-02-01 18:58:19,875 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58fd4f74ff005d177019f05fa0a5fad6562b5fcf
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58fd4f74ff005d177019f05fa0a5fad6562b5fcf'
+2024-02-01 18:58:19,876 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/055ce1cc832e5942a88aadb0e4e8dfa525e387cd
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/055ce1cc832e5942a88aadb0e4e8dfa525e387cd'
+2024-02-01 18:58:19,924 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32e24a813a4c96b134a173a3d78339b2cbce0f7f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32e24a813a4c96b134a173a3d78339b2cbce0f7f'
+2024-02-01 18:58:19,924 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93c770bac9c314c3c5d50d500072651a7edf5b50
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93c770bac9c314c3c5d50d500072651a7edf5b50'
+2024-02-01 18:58:19,925 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/925c8bdc1deb430fc458d5af391bd5f1b9d91e4c
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/925c8bdc1deb430fc458d5af391bd5f1b9d91e4c'
+2024-02-01 18:58:19,925 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/588ec18ef5a475c07297da9f7bf135379e831a8d
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/588ec18ef5a475c07297da9f7bf135379e831a8d'
+2024-02-01 18:58:19,925 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fae0daba9ac52617e56fd4c858cb03efaf5805af
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fae0daba9ac52617e56fd4c858cb03efaf5805af'
+2024-02-01 18:58:19,925 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1a/1a268e9ea140a737c7342efaf8dacb9b6d1e6a26
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1a/1a268e9ea140a737c7342efaf8dacb9b6d1e6a26'
+2024-02-01 18:58:19,926 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d0d9cfd524a4a3e55f6317238a866d03405f1a98
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/d0/d0d9cfd524a4a3e55f6317238a866d03405f1a98'
+2024-02-01 18:58:19,926 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/de/de2e149991e2a75cf71c604d7cbdc79710a37a48
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/de/de2e149991e2a75cf71c604d7cbdc79710a37a48'
+2024-02-01 18:58:19,926 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261f6fcafc6e3b482d5ece32b9c5373bee1243ed
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261f6fcafc6e3b482d5ece32b9c5373bee1243ed'
+2024-02-01 18:58:19,927 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7f/7fa7888e6ef64e7cebd6e8b255c928f7493d3b08
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7f/7fa7888e6ef64e7cebd6e8b255c928f7493d3b08'
+2024-02-01 18:58:19,927 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58ea51c9dd5568e461f852726a319b3a72d44653
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/58/58ea51c9dd5568e461f852726a319b3a72d44653'
+2024-02-01 18:58:19,927 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c4/c4358f0b56703ba5d0113edc66eaf2279f077555
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c4/c4358f0b56703ba5d0113edc66eaf2279f077555'
+2024-02-01 18:58:19,927 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7b/7b010053b58817a80675a3dea1e2aff1e3dffa12
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/7b/7b010053b58817a80675a3dea1e2aff1e3dffa12'
+2024-02-01 18:58:19,927 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c1c6bb774e22df79813ed72c43d05c014e969174
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c1c6bb774e22df79813ed72c43d05c014e969174'
+2024-02-01 18:58:19,928 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32b8bd94f2293aaceaf6744a4493312e20bf463a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32b8bd94f2293aaceaf6744a4493312e20bf463a'
+2024-02-01 18:58:19,928 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9f/9fcd13775f426da0a8c1a274b63a362c36fd6996
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/9f/9fcd13775f426da0a8c1a274b63a362c36fd6996'
+2024-02-01 18:58:19,928 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f8/f8b536f9c6e86e76835e80684fd04cc568a8ed93
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f8/f8b536f9c6e86e76835e80684fd04cc568a8ed93'
+2024-02-01 18:58:19,928 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261bbf30bfbbbae6c27182c379ec2c3c6fa660ee
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/26/261bbf30bfbbbae6c27182c379ec2c3c6fa660ee'
+2024-02-01 18:58:19,928 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7a110359c3a01ac6e1cf7ca43f3c685945e965c
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c7/c7a110359c3a01ac6e1cf7ca43f3c685945e965c'
+2024-02-01 18:58:19,929 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32d101075637ff66b97aeae7dbec070be8fae885
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/32/32d101075637ff66b97aeae7dbec070be8fae885'
+2024-02-01 18:58:19,929 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/80/807500e377c96c48eadb73e06e8075ee379634d8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/80/807500e377c96c48eadb73e06e8075ee379634d8'
+2024-02-01 18:58:19,929 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/55/55c7aa087fe968986663cd7bdea271c88ec61dd7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/55/55c7aa087fe968986663cd7bdea271c88ec61dd7'
+2024-02-01 18:58:19,930 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/60/60111646c207f1d76c96c22fdb1811c5f4d83ff2
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/60/60111646c207f1d76c96c22fdb1811c5f4d83ff2'
+2024-02-01 18:58:19,930 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b5/b56aa89fb8c7097bc116005dd819d9e182ed2688
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b5/b56aa89fb8c7097bc116005dd819d9e182ed2688'
+2024-02-01 18:58:19,930 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b8/b80fe1b72fb12f737c2743bc05160e71b438b711
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b8/b80fe1b72fb12f737c2743bc05160e71b438b711'
+2024-02-01 18:58:19,931 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52931a33d675a2cdbf3b3433925b7a4e4402a246
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52931a33d675a2cdbf3b3433925b7a4e4402a246'
+2024-02-01 18:58:19,931 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c12690a83c93ab2cef0ee9d8f421eefe89340a4f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/c1/c12690a83c93ab2cef0ee9d8f421eefe89340a4f'
+2024-02-01 18:58:19,931 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/2e/2edf7873943253dd4063272a776e1eafd8f5874e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/2e/2edf7873943253dd4063272a776e1eafd8f5874e'
+2024-02-01 18:58:19,931 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e3/e378a9918ac4fc4da8cab778702e61b7a3675115
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e3/e378a9918ac4fc4da8cab778702e61b7a3675115'
+2024-02-01 18:58:19,931 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ad/ada2bae924ce2f5076c480ef4534144e5650ad63
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ad/ada2bae924ce2f5076c480ef4534144e5650ad63'
+2024-02-01 18:58:19,932 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/9394f2fcc1feffb2a883b3664fc9e6b4c592e61f
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/9394f2fcc1feffb2a883b3664fc9e6b4c592e61f'
+2024-02-01 18:58:19,932 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e5/e5991cc1e396c38055d0560d484a4cdf3bef6c5a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/e5/e5991cc1e396c38055d0560d484a4cdf3bef6c5a'
+2024-02-01 18:58:19,932 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/64/64c7ebc9213986633675f860efc37ae07a82aeff
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/64/64c7ebc9213986633675f860efc37ae07a82aeff'
+2024-02-01 18:58:19,950 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a5/a512ea5f80b5ea21b707654f0b81ed51e1a0e052
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a5/a512ea5f80b5ea21b707654f0b81ed51e1a0e052'
+2024-02-01 18:58:19,951 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52a3d662c4150d797cfa48d8bdcdc5b877d58b1e
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/52/52a3d662c4150d797cfa48d8bdcdc5b877d58b1e'
+2024-02-01 18:58:19,951 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/18/18c97b93f481f599dcb96b913f0e52a714d9e5df
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/18/18c97b93f481f599dcb96b913f0e52a714d9e5df'
+2024-02-01 18:58:19,951 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/85/859a987d3756aaa27f1e1400b643b1e8c7fde5b9
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/85/859a987d3756aaa27f1e1400b643b1e8c7fde5b9'
+2024-02-01 18:58:19,951 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93e4ea3248d19ebf93540577f3446d1df7106c29
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/93/93e4ea3248d19ebf93540577f3446d1df7106c29'
+2024-02-01 18:58:19,952 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fabf21bfb971c1f32839d074e3202d112fbbed86
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/fa/fabf21bfb971c1f32839d074e3202d112fbbed86'
+2024-02-01 18:58:19,952 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ea/ea3eef68ff1ef67a3269f5d8e10cd01306afd008
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ea/ea3eef68ff1ef67a3269f5d8e10cd01306afd008'
+2024-02-01 18:58:19,952 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5b/5beb323b364cfb1715952e3c74cd8851d5bca6a0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5b/5beb323b364cfb1715952e3c74cd8851d5bca6a0'
+2024-02-01 18:58:19,952 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ab/aba4b4ffe669c03bd26c41f013afb7e36b9a1dc1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ab/aba4b4ffe669c03bd26c41f013afb7e36b9a1dc1'
+2024-02-01 18:58:19,952 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f7/f7814a0f9860fee562449113d98145ad109d86a8
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f7/f7814a0f9860fee562449113d98145ad109d86a8'
+2024-02-01 18:58:19,953 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f1/f1932a9854dd5d5d11ae91ee7845ced350813af0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f1/f1932a9854dd5d5d11ae91ee7845ced350813af0'
+2024-02-01 18:58:19,953 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca7914f1c21bdb65b2b1c68717718b18f6a6c43b
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca7914f1c21bdb65b2b1c68717718b18f6a6c43b'
+2024-02-01 18:58:19,953 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/924219b70d8654b046def632748becc58bd54e12
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/92/924219b70d8654b046def632748becc58bd54e12'
+2024-02-01 18:58:19,953 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f0/f0eddf695d122a6ea07d9deb7000b268d8f8d0b7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/f0/f0eddf695d122a6ea07d9deb7000b268d8f8d0b7'
+2024-02-01 18:58:19,953 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca55f3a52ec2da14e3a40a39c6f72eeaef543b84
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/ca/ca55f3a52ec2da14e3a40a39c6f72eeaef543b84'
+2024-02-01 18:58:19,954 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/96/96c9a3fa512219ac24be67b1aa67a673e7280ced
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/96/96c9a3fa512219ac24be67b1aa67a673e7280ced'
+2024-02-01 18:58:19,954 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/72/72978497688b337eda983a2245e8e1eef26f0aa7
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/72/72978497688b337eda983a2245e8e1eef26f0aa7'
+2024-02-01 18:58:19,954 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/0f/0ffd7edd6476be2d9e0dba6ef18e5bea40fcd2d0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/0f/0ffd7edd6476be2d9e0dba6ef18e5bea40fcd2d0'
+2024-02-01 18:58:19,954 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/95/95ddcfc8d8728008b10e91245d1e03d51bc07839
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/95/95ddcfc8d8728008b10e91245d1e03d51bc07839'
+2024-02-01 18:58:19,954 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4e/4ea83ce06b5d2dbcaec90fe8a01019facbe1e979
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/4e/4ea83ce06b5d2dbcaec90fe8a01019facbe1e979'
+2024-02-01 18:58:19,955 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5f/5f818215eb315724530dc9adb706360e4872b18a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/5f/5f818215eb315724530dc9adb706360e4872b18a'
+2024-02-01 18:58:19,955 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1c/1cb6c6537c1d136bdb607af647823ce7ee866ee0
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/1c/1cb6c6537c1d136bdb607af647823ce7ee866ee0'
+2024-02-01 18:58:19,955 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/15/15b82f1a2ad01ad00e58eeedfa14624c95ff1de6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/15/15b82f1a2ad01ad00e58eeedfa14624c95ff1de6'
+2024-02-01 18:58:19,955 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a0/a0ad3d9825a6d819668abd5a4495b5c15333a5fc
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a0/a0ad3d9825a6d819668abd5a4495b5c15333a5fc'
+2024-02-01 18:58:19,955 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/74/74430da625262a641c7f324895aca0639eea7f32
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/74/74430da625262a641c7f324895aca0639eea7f32'
+2024-02-01 18:58:19,956 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/af/af5e2e43fe03110ba8a6742807c0ee6d935b4e17
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/af/af5e2e43fe03110ba8a6742807c0ee6d935b4e17'
+2024-02-01 18:58:19,956 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/36/3656b85a73c56e2902d7a9b81c6600a0bfecb5c1
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/36/3656b85a73c56e2902d7a9b81c6600a0bfecb5c1'
+2024-02-01 18:58:19,956 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/28/2834062587418140dc99f833541998eeff7764a2
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/28/2834062587418140dc99f833541998eeff7764a2'
+2024-02-01 18:58:19,956 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/bd/bd64e00e288fb812a63eed40f1fadb7903a22cc6
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/bd/bd64e00e288fb812a63eed40f1fadb7903a22cc6'
+2024-02-01 18:58:19,957 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a7/a710deb8c85b390a6e1efac1b3ecd916d7a6fced
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/a7/a710deb8c85b390a6e1efac1b3ecd916d7a6fced'
+2024-02-01 18:58:19,957 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b2/b2bc679a551debaceee6aede9b0fbd2ed0740405
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b2/b2bc679a551debaceee6aede9b0fbd2ed0740405'
+2024-02-01 18:58:19,957 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/0510850065abec0743e6d034afa1238e3e9af40b
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/05/0510850065abec0743e6d034afa1238e3e9af40b'
+2024-02-01 18:58:19,957 1352634 INFO test_base_import_odoo_10 odoo.addons.base.ir.ir_attachment: _read_file reading /home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b4/b41fdd4eb832200c486ab7e07df22b93f3d77b2a
+Traceback (most recent call last):
+  File "/home/odoo/10.0/odoo/addons/base/ir/ir_attachment.py", line 100, in _file_read
+    r = open(full_path,'rb').read().encode('base64')
+IOError: [Errno 2] No such file or directory: u'/home/odoo/.local/share/Odoo10/filestore/test_base_import_odoo_10/b4/b41fdd4eb832200c486ab7e07df22b93f3d77b2a'
+2024-02-01 18:58:24,448 1352634 INFO test_base_import_odoo_10 odoo.addons.base_import_odoo.tests.test_base_import_odoo: Ran 1 test in 9.475s
+2024-02-01 18:58:24,448 1352634 INFO test_base_import_odoo_10 odoo.addons.base_import_odoo.tests.test_base_import_odoo: OK
+2024-02-01 18:58:24,448 1352634 INFO test_base_import_odoo_10 odoo.modules.module: odoo.addons.base_import_odoo.tests.test_base_import_odoo tested in 9.48s, 7666 queries
+2024-02-01 18:58:24,448 1352634 INFO test_base_import_odoo_10 odoo.modules.loading: All post-tested in 9.48s, 7666 queries
+2024-02-01 18:58:24,449 1352634 INFO test_base_import_odoo_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:58:24,487 1352634 INFO test_base_import_odoo_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:58:24,488 1352634 INFO test_base_import_odoo_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:58:24,488 1352634 INFO test_base_import_odoo_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_import_odoo[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_import_odoo/tests/logs/coverage_base_import_odoo_10rc -m
+[34;107mName                                                                 Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------------------------
+server-tools/base_import_odoo/models/import_odoo_database.py           353     67    81%   77, 91-92, 99-104, 126, 145, 164-173, 179, 182-183, 189, 216, 229, 240-249, 388, 399, 408, 456-480, 499, 573, 582, 590, 595, 604-610, 616-617, 626, 641, 647-649, 653, 656, 663, 674-675, 678, 689
+server-tools/base_import_odoo/models/import_odoo_database_field.py      22      2    91%   58, 65
+server-tools/base_import_odoo/models/import_odoo_database_model.py      11      0   100%
+server-tools/base_import_odoo/models/ir_model_data.py                    5      0   100%
+--------------------------------------------------------------------------------------------------
+TOTAL                                                                  391     69    82%
+[0m

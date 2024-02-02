@@ -1,0 +1,42 @@
+2024-02-01 19:16:15,000 1243041 DAEMON test_base_directory_file_download_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:17:15,833 1245292 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:17:15,834 1245292 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_directory_file_download/tests/logs/zero10.server-tools.base_directory_file_download.conf
+2024-02-01 18:17:15,834 1245292 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:17:15,834 1245292 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:17:15,852 1245292 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46373
+2024-02-01 18:17:15,874 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:17:15,976 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: 1 modules loaded in 0.10s, 0 queries
+2024-02-01 18:17:16,549 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading 14 modules...
+2024-02-01 18:17:16,628 1245292 INFO test_base_directory_file_download_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 18:17:16,637 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: 14 modules loaded in 0.09s, 0 queries
+2024-02-01 18:17:16,644 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading 15 modules...
+2024-02-01 18:17:16,743 1245292 INFO test_base_directory_file_download_10 odoo.modules.registry: module base_directory_file_download: creating or updating database tables
+2024-02-01 18:17:16,902 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading base_directory_file_download/security/groups.xml
+2024-02-01 18:17:17,022 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading base_directory_file_download/security/ir.model.access.csv
+2024-02-01 18:17:17,061 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: loading base_directory_file_download/views/ir_filesystem_directory.xml
+2024-02-01 18:17:17,221 1245292 INFO test_base_directory_file_download_10 odoo.modules.module: odoo.addons.base_directory_file_download.tests.test_directory_files_download running tests.
+2024-02-01 18:17:17,222 1245292 INFO test_base_directory_file_download_10 odoo.addons.base_directory_file_download.tests.test_directory_files_download: test_01_create (odoo.addons.base_directory_file_download.tests.test_directory_files_download.TestBaseDirectoryFilesDownload)
+2024-02-01 18:17:17,376 1245292 INFO test_base_directory_file_download_10 odoo.addons.base_directory_file_download.tests.test_directory_files_download: test_02_copy (odoo.addons.base_directory_file_download.tests.test_directory_files_download.TestBaseDirectoryFilesDownload)
+2024-02-01 18:17:17,436 1245292 INFO test_base_directory_file_download_10 odoo.addons.base_directory_file_download.tests.test_directory_files_download: test_03_not_existing_directory (odoo.addons.base_directory_file_download.tests.test_directory_files_download.TestBaseDirectoryFilesDownload)
+2024-02-01 18:17:17,445 1245292 INFO test_base_directory_file_download_10 odoo.addons.base_directory_file_download.tests.test_directory_files_download: Ran 3 tests in 0.223s
+2024-02-01 18:17:17,445 1245292 INFO test_base_directory_file_download_10 odoo.addons.base_directory_file_download.tests.test_directory_files_download: OK
+2024-02-01 18:17:17,468 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: 15 modules loaded in 0.82s, 123 queries
+2024-02-01 18:17:17,725 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:17:17,729 1245292 INFO test_base_directory_file_download_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 18:17:17,730 1245292 INFO test_base_directory_file_download_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:17:17,768 1245292 INFO test_base_directory_file_download_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:17:17,770 1245292 INFO test_base_directory_file_download_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:17:17,771 1245292 INFO test_base_directory_file_download_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_directory_file_download[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_directory_file_download/tests/logs/coverage_base_directory_file_download_10rc -m
+[34;107mName                                                                          Stmts   Miss  Cover   Missing
+-----------------------------------------------------------------------------------------------------------
+server-tools/base_directory_file_download/models/ir_filesystem_directory.py      59      8    86%   32, 39, 53, 58, 63, 80-81, 89
+server-tools/base_directory_file_download/models/ir_filesystem_file.py           37      6    84%   31, 41, 44, 47-48, 52
+-----------------------------------------------------------------------------------------------------------
+TOTAL                                                                            96     14    85%
+[0m

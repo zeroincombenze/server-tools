@@ -1,0 +1,62 @@
+2024-02-02 08:07:04,000 1528178 DAEMON test_base_onchange_rule_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-02 07:08:24,265 1531190 INFO ? odoo: Odoo version 10.0
+2024-02-02 07:08:24,265 1531190 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_onchange_rule/tests/logs/zero10.server-tools.base_onchange_rule.conf
+2024-02-02 07:08:24,265 1531190 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-02 07:08:24,266 1531190 INFO ? odoo: database: odoo10@localhost:default
+2024-02-02 07:08:24,291 1531190 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46619
+2024-02-02 07:08:24,333 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading 1 modules...
+2024-02-02 07:08:24,466 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: 1 modules loaded in 0.13s, 0 queries
+2024-02-02 07:08:25,615 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading 12 modules...
+2024-02-02 07:08:25,679 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: 12 modules loaded in 0.06s, 0 queries
+2024-02-02 07:08:25,686 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading 13 modules...
+2024-02-02 07:08:25,802 1531190 INFO test_base_onchange_rule_10 odoo.modules.registry: module base_onchange_rule: creating or updating database tables
+2024-02-02 07:08:26,050 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading base_onchange_rule/security/ir.model.access.csv
+2024-02-02 07:08:26,120 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading base_onchange_rule/views/onchange_rule_view.xml
+2024-02-02 07:08:26,427 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: loading base_onchange_rule/demo/partner_demo.xml
+2024-02-02 07:08:26,506 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:26,507 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:08:28,373 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,373 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web/i18n/fr.po
+2024-02-02 07:08:28,584 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_diagram: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,584 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_diagram/i18n/fr.po
+2024-02-02 07:08:28,608 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_planner: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,608 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_planner/i18n/fr.po
+2024-02-02 07:08:28,648 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module auth_crypt: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,648 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/auth_crypt/i18n/fr.po
+2024-02-02 07:08:28,666 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_kanban: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,666 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_kanban/i18n/fr.po
+2024-02-02 07:08:28,688 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module base_import: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,688 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/base_import/i18n/fr.po
+2024-02-02 07:08:28,805 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_calendar: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,806 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_calendar/i18n/fr.po
+2024-02-02 07:08:28,829 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_editor: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,830 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_editor/i18n/fr.po
+2024-02-02 07:08:28,998 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_settings_dashboard: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:28,998 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_settings_dashboard/i18n/fr.po
+2024-02-02 07:08:29,025 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_tour: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:29,025 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_tour/i18n/fr.po
+2024-02-02 07:08:29,045 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module web_kanban_gauge: loading translation file (fr) for language fr_FR
+2024-02-02 07:08:29,046 1531190 INFO test_base_onchange_rule_10 odoo.tools.translate: loading /home/odoo/10.0/addons/web_kanban_gauge/i18n/fr.po
+2024-02-02 07:08:29,127 1531190 INFO test_base_onchange_rule_10 odoo.addons.base.ir.ir_translation: module base_onchange_rule: no translation for language fr
+2024-02-02 07:08:29,255 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: 13 modules loaded in 3.57s, 0 queries
+2024-02-02 07:08:29,568 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: Modules loaded.
+2024-02-02 07:08:29,583 1531190 INFO test_base_onchange_rule_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-02 07:08:29,584 1531190 INFO test_base_onchange_rule_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-02 07:08:29,632 1531190 INFO test_base_onchange_rule_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-02 07:08:29,633 1531190 INFO test_base_onchange_rule_10 odoo.service.server: Initiating shutdown
+2024-02-02 07:08:29,634 1531190 INFO test_base_onchange_rule_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_onchange_rule[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_onchange_rule/tests/logs/coverage_base_onchange_rule_10rc -m
+[34;107mName                                                           Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------------------
+server-tools/base_onchange_rule/hooks.py                           7      0   100%
+server-tools/base_onchange_rule/models/ir_model.py                 4      0   100%
+server-tools/base_onchange_rule/models/onchange_rule.py          126     79    37%   19, 44-47, 50, 56-60, 63-66, 72-75, 81-107, 110, 116-130, 138-159, 164-180, 189-191, 204, 207-208, 211-213
+server-tools/base_onchange_rule/models/onchange_rule_line.py     191    128    33%   83, 89-93, 96, 100, 105, 109, 114-118, 123-128, 131-145, 149-160, 163-184, 187-205, 208, 218, 228, 233-236, 246-256, 261-291, 294-309, 315-321, 324-326
+--------------------------------------------------------------------------------------------
+TOTAL                                                            328    207    37%
+[0m

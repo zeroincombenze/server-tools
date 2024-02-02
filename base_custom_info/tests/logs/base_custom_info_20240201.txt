@@ -1,0 +1,143 @@
+2024-02-01 20:16:11,000 1397635 DAEMON test_base_custom_info_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 19:17:12,440 1399280 INFO ? odoo: Odoo version 10.0
+2024-02-01 19:17:12,440 1399280 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_custom_info/tests/logs/zero10.server-tools.base_custom_info.conf
+2024-02-01 19:17:12,441 1399280 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 19:17:12,441 1399280 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 19:17:12,461 1399280 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:49968
+2024-02-01 19:17:12,496 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 19:17:12,600 1399280 INFO test_base_custom_info_10 odoo.modules.loading: 1 modules loaded in 0.10s, 0 queries
+2024-02-01 19:17:13,333 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading 14 modules...
+2024-02-01 19:17:13,411 1399280 INFO test_base_custom_info_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 19:17:13,420 1399280 INFO test_base_custom_info_10 odoo.modules.loading: 14 modules loaded in 0.09s, 0 queries
+2024-02-01 19:17:13,428 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading 15 modules...
+2024-02-01 19:17:13,630 1399280 INFO test_base_custom_info_10 odoo.modules.registry: module base_custom_info: creating or updating database tables
+2024-02-01 19:17:14,212 1399280 INFO test_base_custom_info_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 19:17:14,291 1399280 INFO test_base_custom_info_10 odoo.models: Storing computed values of custom.info.property fields category_sequence
+2024-02-01 19:17:14,293 1399280 INFO test_base_custom_info_10 odoo.models: Storing computed values of custom.info.value fields category_id, category_sequence, model, property_sequence
+2024-02-01 19:17:14,330 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/security/ir.model.access.csv
+2024-02-01 19:17:14,456 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/security/res_groups.xml
+2024-02-01 19:17:14,897 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/custom_info_category_view.xml
+2024-02-01 19:17:15,015 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/custom_info_option_view.xml
+2024-02-01 19:17:15,207 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/custom_info_template_view.xml
+2024-02-01 19:17:15,325 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/custom_info_property_view.xml
+2024-02-01 19:17:15,530 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/custom_info_value_view.xml
+2024-02-01 19:17:15,729 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/menu.xml
+2024-02-01 19:17:15,900 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/views/res_partner_view.xml
+2024-02-01 19:17:15,973 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/wizard/base_config_settings_view.xml
+2024-02-01 19:17:16,036 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/custom.info.category.csv
+2024-02-01 19:17:16,084 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/custom.info.template.csv
+2024-02-01 19:17:16,168 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/custom.info.property.csv
+2024-02-01 19:17:16,333 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/custom.info.option.csv
+2024-02-01 19:17:16,440 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/custom_info_property_defaults.yml
+2024-02-01 19:17:16,503 1399280 INFO test_base_custom_info_10 odoo.modules.loading: loading base_custom_info/demo/res_groups.xml
+2024-02-01 19:17:16,913 1399280 INFO test_base_custom_info_10 odoo.modules.module: odoo.addons.base_custom_info.tests.test_partner running tests.
+2024-02-01 19:17:16,913 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_access_denied (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:16,913 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Forbidden access to the model forbids it to custom info.
+2024-02-01 19:17:16,986 1399280 INFO test_base_custom_info_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: write, uid: 5, model: res.partner
+2024-02-01 19:17:17,015 1399280 INFO test_base_custom_info_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: write, uid: 5, model: res.partner
+2024-02-01 19:17:17,052 1399280 INFO test_base_custom_info_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: write, uid: 5, model: res.partner
+2024-02-01 19:17:17,054 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_access_granted (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,054 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Access to the model implies access to custom info.
+2024-02-01 19:17:17,276 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_apply_unapply_template (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,276 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` (Un)apply a template to a owner and it gets filled.
+2024-02-01 19:17:17,421 1399280 INFO test_base_custom_info_10 odoo.models.unlink: User #1 deleted custom.info.value records with IDs: [7, 8, 9, 10, 11]
+2024-02-01 19:17:17,438 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_change_used_model_fails (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,438 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` If a template's model is already used, you cannot change it.
+2024-02-01 19:17:17,575 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_default_values (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,576 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Default values get applied.
+2024-02-01 19:17:17,700 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_get_custom_info_value (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,701 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Check the custom info getter helper works fine.
+2024-02-01 19:17:17,827 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_high_average_note (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,828 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Too smart!
+2024-02-01 19:17:17,967 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_long_teacher_name (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:17,967 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Wow, your teacher cannot have such a long name!
+2024-02-01 19:17:18,105 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_low_average_note (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,105 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Come on, you are supposed to be smart!
+2024-02-01 19:17:18,247 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_owner_id (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,247 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Check the computed owner id for a value.
+2024-02-01 19:17:18,384 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_owners_selection (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,384 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Owners selection includes only the required matches.
+2024-02-01 19:17:18,402 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_recursive_templates (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,402 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Recursive templates get loaded when required.
+2024-02-01 19:17:18,611 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_template_model_and_model_id_match (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,611 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Template's model and model_id fields match.
+2024-02-01 19:17:18,650 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: test_template_model_must_exist (odoo.addons.base_custom_info.tests.test_partner.PartnerCase)
+2024-02-01 19:17:18,650 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: ` Cannot create templates for unexisting models.
+2024-02-01 19:17:18,678 1399280 INFO test_base_custom_info_10 odoo.sql_db: bad query: UPDATE "custom_info_template" SET "model_id"=NULL,"write_uid"=1,"write_date"=(now() at time zone 'UTC') WHERE id IN (1)
+2024-02-01 19:17:18,679 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: Ran 14 tests in 1.767s
+2024-02-01 19:17:18,680 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_partner: OK
+2024-02-01 19:17:18,680 1399280 INFO test_base_custom_info_10 odoo.modules.module: odoo.addons.base_custom_info.tests.test_value_conversion running tests.
+2024-02-01 19:17:18,680 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_bool_false (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:18,680 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from no.
+2024-02-01 19:17:18,695 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(4,); value: False; field: value_bool
+2024-02-01 19:17:18,825 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_bool_true (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:18,825 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from yes.
+2024-02-01 19:17:18,840 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(4,); value: True; field: value_bool
+2024-02-01 19:17:18,955 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(4,); value: True
+2024-02-01 19:17:18,988 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_float (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:18,988 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from decimal number.
+2024-02-01 19:17:19,004 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(3,); value: 9.5; field: value_float
+2024-02-01 19:17:19,121 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(3,); value: 9.5
+2024-02-01 19:17:19,155 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_id (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:19,155 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from selection.
+2024-02-01 19:17:19,174 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(5,); value: 2; field: value_id
+2024-02-01 19:17:19,312 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(5,); value: Needs videogames
+2024-02-01 19:17:19,339 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_int (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:19,339 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from whole number.
+2024-02-01 19:17:19,356 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(2,); value: 5; field: value_int
+2024-02-01 19:17:19,477 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(2,); value: 5
+2024-02-01 19:17:19,512 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_from_str (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:19,513 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion from text.
+2024-02-01 19:17:19,529 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(1,); value: Mr. Einstein; field: value_str
+2024-02-01 19:17:19,647 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(1,); value: Mr. Einstein
+2024-02-01 19:17:19,673 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_bool_false (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:19,673 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to no.
+2024-02-01 19:17:19,689 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(4,); value: False; field: value
+2024-02-01 19:17:19,839 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_bool_true (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:19,839 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to yes.
+2024-02-01 19:17:19,861 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(4,); value: True; field: value
+2024-02-01 19:17:20,024 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(4,); value: True
+2024-02-01 19:17:20,057 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_float (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:20,057 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to decimal number.
+2024-02-01 19:17:20,075 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(3,); value: 9.5; field: value
+2024-02-01 19:17:20,203 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(3,); value: 9.5
+2024-02-01 19:17:20,234 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_id (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:20,235 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to selection.
+2024-02-01 19:17:20,251 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(5,); value: Needs videogames; field: value
+2024-02-01 19:17:20,380 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(5,); value: Needs videogames
+2024-02-01 19:17:20,407 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_int (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:20,407 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to whole number.
+2024-02-01 19:17:20,423 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(2,); value: 5; field: value
+2024-02-01 19:17:20,548 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(2,); value: 5
+2024-02-01 19:17:20,586 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: test_to_str (odoo.addons.base_custom_info.tests.test_value_conversion.ValueConversionCase)
+2024-02-01 19:17:20,587 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: ` Conversion to text.
+2024-02-01 19:17:20,602 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Creating. prop: custom.info.property(1,); value: Mr. Einstein; field: value
+2024-02-01 19:17:20,741 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Searching. prop: custom.info.property(1,); value: Mr. Einstein
+2024-02-01 19:17:20,783 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: Ran 12 tests in 2.103s
+2024-02-01 19:17:20,784 1399280 INFO test_base_custom_info_10 odoo.addons.base_custom_info.tests.test_value_conversion: OK
+2024-02-01 19:17:20,828 1399280 INFO test_base_custom_info_10 odoo.modules.loading: 15 modules loaded in 7.40s, 3347 queries
+2024-02-01 19:17:21,110 1399280 INFO test_base_custom_info_10 odoo.modules.loading: Modules loaded.
+2024-02-01 19:17:21,114 1399280 INFO test_base_custom_info_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 19:17:21,115 1399280 INFO test_base_custom_info_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 19:17:21,163 1399280 INFO test_base_custom_info_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 19:17:21,165 1399280 INFO test_base_custom_info_10 odoo.service.server: Initiating shutdown
+2024-02-01 19:17:21,165 1399280 INFO test_base_custom_info_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_custom_info[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_custom_info/tests/logs/coverage_base_custom_info_10rc -m
+[34;107mName                                                           Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------------------
+server-tools/base_custom_info/models/custom_info.py               38     10    74%   49, 70, 73-81, 85, 94
+server-tools/base_custom_info/models/custom_info_category.py      20      7    65%   23, 27-31, 33
+server-tools/base_custom_info/models/custom_info_option.py        21      2    90%   34, 45
+server-tools/base_custom_info/models/custom_info_property.py      40     11    72%   81, 87, 93-97, 103-110
+server-tools/base_custom_info/models/custom_info_template.py      44     10    77%   37, 42, 47-49, 52-53, 56, 70, 79
+server-tools/base_custom_info/models/custom_info_value.py        118     19    84%   72, 81, 95, 102, 108-112, 117, 128, 141, 165, 176-180, 183-186, 220
+server-tools/base_custom_info/models/res_partner.py                6      0   100%
+server-tools/base_custom_info/wizard/base_config_settings.py       5      0   100%
+--------------------------------------------------------------------------------------------
+TOTAL                                                            292     59    80%
+[0m

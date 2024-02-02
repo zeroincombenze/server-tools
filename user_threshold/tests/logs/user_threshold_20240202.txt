@@ -1,0 +1,957 @@
+2024-02-02 08:09:29,000 1534995 DAEMON test_user_threshold_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-02 07:09:32,520 1536493 INFO ? odoo: Odoo version 10.0
+2024-02-02 07:09:32,520 1536493 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/user_threshold/tests/logs/zero10.server-tools.user_threshold.conf
+2024-02-02 07:09:32,520 1536493 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-02 07:09:32,521 1536493 INFO ? odoo: database: odoo10@localhost:default
+2024-02-02 07:09:32,541 1536493 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:46765
+2024-02-02 07:09:32,585 1536493 INFO ? odoo.modules.loading: init db
+2024-02-02 07:09:46,184 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading 1 modules...
+2024-02-02 07:09:46,549 1536493 INFO test_user_threshold_10 odoo.modules.registry: module base: creating or updating database tables
+2024-02-02 07:09:47,658 1536493 INFO test_user_threshold_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-02 07:09:56,289 1536493 INFO test_user_threshold_10 odoo.models: Computing parent left and right for table res_partner_category...
+2024-02-02 07:10:00,734 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.attachment fields res_name
+2024-02-02 07:10:00,736 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.actions.server fields crud_model_name, wkf_model_name
+2024-02-02 07:10:00,737 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.ui.view fields model_data_id
+2024-02-02 07:10:00,738 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of res.partner.bank fields sanitized_acc_number
+2024-02-02 07:10:00,739 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.rule fields global
+2024-02-02 07:10:00,740 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of res.company fields email, logo_web, phone
+2024-02-02 07:10:00,741 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of res.users fields share
+2024-02-02 07:10:00,742 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of res.partner fields commercial_company_name, commercial_partner_id, display_name, partner_share
+2024-02-02 07:10:00,743 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.actions.report.xml fields report_file
+2024-02-02 07:10:00,743 1536493 INFO test_user_threshold_10 odoo.models: Storing computed values of ir.module.module fields menus_by_module, reports_by_module, views_by_module
+2024-02-02 07:10:02,190 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res.lang.csv
+2024-02-02 07:10:02,775 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/base_data.xml
+2024-02-02 07:10:03,289 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_currency_data.xml
+2024-02-02 07:10:04,140 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_country_data.xml
+2024-02-02 07:10:10,861 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/security/base_security.xml
+2024-02-02 07:10:11,718 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/base_menu.xml
+2024-02-02 07:10:12,006 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_config.xml
+2024-02-02 07:10:12,064 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res.country.state.csv
+2024-02-02 07:10:16,241 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_actions.xml
+2024-02-02 07:10:17,199 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_config_parameter_view.xml
+2024-02-02 07:10:17,305 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_cron_view.xml
+2024-02-02 07:10:17,448 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_filters.xml
+2024-02-02 07:10:17,658 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_mail_server_view.xml
+2024-02-02 07:10:17,813 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_model_view.xml
+2024-02-02 07:10:18,651 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_attachment_view.xml
+2024-02-02 07:10:18,782 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_rule_view.xml
+2024-02-02 07:10:18,942 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_sequence_view.xml
+2024-02-02 07:10:19,068 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_translation_view.xml
+2024-02-02 07:10:19,215 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_ui_menu_view.xml
+2024-02-02 07:10:19,331 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_ui_view_view.xml
+2024-02-02 07:10:19,606 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_values_view.xml
+2024-02-02 07:10:19,832 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_autovacuum.xml
+2024-02-02 07:10:19,841 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_model_report.xml
+2024-02-02 07:10:19,862 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/report_ir_model.xml
+2024-02-02 07:10:19,893 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_logging_view.xml
+2024-02-02 07:10:20,070 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/ir/ir_qweb.xml
+2024-02-02 07:10:20,117 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/workflow/workflow_view.xml
+2024-02-02 07:10:20,958 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/module_view.xml
+2024-02-02 07:10:21,355 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/module_data.xml
+2024-02-02 07:10:21,744 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/module_report.xml
+2024-02-02 07:10:21,776 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/report/report_ir_module_reference.xml
+2024-02-02 07:10:21,833 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_module_update_view.xml
+2024-02-02 07:10:21,912 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_language_install_view.xml
+2024-02-02 07:10:22,069 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_import_language_view.xml
+2024-02-02 07:10:22,181 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_module_upgrade_view.xml
+2024-02-02 07:10:22,349 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_module_configuration_view.xml
+2024-02-02 07:10:22,391 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_export_language_view.xml
+2024-02-02 07:10:22,463 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_update_translations_view.xml
+2024-02-02 07:10:22,527 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/module/wizard/base_module_immediate_install.xml
+2024-02-02 07:10:22,558 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_company_view.xml
+2024-02-02 07:10:22,717 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_request_view.xml
+2024-02-02 07:10:22,902 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_lang_view.xml
+2024-02-02 07:10:23,037 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_partner_view.xml
+2024-02-02 07:10:23,552 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_bank_view.xml
+2024-02-02 07:10:23,721 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_country_view.xml
+2024-02-02 07:10:23,958 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_currency_view.xml
+2024-02-02 07:10:24,429 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_users_view.xml
+2024-02-02 07:10:25,270 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_partner_data.xml
+2024-02-02 07:10:25,329 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/ir_property_view.xml
+2024-02-02 07:10:25,486 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_security.xml
+2024-02-02 07:10:25,588 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/security/ir.model.access.csv
+2024-02-02 07:10:28,329 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/base_demo.xml
+2024-02-02 07:10:28,705 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_currency_demo.xml
+2024-02-02 07:10:30,257 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_bank_demo.xml
+2024-02-02 07:10:30,276 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_partner_demo.xml
+2024-02-02 07:10:31,721 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_partner_demo.yml
+2024-02-02 07:10:38,937 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base/res/res_partner_image_demo.xml
+2024-02-02 07:10:43,419 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_acl running tests.
+2024-02-02 07:10:43,420 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_field_crud_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:43,420 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Read/Write RPC access to restricted field should be forbidden
+2024-02-02 07:10:43,838 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_field_visibility_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:43,838 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Check that model-level ``groups`` parameter effectively restricts access to that field for users who do not belong to one of the explicitly allowed groups
+2024-02-02 07:10:44,086 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_fields_browse_restriction (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:44,086 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Test access to records having restricted fields
+2024-02-02 07:10:44,116 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_m2o_field_create_edit_invisibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:44,116 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Test many2one field Create and Edit option visibility based on access rights of relation field
+2024-02-02 07:10:44,150 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_m2o_field_create_edit_visibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:44,150 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Test many2one field Create and Edit option visibility based on access rights of relation field
+2024-02-02 07:10:44,318 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_view_create_edit_button_invisibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:44,318 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Test form view Create, Edit, Delete button visibility based on access right of model
+2024-02-02 07:10:44,359 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_view_create_edit_button_visibility (odoo.addons.base.tests.test_acl.TestACL)
+2024-02-02 07:10:44,359 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: ` Test form view Create, Edit, Delete button visibility based on access right of model
+2024-02-02 07:10:44,520 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: test_ir_rule (odoo.addons.base.tests.test_acl.TestIrRule)
+2024-02-02 07:10:44,873 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [3835, 3833, 3832, 4602, 3836, 3834, 3829, 4827]
+2024-02-02 07:10:44,895 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.rule records with IDs: [1, 20, 6, 8, 4, 5, 15, 7]
+2024-02-02 07:10:44,918 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: Ran 8 tests in 1.498s
+2024-02-02 07:10:44,918 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_acl: OK
+2024-02-02 07:10:44,920 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_api running tests.
+2024-02-02 07:10:44,920 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_00_query (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,921 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Build a recordset, and check its contents.
+2024-02-02 07:10:44,926 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_01_query_offset (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,926 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2024-02-02 07:10:44,932 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_02_query_limit (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,932 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset, and check equivalence.
+2024-02-02 07:10:44,938 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_03_query_offset_limit (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,938 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Build a recordset with offset and limit, and check equivalence.
+2024-02-02 07:10:44,943 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_04_query_count (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,943 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Test the search method with count=True.
+2024-02-02 07:10:44,947 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_05_immutable (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:44,947 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check that a recordset remains the same, even after updates.
+2024-02-02 07:10:44,999 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_06_fields (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,000 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check that relation fields return records, recordsets or nulls.
+2024-02-02 07:10:45,107 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_07_null (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,107 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check behavior of null instances.
+2024-02-02 07:10:45,112 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_40_new_new (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,112 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Call new-style methods in the new API style.
+2024-02-02 07:10:45,137 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_45_new_new (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,137 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Call new-style methods on records (new API style).
+2024-02-02 07:10:45,237 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_50_environment (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,237 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Test environment on records.
+2024-02-02 07:10:45,435 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_55_draft (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,435 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Test draft mode nesting.
+2024-02-02 07:10:45,436 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_60_cache (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:45,436 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check the record cache behavior
+2024-02-02 07:10:46,054 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [47]
+2024-02-02 07:10:46,095 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_60_prefetch (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,096 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check the record cache prefetching
+2024-02-02 07:10:46,139 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_60_prefetch_object (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,139 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check the prefetching model.
+2024-02-02 07:10:46,294 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_60_prefetch_read (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,295 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check that reading a field computes it on self only.
+2024-02-02 07:10:46,401 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_70_one (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,401 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check method one().
+2024-02-02 07:10:46,404 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_80_contains (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,404 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Test membership on recordset.
+2024-02-02 07:10:46,407 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_80_filter (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,407 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check filter on recordsets.
+2024-02-02 07:10:46,446 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_80_map (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,446 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check map on recordsets.
+2024-02-02 07:10:46,487 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_80_set_operations (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,487 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check set operations on recordsets.
+2024-02-02 07:10:46,584 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: test_80_sorted (odoo.addons.base.tests.test_api.TestAPI)
+2024-02-02 07:10:46,584 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: ` Check sorted on recordsets.
+2024-02-02 07:10:46,626 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: Ran 22 tests in 1.706s
+2024-02-02 07:10:46,626 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_api: OK
+2024-02-02 07:10:46,629 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_base running tests.
+2024-02-02 07:10:46,629 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_00_res_partner_name_create (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:46,763 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_10_res_partner_find_or_create (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:46,998 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_15_res_partner_name_search (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:47,170 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_20_res_partner_address_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:47,402 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_30_res_partner_first_contact_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:47,402 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Test initial creation of company/contact pair where contact address gets copied to company
+2024-02-02 07:10:47,558 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_40_res_partner_address_get (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:47,558 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Test address_get address resolution mechanism: it should first go down through descendants, stopping when encountering another is_copmany entity, then go up, stopping again at the first is_company entity or the root ancestor and if nothing matches, it should use the provided partner itself
+2024-02-02 07:10:48,168 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_50_res_partner_commercial_sync (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:48,634 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_60_read_group (odoo.addons.base.tests.test_base.TestBase)
+2024-02-02 07:10:49,335 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_res_group_copy (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-02 07:10:49,741 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_res_group_recursion (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-02 07:10:50,152 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_res_groups_fullname_search (odoo.addons.base.tests.test_base.TestGroups)
+2024-02-02 07:10:50,169 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_duplicate_children_01 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-02 07:10:50,169 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (1st method).
+2024-02-02 07:10:50,259 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_duplicate_children_02 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-02 07:10:50,259 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (2nd method).
+2024-02-02 07:10:50,416 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_duplicate_children_03 (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-02 07:10:50,417 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Duplicate the children then reassign them to the new parent (3rd method).
+2024-02-02 07:10:50,564 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_duplicate_parent (odoo.addons.base.tests.test_base.TestParentStore)
+2024-02-02 07:10:50,564 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Duplicate the parent category and verify that the children have been duplicated too
+2024-02-02 07:10:50,633 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_100_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:50,747 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_101_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:50,861 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_102_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:50,995 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_103_res_partner_recursion (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:51,138 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_104_res_partner_recursion_indirect_cycle (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:51,139 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Indirect hacky write to create cycle in children
+2024-02-02 07:10:51,331 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_110_res_partner_recursion_multi_update (odoo.addons.base.tests.test_base.TestPartnerRecursion)
+2024-02-02 07:10:51,331 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` multi-write on several partners in same hierarchy must not trigger a false cycle detection
+2024-02-02 07:10:51,475 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_01_safe_eval (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-02 07:10:51,475 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Try a few common expressions to verify they work with safe_eval
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_02_literal_eval (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Try simple literal definition to verify it works with literal_eval
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_03_literal_eval_arithmetic (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Try arithmetic expression in literal_eval to verify it does not work
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_04_literal_eval_forbidden (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-02 07:10:51,476 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Try forbidden expressions in literal_eval to verify they are not allowed
+2024-02-02 07:10:51,477 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: test_05_safe_eval_forbiddon (odoo.addons.base.tests.test_base.TestSafeEval)
+2024-02-02 07:10:51,477 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: ` Try forbidden expressions in safe_eval to verify they are not allowed (open)
+2024-02-02 07:10:51,477 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: Ran 26 tests in 4.848s
+2024-02-02 07:10:51,477 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_base: OK
+2024-02-02 07:10:51,478 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_basecase running tests.
+2024-02-02 07:10:51,479 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_00 (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-02 07:10:51,479 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Create a partner.
+2024-02-02 07:10:51,509 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_01 (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-02 07:10:51,509 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Find the created partner.
+2024-02-02 07:10:51,510 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_20a (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-02 07:10:51,510 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Create a partner with a XML ID
+2024-02-02 07:10:51,543 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_20b (odoo.addons.base.tests.test_basecase.TestSingleTransactionCase)
+2024-02-02 07:10:51,544 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Resolve xml id with ref() and browse_ref()
+2024-02-02 07:10:51,548 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_00 (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-02 07:10:51,548 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Create a partner.
+2024-02-02 07:10:51,583 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_01 (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-02 07:10:51,583 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Don't find the created partner.
+2024-02-02 07:10:51,586 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: test_20a (odoo.addons.base.tests.test_basecase.TestTransactionCase)
+2024-02-02 07:10:51,586 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: ` Create a partner with a XML ID then resolve xml id with ref() and browse_ref()
+2024-02-02 07:10:51,648 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: Ran 7 tests in 0.170s
+2024-02-02 07:10:51,648 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_basecase: OK
+2024-02-02 07:10:51,649 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_db_cursor running tests.
+2024-02-02 07:10:51,649 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: test_execute_bad_params (odoo.addons.base.tests.test_db_cursor.TestExecute)
+2024-02-02 07:10:51,651 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: test_single_cursor (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-02 07:10:51,651 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a single test cursor.
+2024-02-02 07:10:51,733 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: test_sub_commit (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-02 07:10:51,733 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a subcursor that commits.
+2024-02-02 07:10:51,795 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: test_sub_rollback (odoo.addons.base.tests.test_db_cursor.TestTestCursor)
+2024-02-02 07:10:51,796 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: ` Check the behavior of a subcursor that rollbacks.
+2024-02-02 07:10:51,845 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: Ran 4 tests in 0.196s
+2024-02-02 07:10:51,845 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_db_cursor: OK
+2024-02-02 07:10:51,847 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_expression running tests.
+2024-02-02 07:10:51,847 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_auto_join (odoo.addons.base.tests.test_expression.TestAutoJoin)
+2024-02-02 07:10:52,053 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_00_in_not_in_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:52,212 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_05_not_str_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:52,458 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_10_equivalent_id (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:52,475 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_10_hierarchy_in_m2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:52,511 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_15_equivalent_one2many_1 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:52,975 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_15_equivalent_one2many_2 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:53,000 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_15_m2o (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:53,995 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_15_o2m (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,023 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_20_expression_parse (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,309 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_30_normalize_domain (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,311 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_40_negating_long_expression (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,341 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_accent (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,343 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_active (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,439 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_in_operator (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,439 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: ` check that we can use the 'in' operator for plain fields
+2024-02-02 07:10:54,542 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_invalid (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,542 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: ` verify that invalid expressions are refused, even for magic fields
+2024-02-02 07:10:54,545 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_like_wildcards (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,552 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_long_table_alias (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,554 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_lp1071710 (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:54,555 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: ` Check that we can exclude translated fields (bug lp:1071710)
+2024-02-02 07:10:54,564 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:10:54,564 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:10:57,167 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_proper_combine_unit_leaves (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:57,169 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: test_translate_search (odoo.addons.base.tests.test_expression.TestExpression)
+2024-02-02 07:10:57,177 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: Ran 21 tests in 5.330s
+2024-02-02 07:10:57,177 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_expression: OK
+2024-02-02 07:10:57,177 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_expression tested in 5.33s, 6299 queries
+2024-02-02 07:10:57,178 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_float running tests.
+2024-02-02 07:10:57,179 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: test_rounding_02 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-02 07:10:57,179 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: ` Test rounding methods with 2 digits.
+2024-02-02 07:10:57,185 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: test_rounding_03 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-02 07:10:57,185 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: ` Test rounding methods with 3 digits.
+2024-02-02 07:10:57,266 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: test_rounding_04 (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-02 07:10:57,266 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: ` check that proper rounding is performed for float persistence
+2024-02-02 07:10:57,283 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: test_rounding_invalid (odoo.addons.base.tests.test_float.TestFloatPrecision)
+2024-02-02 07:10:57,283 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: ` verify that invalid parameters are forbidden
+2024-02-02 07:10:57,285 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: Ran 4 tests in 0.106s
+2024-02-02 07:10:57,285 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_float: OK
+2024-02-02 07:10:57,285 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_func running tests.
+2024-02-02 07:10:57,285 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: test_basic (odoo.addons.base.tests.test_func.TestCompose)
+2024-02-02 07:10:57,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: test_decorator (odoo.addons.base.tests.test_func.TestCompose)
+2024-02-02 07:10:57,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: ` ensure compose() can be partially applied as a decorator
+2024-02-02 07:10:57,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: test_frozendict_hash (odoo.addons.base.tests.test_func.TestFrozendict)
+2024-02-02 07:10:57,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: ` Ensure that a frozendict is hashable.
+2024-02-02 07:10:57,287 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: test_frozendict_immutable (odoo.addons.base.tests.test_func.TestFrozendict)
+2024-02-02 07:10:57,287 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: ` Ensure that a frozendict is immutable.
+2024-02-02 07:10:57,287 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: Ran 4 tests in 0.002s
+2024-02-02 07:10:57,287 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_func: OK
+2024-02-02 07:10:57,288 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_actions running tests.
+2024-02-02 07:10:57,288 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_create_custom (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:57,288 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` custom field names must be start with 'x_'
+2024-02-02 07:10:57,332 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_create_unique (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:57,333 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` one cannot create two fields with the same name on a given model
+2024-02-02 07:10:57,574 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_create_valid (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:57,574 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` field names must be valid pg identifiers
+2024-02-02 07:10:57,631 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_remove_with_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:57,631 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` try removing a custom field that occurs in a view
+2024-02-02 07:10:57,822 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_ui_view: Field `x_foo` does not exist
+
+Error context:
+View `yet another view`
+[view_id: 161, xml_id: n/a, model: res.partner, parent_id: n/a]
+2024-02-02 07:10:57,896 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_remove_without_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:57,897 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` try removing a custom field that does not occur in views
+2024-02-02 07:10:58,099 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [1255]
+2024-02-02 07:10:58,149 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_rename_custom (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:58,149 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` custom field names must be start with 'x_'
+2024-02-02 07:10:58,364 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_rename_unique (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:58,364 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` one cannot create two fields with the same name on a given model
+2024-02-02 07:10:58,753 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_rename_valid (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:58,753 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` field names must be valid pg identifiers
+2024-02-02 07:10:59,021 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_rename_with_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:59,021 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` try renaming a custom field that occurs in a view
+2024-02-02 07:10:59,220 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_ui_view: Field `x_foo` does not exist
+
+Error context:
+View `yet another view`
+[view_id: 162, xml_id: n/a, model: res.partner, parent_id: n/a]
+2024-02-02 07:10:59,278 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_rename_without_view (odoo.addons.base.tests.test_ir_actions.TestCustomFields)
+2024-02-02 07:10:59,278 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: ` try renaming a custom field that does not occur in views
+2024-02-02 07:10:59,649 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_00_action (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:10:59,760 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.values records with IDs: [8]
+2024-02-02 07:10:59,762 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_10_code (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:10:59,878 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_20_trigger (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:11:00,141 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_30_client (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:11:00,240 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_40_crud_create (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:11:00,438 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [82, 83]
+2024-02-02 07:11:00,533 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [84, 85]
+2024-02-02 07:11:00,584 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [86, 87]
+2024-02-02 07:11:00,624 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_50_crud_write (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:11:00,719 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [91]
+2024-02-02 07:11:00,763 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.server.object.lines records with IDs: [92]
+2024-02-02 07:11:00,801 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: test_60_multi (odoo.addons.base.tests.test_ir_actions.TestServerActions)
+2024-02-02 07:11:00,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: Ran 17 tests in 3.682s
+2024-02-02 07:11:00,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_actions: OK
+2024-02-02 07:11:00,971 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_attachment running tests.
+2024-02-02 07:11:00,971 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: test_01_store_in_db (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-02 07:11:01,008 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: test_02_store_on_disk (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-02 07:11:01,025 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: test_03_no_duplication (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-02 07:11:01,051 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: test_04_keep_file (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-02 07:11:01,089 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.attachment records with IDs: [357]
+2024-02-02 07:11:01,091 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: test_05_change_data_change_file (odoo.addons.base.tests.test_ir_attachment.TestIrAttachment)
+2024-02-02 07:11:01,116 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: Ran 5 tests in 0.144s
+2024-02-02 07:11:01,116 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_attachment: OK
+2024-02-02 07:11:01,117 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_filters running tests.
+2024-02-02 07:11:01,117 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_global_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-02 07:11:01,150 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_no_third_party_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-02 07:11:01,181 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_own_filters (odoo.addons.base.tests.test_ir_filters.TestGetFilters)
+2024-02-02 07:11:01,213 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_existing_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-02 07:11:01,213 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter where an existing filter is already @is_default, an error should be generated
+2024-02-02 07:11:01,241 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_not_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-02 07:11:01,241 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with existing non-default filters, the new filter gets the flag
+2024-02-02 07:11:01,279 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_update_default_filter (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-02 07:11:01,279 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` Replacing the current default global filter should not generate any error
+2024-02-02 07:11:01,318 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_update_filter_set_default (odoo.addons.base.tests.test_ir_filters.TestGlobalDefaults)
+2024-02-02 07:11:01,318 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When updating an existing filter to @is_default, if an other filter already has the flag an error should be generated
+2024-02-02 07:11:01,353 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_existing_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-02 07:11:01,354 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter where an existing filter is already @is_default, the flag should be *moved* from the old to the new filter
+2024-02-02 07:11:01,395 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_new_filter_not_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-02 07:11:01,396 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with existing non-default filters, the new filter gets the flag
+2024-02-02 07:11:01,432 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_new_no_filter (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-02 07:11:01,433 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When creating a @is_default filter with no existing filter, that new filter gets the default flag
+2024-02-02 07:11:01,465 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_update_filter_set_default (odoo.addons.base.tests.test_ir_filters.TestOwnDefaults)
+2024-02-02 07:11:01,465 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: ` When updating an existing filter to @is_default, if an other filter already has the flag the flag should be moved
+2024-02-02 07:11:01,509 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: test_read_group_1 (odoo.addons.base.tests.test_ir_filters.TestReadGroup)
+2024-02-02 07:11:01,525 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: Ran 12 tests in 0.408s
+2024-02-02 07:11:01,525 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_filters: OK
+2024-02-02 07:11:01,526 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_http running tests.
+2024-02-02 07:11:01,526 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_attachment (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-02 07:11:01,526 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for attachment
+2024-02-02 07:11:01,543 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_attachment_name (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-02 07:11:01,543 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for attachment with bad name
+2024-02-02 07:11:01,562 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_basic_field (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-02 07:11:01,563 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for classic field
+2024-02-02 07:11:01,679 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: test_ir_http_mimetype_computed_field (odoo.addons.base.tests.test_ir_http.test_ir_http_mimetype)
+2024-02-02 07:11:01,679 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: ` Test mimetype for computed field wich resize picture
+2024-02-02 07:11:01,691 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: Ran 4 tests in 0.165s
+2024-02-02 07:11:01,691 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_http: OK
+2024-02-02 07:11:01,692 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_sequence running tests.
+2024-02-02 07:11:01,692 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_1_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-02 07:11:01,692 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-02 07:11:01,713 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_2_write (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-02 07:11:01,733 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_3_unlink (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceChangeImplementation)
+2024-02-02 07:11:01,739 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [1, 2]
+2024-02-02 07:11:01,747 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceGenerate)
+2024-02-02 07:11:01,747 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-02 07:11:01,787 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceGenerate)
+2024-02-02 07:11:01,787 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-02 07:11:01,891 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [3]
+2024-02-02 07:11:01,903 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [4]
+2024-02-02 07:11:01,906 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_00 (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceInit)
+2024-02-02 07:11:01,906 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` test whether the read method returns the right number_next value (from postgreSQL sequence and not ir_sequence value)
+2024-02-02 07:11:01,925 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-02 07:11:01,925 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-02 07:11:01,936 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-02 07:11:01,936 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2024-02-02 07:11:01,947 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice_no_gap (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceNoGap)
+2024-02-02 07:11:01,947 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2024-02-02 07:11:01,987 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [6]
+2024-02-02 07:11:01,990 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_create (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-02 07:11:01,990 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to create a sequence object.
+2024-02-02 07:11:02,001 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-02 07:11:02,001 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number.
+2024-02-02 07:11:02,016 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_draw_twice (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-02 07:11:02,016 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try to draw a number from two transactions.
+2024-02-02 07:11:02,040 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: test_ir_sequence_search (odoo.addons.base.tests.test_ir_sequence.TestIrSequenceStandard)
+2024-02-02 07:11:02,040 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: ` Try a search.
+2024-02-02 07:11:02,057 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [7]
+2024-02-02 07:11:02,062 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: Ran 13 tests in 0.370s
+2024-02-02 07:11:02,063 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence: OK
+2024-02-02 07:11:02,065 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_sequence_date_range running tests.
+2024-02-02 07:11:02,067 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-02 07:11:02,067 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object.
+2024-02-02 07:11:02,084 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_use (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-02 07:11:02,084 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Make some use of the sequences to create some subsequences
+2024-02-02 07:11:02,285 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_write (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-02 07:11:02,285 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` swap the implementation method on both
+2024-02-02 07:11:02,322 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_4_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeChangeImplementation)
+2024-02-02 07:11:02,336 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [8, 9]
+2024-02-02 07:11:02,344 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create_no_gap (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-02 07:11:02,345 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object.
+2024-02-02 07:11:02,355 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_change_dates (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-02 07:11:02,355 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Draw numbers to create a first subsequence then change its date range. Then, try to draw a new number adn check a new subsequence was correctly created.
+2024-02-02 07:11:02,424 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeNoGap)
+2024-02-02 07:11:02,434 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [10]
+2024-02-02 07:11:02,436 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_1_create (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-02 07:11:02,436 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Try to create a sequence object with date ranges enabled.
+2024-02-02 07:11:02,444 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_2_change_dates (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-02 07:11:02,444 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: ` Draw numbers to create a first subsequence then change its date range. Then, try to draw a new number adn check a new subsequence was correctly created.
+2024-02-02 07:11:02,488 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: test_ir_sequence_date_range_3_unlink (odoo.addons.base.tests.test_ir_sequence_date_range.TestIrSequenceDateRangeStandard)
+2024-02-02 07:11:02,495 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.sequence records with IDs: [11]
+2024-02-02 07:11:02,500 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: Ran 10 tests in 0.435s
+2024-02-02 07:11:02,500 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_sequence_date_range: OK
+2024-02-02 07:11:02,501 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ir_values running tests.
+2024-02-02 07:11:02,501 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_values: test_00 (odoo.addons.base.tests.test_ir_values.TestIrValues)
+2024-02-02 07:11:02,548 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.values records with IDs: [12]
+2024-02-02 07:11:02,600 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_values: Ran 1 test in 0.099s
+2024-02-02 07:11:02,600 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ir_values: OK
+2024-02-02 07:11:02,601 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_mail running tests.
+2024-02-02 07:11:02,602 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_email_split (odoo.addons.base.tests.test_mail.TestEmailTools)
+2024-02-02 07:11:02,602 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_append_to_html (odoo.addons.base.tests.test_mail.TestHtmlTools)
+2024-02-02 07:11:02,607 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_plaintext2html (odoo.addons.base.tests.test_mail.TestHtmlTools)
+2024-02-02 07:11:02,607 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_basic_sanitizer (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,611 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_edi_source (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,615 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_evil_malicious_code (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,626 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,630 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_mako (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,631 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_misc (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,632 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_basic_text (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,635 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_blockquote (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,637 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_bugs (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,638 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_gmail (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,641 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_hotmail_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,644 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_signature (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,644 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_text (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,646 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_thunderbird (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,648 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_quote_thunderbird_html (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,651 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_sanitize_escape_emails (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,653 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_sanitize_unescape_emails (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,654 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_style_class (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,657 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_style_class_only (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,659 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: test_style_parsing (odoo.addons.base.tests.test_mail.TestSanitizer)
+2024-02-02 07:11:02,661 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: Ran 23 tests in 0.059s
+2024-02-02 07:11:02,661 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mail: OK
+2024-02-02 07:11:02,662 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_menu running tests.
+2024-02-02 07:11:02,663 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_menu: test_00_menu_deletion (odoo.addons.base.tests.test_menu.TestMenu)
+2024-02-02 07:11:02,663 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_menu: ` Verify that menu deletion works properly when there are child menus, and those are indeed made orphans
+2024-02-02 07:11:02,740 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.ui.menu records with IDs: [67]
+2024-02-02 07:11:02,746 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_menu: Ran 1 test in 0.082s
+2024-02-02 07:11:02,746 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_menu: OK
+2024-02-02 07:11:02,747 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_mimetypes running tests.
+2024-02-02 07:11:02,747 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_default_mimetype (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,748 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_default_mimetype_empty (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,748 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_bmp (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,750 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_gif (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,751 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_jpg (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,751 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_octet_stream (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: test_mimetype_png (odoo.addons.base.tests.test_mimetypes.test_guess_mimetype)
+2024-02-02 07:11:02,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: Ran 7 tests in 0.005s
+2024-02-02 07:11:02,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_mimetypes: OK
+2024-02-02 07:11:02,753 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_non_regression running tests.
+2024-02-02 07:11:02,754 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_non_regression: test_issue26036 (odoo.addons.base.tests.test_non_regression.TestNR)
+2024-02-02 07:11:03,490 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_non_regression: Ran 1 test in 0.736s
+2024-02-02 07:11:03,490 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_non_regression: OK
+2024-02-02 07:11:03,491 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_orm running tests.
+2024-02-02 07:11:03,491 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_copy (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:03,491 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` copying a user should automatically copy its partner, too
+2024-02-02 07:11:03,723 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_copy_with_ancestor (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:03,723 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` copying a user with 'parent_id' in defaults should not duplicate the partner
+2024-02-02 07:11:03,946 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_create (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:03,947 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` creating a user should automatically create a new partner
+2024-02-02 07:11:04,022 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_create_with_ancestor (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:04,022 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` creating a user with a specific 'partner_id' should not create a new partner
+2024-02-02 07:11:04,114 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_default (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:04,114 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` `default_get` cannot return a dictionary or a new id
+2024-02-02 07:11:04,118 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_read (odoo.addons.base.tests.test_orm.TestInherits)
+2024-02-02 07:11:04,118 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` inherited fields should be read without any indirection
+2024-02-02 07:11:04,311 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_CREATE_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,311 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` returns the VALUES dict as-is
+2024-02-02 07:11:04,313 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_DELETE_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,313 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` deleted records are not returned at all.
+2024-02-02 07:11:04,415 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_LINK_TO_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,415 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` reads the records from the database, records are returned with their ids.
+2024-02-02 07:11:04,538 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_LINK_TO_pairs (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,538 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` LINK_TO commands can be written as pairs, instead of triplets
+2024-02-02 07:11:04,670 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_UPDATE_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,670 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` take the in-db records and merge the provided information in
+2024-02-02 07:11:04,758 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_bare_ids_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:04,758 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` same as the equivalent LINK_TO commands
+2024-02-02 07:11:04,849 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_mixed_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:05,123 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_no_command (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:05,123 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` empty list of commands yields an empty list of records
+2024-02-02 07:11:05,125 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_singleton_commands (odoo.addons.base.tests.test_orm.TestO2MSerialization)
+2024-02-02 07:11:05,125 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` DELETE_ALL can appear as a singleton
+2024-02-02 07:11:05,127 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_access_deleted_records (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:05,127 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` Verify that accessing deleted records works as expected
+2024-02-02 07:11:05,250 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [194]
+2024-02-02 07:11:05,385 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [194]
+2024-02-02 07:11:05,392 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_access_filtered_records (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:05,392 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` Verify that accessing filtered records works as expected for non-admin user
+2024-02-02 07:11:05,643 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: write, uid: 28, model: res.partner
+2024-02-02 07:11:05,655 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: unlink, uid: 28, model: res.partner
+2024-02-02 07:11:05,676 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted res.partner records with IDs: [198]
+2024-02-02 07:11:05,689 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: unlink, uid: 28, model: res.partner
+2024-02-02 07:11:05,690 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_exists (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:05,702 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_groupby_date (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:05,929 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_m2m_store_trigger (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:06,244 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_read (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:06,305 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_search_read (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:06,436 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_unlink_with_property (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:06,437 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: ` Verify that unlink removes the related ir.property as unprivileged user
+2024-02-02 07:11:06,666 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.property records with IDs: [2]
+2024-02-02 07:11:06,688 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #30 deleted res.partner records with IDs: [212]
+2024-02-02 07:11:06,690 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: test_write_duplicate (odoo.addons.base.tests.test_orm.TestORM)
+2024-02-02 07:11:06,744 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: Ran 24 tests in 3.253s
+2024-02-02 07:11:06,745 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_orm: OK
+2024-02-02 07:11:06,745 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_ormcache running tests.
+2024-02-02 07:11:06,746 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ormcache: test_ormcache (odoo.addons.base.tests.test_ormcache.TestOrmcache)
+2024-02-02 07:11:06,746 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ormcache: ` Test the effectiveness of the ormcache() decorator.
+2024-02-02 07:11:06,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ormcache: Ran 1 test in 0.006s
+2024-02-02 07:11:06,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_ormcache: OK
+2024-02-02 07:11:06,752 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_osv running tests.
+2024-02-02 07:11:06,752 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: test_basic_query (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-02 07:11:06,753 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: test_mixed_query_chained_explicit_implicit_joins (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-02 07:11:06,753 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: test_query_chained_explicit_joins (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-02 07:11:06,754 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: test_raise_missing_lhs (odoo.addons.base.tests.test_osv.QueryTestCase)
+2024-02-02 07:11:06,754 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: Ran 4 tests in 0.002s
+2024-02-02 07:11:06,754 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_osv: OK
+2024-02-02 07:11:06,755 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_phase running tests.
+2024-02-02 07:11:06,755 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: test_00_setup (odoo.addons.base.tests.test_phase.TestPhaseInstall00)
+2024-02-02 07:11:06,755 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: test_02_check (odoo.addons.base.tests.test_phase.TestPhaseInstall00)
+2024-02-02 07:11:06,755 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: test_set_run (odoo.addons.base.tests.test_phase.TestPhaseInstall01)
+2024-02-02 07:11:06,756 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: test_check_state (odoo.addons.base.tests.test_phase.TestPhaseInstall02)
+2024-02-02 07:11:06,756 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: Ran 4 tests in 0.001s
+2024-02-02 07:11:06,756 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_phase: OK
+2024-02-02 07:11:06,774 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_qweb running tests.
+2024-02-02 07:11:06,774 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_i18n (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-02 07:11:06,914 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_reject_crummy_tags (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-02 07:11:06,916 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_reject_t_tag (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-02 07:11:06,918 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_trivial (odoo.addons.base.tests.test_qweb.TestQWebTField)
+2024-02-02 07:11:07,073 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_call (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,085 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_output (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,095 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_foreach (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,114 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_attributes (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,157 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_utf8tags (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,162 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_widgets (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,189 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_set (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,205 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_global (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,226 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: test_qweb_conditionals (odoo.addons.base.tests.test_qweb.TestQWeb)
+2024-02-02 07:11:07,250 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: Ran 13 tests in 0.476s
+2024-02-02 07:11:07,251 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_qweb: OK
+2024-02-02 07:11:07,252 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_res_config running tests.
+2024-02-02 07:11:07,252 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: test_00_get_option_path (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-02 07:11:07,252 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: ` The get_option_path() method should return a tuple containing a string and an integer
+2024-02-02 07:11:07,272 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: test_10_get_option_name (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-02 07:11:07,273 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: ` The get_option_name() method should return a string
+2024-02-02 07:11:07,291 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: test_20_get_config_warning (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-02 07:11:07,291 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: ` The get_config_warning() method should return a RedirectWarning
+2024-02-02 07:11:07,316 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: test_30_get_config_warning_wo_menu (odoo.addons.base.tests.test_res_config.TestResConfig)
+2024-02-02 07:11:07,316 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: ` The get_config_warning() method should return a Warning exception
+2024-02-02 07:11:07,329 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: Ran 4 tests in 0.077s
+2024-02-02 07:11:07,330 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_config: OK
+2024-02-02 07:11:07,330 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_res_lang running tests.
+2024-02-02 07:11:07,331 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_lang: test_00_intersperse (odoo.addons.base.tests.test_res_lang.test_res_lang)
+2024-02-02 07:11:07,333 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_lang: Ran 1 test in 0.003s
+2024-02-02 07:11:07,334 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_lang: OK
+2024-02-02 07:11:07,334 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_res_partner running tests.
+2024-02-02 07:11:07,335 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner: test_name_search (odoo.addons.base.tests.test_res_partner.TestPartner)
+2024-02-02 07:11:07,335 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner: ` Check name_search on partner, especially with domain based on auto_join user_ids field. Check specific SQL of name_search correctly handle joined tables.
+2024-02-02 07:11:07,541 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner: Ran 1 test in 0.206s
+2024-02-02 07:11:07,541 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner: OK
+2024-02-02 07:11:07,542 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_res_partner_bank running tests.
+2024-02-02 07:11:07,543 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner_bank: test_sanitized_acc_number (odoo.addons.base.tests.test_res_partner_bank.TestResPartnerBank)
+2024-02-02 07:11:07,564 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner_bank: Ran 1 test in 0.021s
+2024-02-02 07:11:07,564 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_res_partner_bank: OK
+2024-02-02 07:11:07,565 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_search running tests.
+2024-02-02 07:11:07,565 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: test_00_search_order (odoo.addons.base.tests.test_search.test_search)
+2024-02-02 07:11:07,783 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: test_10_inherits_m2order (odoo.addons.base.tests.test_search.test_search)
+2024-02-02 07:11:08,159 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: test_11_indirect_inherits_m2o_order (odoo.addons.base.tests.test_search.test_search)
+2024-02-02 07:11:08,453 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: test_12_m2o_order_loop_self (odoo.addons.base.tests.test_search.test_search)
+2024-02-02 07:11:08,470 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: test_13_m2o_order_loop_multi (odoo.addons.base.tests.test_search.test_search)
+2024-02-02 07:11:08,855 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: Ran 5 tests in 1.290s
+2024-02-02 07:11:08,855 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_search: OK
+2024-02-02 07:11:08,856 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_translate running tests.
+2024-02-02 07:11:08,856 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_101_create_translated_record (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-02 07:11:08,864 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:08,864 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:10,948 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_102_duplicate_record (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-02 07:11:10,954 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:10,955 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:13,582 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_103_duplicate_record_fr (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-02 07:11:13,593 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:13,594 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:16,069 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_104_orderby_translated_field (odoo.addons.base.tests.test_translate.TestTranslation)
+2024-02-02 07:11:16,069 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test search ordered by a translated field.
+2024-02-02 07:11:16,079 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:16,079 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:18,414 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_copy (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-02 07:11:18,414 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Create a simple view, fill in translations, and copy it.
+2024-02-02 07:11:18,434 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:18,434 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:20,614 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-02 07:11:20,614 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-02 07:11:23,247 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_spaces (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-02 07:11:23,247 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Create translations where value has surrounding spaces.
+2024-02-02 07:11:23,281 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:23,282 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:25,654 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-02 07:11:25,655 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-02 07:11:28,797 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_sync (odoo.addons.base.tests.test_translate.TestXMLTranslation)
+2024-02-02 07:11:28,797 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Check translations after minor change in source terms.
+2024-02-02 07:11:28,832 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (fr) for language fr_FR
+2024-02-02 07:11:28,833 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/fr.po
+2024-02-02 07:11:31,732 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_translation: module base: loading translation file (nl) for language nl_NL
+2024-02-02 07:11:31,732 1536493 INFO test_user_threshold_10 odoo.tools.translate: loading /home/odoo/10.0/odoo/addons/base/i18n/nl.po
+2024-02-02 07:11:33,964 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_quote_unquote (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,965 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_html (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,965 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() and html_translate() with <i> elements.
+2024-02-02 07:11:33,965 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_a (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,965 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with <a> elements.
+2024-02-02 07:11:33,966 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_attribute (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,966 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with <attribute> elements.
+2024-02-02 07:11:33,967 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_base (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,967 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() without formatting elements.
+2024-02-02 07:11:33,968 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline1 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,968 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements.
+2024-02-02 07:11:33,968 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline2 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,968 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements embedding other elements.
+2024-02-02 07:11:33,969 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_inline3 (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,969 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with formatting elements without actual text.
+2024-02-02 07:11:33,969 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_off (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,969 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with attribute translate="off".
+2024-02-02 07:11:33,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_t (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() with t-* attributes.
+2024-02-02 07:11:33,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_text (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,970 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() on plain text.
+2024-02-02 07:11:33,971 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: test_translate_xml_text_entity (odoo.addons.base.tests.test_translate.TranslationToolsTestCase)
+2024-02-02 07:11:33,971 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: ` Test xml_translate() on plain text with HTML escaped entities.
+2024-02-02 07:11:33,971 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: Ran 19 tests in 25.115s
+2024-02-02 07:11:33,971 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_translate: OK
+2024-02-02 07:11:33,971 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_translate tested in 25.12s, 41732 queries
+2024-02-02 07:11:33,972 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_user_has_group running tests.
+2024-02-02 07:11:33,972 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_user_has_group: test_env_uid (odoo.addons.base.tests.test_user_has_group.TestHasGroup)
+2024-02-02 07:11:34,250 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_user_has_group: test_record (odoo.addons.base.tests.test_user_has_group.TestHasGroup)
+2024-02-02 07:11:34,517 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_user_has_group: Ran 2 tests in 0.545s
+2024-02-02 07:11:34,517 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_user_has_group: OK
+2024-02-02 07:11:34,518 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_view_validation running tests.
+2024-02-02 07:11:34,518 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_all_field_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,519 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_all_label_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,519 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_col_datatype_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,519 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_colspan_datatype_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,520 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_form_string_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,520 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_graph_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,520 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_page_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,521 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: test_tree_validation (odoo.addons.base.tests.test_view_validation.TestViewValidation)
+2024-02-02 07:11:34,521 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: Ran 8 tests in 0.003s
+2024-02-02 07:11:34,521 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_view_validation: OK
+2024-02-02 07:11:34,523 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_views running tests.
+2024-02-02 07:11:34,523 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_delete (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,525 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_incorrect_version (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,536 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_insert_after (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,537 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_insert_before (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,538 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_insert_inside (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,540 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_invalid_position (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,551 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_replace (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,553 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_target_not_found (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,565 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_unpack_data (odoo.addons.base.tests.test_views.TestApplyInheritanceSpecs)
+2024-02-02 07:11:34,566 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_replace (odoo.addons.base.tests.test_views.TestApplyInheritanceWrapSpecs)
+2024-02-02 07:11:34,568 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testDefaultViewBase (odoo.addons.base.tests.test_views.TestDefaultView)
+2024-02-02 07:11:34,617 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testDefaultViewPrimary (odoo.addons.base.tests.test_views.TestDefaultView)
+2024-02-02 07:11:34,684 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_create_view_nomodel (odoo.addons.base.tests.test_views.TestNoModel)
+2024-02-02 07:11:34,714 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_qweb_translation (odoo.addons.base.tests.test_views.TestNoModel)
+2024-02-02 07:11:34,715 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Test if translations work correctly without a model
+2024-02-02 07:11:34,754 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_attribute_filter (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,756 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_attribute_mismatch (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,756 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Non-xpath non-field are filtered by matching attributes on spec and matched nodes
+2024-02-02 07:11:34,757 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_match_field (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,758 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_match_other (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,759 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_match_xpath (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,760 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_no_match_field (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,760 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` A field spec will match by @name against all fields of the view
+2024-02-02 07:11:34,761 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_no_match_other (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,761 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Non-xpath non-fields are matched by node name first
+2024-02-02 07:11:34,763 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_no_match_xpath (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,763 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` xpath simply uses the provided @expr pattern to find a node
+2024-02-02 07:11:34,764 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_version_mismatch (odoo.addons.base.tests.test_views.TestNodeLocator)
+2024-02-02 07:11:34,764 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` A @version on the spec will be matched against the view's version
+2024-02-02 07:11:34,766 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_applied (odoo.addons.base.tests.test_views.TestOptionalViews)
+2024-02-02 07:11:34,766 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` mandatory and enabled views should be applied
+2024-02-02 07:11:34,936 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_applied_state_toggle (odoo.addons.base.tests.test_views.TestOptionalViews)
+2024-02-02 07:11:34,936 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Change active states of v2 and v3, check that the results are as expected
+2024-02-02 07:11:35,137 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_render (odoo.addons.base.tests.test_views.TestQWebRender)
+2024-02-02 07:11:35,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_branding_distribute_inner (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-02 07:11:35,286 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Checks that the branding is correctly distributed within a view extension
+2024-02-02 07:11:35,345 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_branding_inherit (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-02 07:11:35,479 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_esc_no_branding (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-02 07:11:35,551 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_ignore_unbrand (odoo.addons.base.tests.test_views.TestTemplating)
+2024-02-02 07:11:35,666 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_basic_read (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-02 07:11:36,240 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_cross_model_double (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-02 07:11:36,845 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_cross_model_simple (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-02 07:11:37,384 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_read_from_child (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-02 07:11:37,723 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_read_from_child_primary (odoo.addons.base.tests.test_views.TestViewCombined)
+2024-02-02 07:11:38,195 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_default_view (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-02 07:11:38,677 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_get_inheriting_views_arch (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-02 07:11:39,338 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_no_default_view (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-02 07:11:40,129 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_no_recursion (odoo.addons.base.tests.test_views.TestViewInheritance)
+2024-02-02 07:11:40,932 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_custom_view_validation (odoo.addons.base.tests.test_views.TestViews)
+2024-02-02 07:11:40,988 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_modifiers (odoo.addons.base.tests.test_views.TestViews)
+2024-02-02 07:11:40,991 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_nonexistent_attribute_removal (odoo.addons.base.tests.test_views.TestViews)
+2024-02-02 07:11:41,045 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_view_inheritance (odoo.addons.base.tests.test_views.TestViews)
+2024-02-02 07:11:41,154 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_view_inheritance_divergent_models (odoo.addons.base.tests.test_views.TestViews)
+2024-02-02 07:11:41,302 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_hasclass (odoo.addons.base.tests.test_views.TestXPathExtentions)
+2024-02-02 07:11:41,302 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testChangeInheritOfPrimary (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,303 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` A primary view with an inherit_id must remain primary when changing the inherit_id
+2024-02-02 07:11:41,409 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testDefaultExtensionToPrimary (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,409 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` An extension view can be converted to primary
+2024-02-02 07:11:41,501 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testInheritPrimaryToExtension (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,502 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` A primary view with an inherit_id can be converted to extension
+2024-02-02 07:11:41,586 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testModeExplicit (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,673 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testModeImplicitValue (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,673 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` mode is auto-generated from inherit_id: * inherit_id -> mode=extension * not inherit_id -> mode=primary
+2024-02-02 07:11:41,791 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: testPurePrimaryToExtension (odoo.addons.base.tests.test_views.ViewModeField)
+2024-02-02 07:11:41,791 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` A primary view with inherit_id=None can't be converted to extension
+2024-02-02 07:11:41,829 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: test_model_data_id (odoo.addons.base.tests.test_views.ViewXMLID)
+2024-02-02 07:11:41,830 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: ` Check whether views know their xmlid record.
+2024-02-02 07:11:41,837 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: Ran 52 tests in 7.313s
+2024-02-02 07:11:41,837 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_views: OK
+2024-02-02 07:11:41,837 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_views tested in 7.31s, 5656 queries
+2024-02-02 07:11:42,036 1536493 INFO test_user_threshold_10 odoo.modules.loading: 1 modules loaded in 115.85s, 70755 queries
+2024-02-02 07:11:42,074 1536493 INFO test_user_threshold_10 odoo.modules.loading: updating modules list
+2024-02-02 07:12:06,083 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading 13 modules...
+2024-02-02 07:12:06,193 1536493 INFO test_user_threshold_10 odoo.modules.registry: module user_threshold: creating or updating database tables
+2024-02-02 07:12:06,422 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading user_threshold/data/user_threshold_data.xml
+2024-02-02 07:12:06,716 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading user_threshold/data/ir_config_parameter_data.xml
+2024-02-02 07:12:06,747 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading user_threshold/views/res_company_view.xml
+2024-02-02 07:12:06,823 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading user_threshold/views/res_users_view.xml
+2024-02-02 07:12:07,210 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.user_threshold.tests.test_ir_config_parameter running tests.
+2024-02-02 07:12:07,210 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_can_set (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:07,210 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users in the Threshold Manager group can update the parameter
+2024-02-02 07:12:07,576 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_can_unlink (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:07,576 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users in the Threshold Manager group can unlink the Threshold Param
+2024-02-02 07:12:07,832 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [5184]
+2024-02-02 07:12:07,837 1536493 INFO test_user_threshold_10 odoo.models.unlink: User #46 deleted ir.config_parameter records with IDs: [6]
+2024-02-02 07:12:07,839 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_can_write (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:07,839 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users in the Threshold Manager group can write the Threshold Param
+2024-02-02 07:12:08,071 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_cannot_set (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:08,071 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users NOT in the Threshold Manager group cannot alter the parameter
+2024-02-02 07:12:08,290 1536493 INFO test_user_threshold_10 odoo.addons.base.ir.ir_model: Access Denied by ACLs for operation: create, uid: 48, model: ir.config_parameter
+2024-02-02 07:12:08,292 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_cannot_unlink (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:08,292 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users outside the Threshold Manager group cannot unlink the Threshold Param
+2024-02-02 07:12:08,568 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: test_cannot_write (odoo.addons.user_threshold.tests.test_ir_config_parameter.TestIrConfigParameter)
+2024-02-02 07:12:08,568 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: ` It should test that users outside the Threshold Manager group cannot write the Threshold Param
+2024-02-02 07:12:08,841 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: Ran 6 tests in 1.631s
+2024-02-02 07:12:08,841 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_ir_config_parameter: OK
+2024-02-02 07:12:08,842 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.user_threshold.tests.test_res_company running tests.
+2024-02-02 07:12:08,842 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: test_can_write_max_users (odoo.addons.user_threshold.tests.test_res_company.TestResCompany)
+2024-02-02 07:12:08,843 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: ` It should restrict the max users parameter to Threshold Managers
+2024-02-02 07:12:09,078 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: test_cannot_write_max_users (odoo.addons.user_threshold.tests.test_res_company.TestResCompany)
+2024-02-02 07:12:09,078 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: ` It should restrict the max users parameter to Threshold Managers
+2024-02-02 07:12:09,277 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: test_fields_view_get (odoo.addons.user_threshold.tests.test_res_company.TestResCompany)
+2024-02-02 07:12:09,278 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: ` It should verify that setting THRESHOLD_HIDE removes the parameter from the view
+2024-02-02 07:12:09,302 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: Ran 3 tests in 0.459s
+2024-02-02 07:12:09,302 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_company: OK
+2024-02-02 07:12:09,302 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.user_threshold.tests.test_res_groups running tests.
+2024-02-02 07:12:09,302 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: test_can_write_max_users (odoo.addons.user_threshold.tests.test_res_groups.TestResGroups)
+2024-02-02 07:12:09,303 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: ` It should restrict membership additions to Threshold Managers to pre-existing members of that group
+2024-02-02 07:12:09,515 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: test_cannot_write_max_users (odoo.addons.user_threshold.tests.test_res_groups.TestResGroups)
+2024-02-02 07:12:09,515 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: ` It should restrict membership additions to Threshold Managers to pre-existing members of that group
+2024-02-02 07:12:10,026 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: Ran 2 tests in 0.724s
+2024-02-02 07:12:10,026 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_groups: OK
+2024-02-02 07:12:10,027 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.user_threshold.tests.test_res_users running tests.
+2024-02-02 07:12:10,027 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_can_write_exempt (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:10,028 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the threshold exempt parameter to Threshold Managers
+2024-02-02 07:12:10,551 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_can_write_group (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:10,551 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict additions to the Threshold Managers to users in that group
+2024-02-02 07:12:11,018 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_cannot_write_exempt (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:11,018 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the threshold exempt parameter to Threshold Managers
+2024-02-02 07:12:11,436 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_cannot_write_group (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:11,437 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict additions to the Threshold Managers to users in that group
+2024-02-02 07:12:11,875 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_copy_company (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:11,875 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the user count in copy() as prescribed by the companies threshold parameter
+2024-02-02 07:12:12,064 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_copy_global (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:12,064 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the user count in copy() as prescribed by the global threshold parameter
+2024-02-02 07:12:12,251 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_create_company (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:12,251 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the user count as prescribed by the companies threshold parameter
+2024-02-02 07:12:12,442 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_create_global (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:12,443 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should restrict the user count as prescribed by the global threshold parameter
+2024-02-02 07:12:12,662 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: test_fields_view_get (odoo.addons.user_threshold.tests.test_res_users.TestResUsers)
+2024-02-02 07:12:12,663 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: ` It should verify that setting THRESHOLD_HIDE removes the parameter from the view
+2024-02-02 07:12:12,905 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: Ran 9 tests in 2.878s
+2024-02-02 07:12:12,905 1536493 INFO test_user_threshold_10 odoo.addons.user_threshold.tests.test_res_users: OK
+2024-02-02 07:12:13,001 1536493 INFO test_user_threshold_10 odoo.modules.registry: module auth_crypt: creating or updating database tables
+2024-02-02 07:12:13,035 1536493 INFO test_user_threshold_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-02 07:12:13,569 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web: creating or updating database tables
+2024-02-02 07:12:13,622 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web/views/webclient_templates.xml
+2024-02-02 07:12:14,196 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.web.tests.test_js running tests.
+2024-02-02 07:12:14,196 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_js: test_01_js (odoo.addons.web.tests.test_js.WebSuite)
+2024-02-02 07:12:14,196 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_js: skipped 'Memory leak in this test lead to phantomjs crash, making it unreliable'
+2024-02-02 07:12:14,197 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_js: Ran 1 test in 0.000s
+2024-02-02 07:12:14,197 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_js: OK
+2024-02-02 07:12:14,197 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_js:  (skipped=1)
+2024-02-02 07:12:14,197 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.web.tests.test_menu running tests.
+2024-02-02 07:12:14,197 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_menu: test_actual_treeview (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-02 07:12:14,198 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_menu: test_list_view (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-02 07:12:14,198 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_menu: test_redundant_views (odoo.addons.web.tests.test_menu.ActionMungerTest)
+2024-02-02 07:12:14,198 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_menu: Ran 3 tests in 0.001s
+2024-02-02 07:12:14,198 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_menu: OK
+2024-02-02 07:12:14,199 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.web.tests.test_serving_base running tests.
+2024-02-02 07:12:14,199 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_serving_base: test_topological_sort (odoo.addons.web.tests.test_serving_base.TestModulesLoading)
+2024-02-02 07:12:14,273 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_serving_base: Ran 1 test in 0.074s
+2024-02-02 07:12:14,273 1536493 INFO test_user_threshold_10 odoo.addons.web.tests.test_serving_base: OK
+2024-02-02 07:12:14,374 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_calendar: creating or updating database tables
+2024-02-02 07:12:14,400 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_calendar/views/web_calendar_templates.xml
+2024-02-02 07:12:14,682 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_diagram: creating or updating database tables
+2024-02-02 07:12:14,706 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_diagram/views/web_diagram_templates.xml
+2024-02-02 07:12:15,020 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_editor: creating or updating database tables
+2024-02-02 07:12:15,656 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_editor/security/ir.model.access.csv
+2024-02-02 07:12:15,729 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_editor/views/editor.xml
+2024-02-02 07:12:16,108 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_editor/views/iframe.xml
+2024-02-02 07:12:16,169 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_editor/views/snippets.xml
+2024-02-02 07:12:16,380 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.web_editor.tests.test_converter running tests.
+2024-02-02 07:12:16,380 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_char (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,401 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_float (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,419 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_integer (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,430 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_m2o (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,430 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: ` the M2O field conversion (from html) is markedly different from others as it directly writes into the m2o and returns nothing at all.
+2024-02-02 07:12:16,451 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_numeric (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,462 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_selection (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,470 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_selection_str (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,480 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_text (odoo.addons.web_editor.tests.test_converter.TestConvertBack)
+2024-02-02 07:12:16,490 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_br (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,491 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_div (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,491 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_inline (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,492 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_other_block (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,492 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_p (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,492 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_rawstring (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,493 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: test_whitespace (odoo.addons.web_editor.tests.test_converter.TestHTMLToText)
+2024-02-02 07:12:16,493 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: Ran 15 tests in 0.113s
+2024-02-02 07:12:16,493 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_converter: OK
+2024-02-02 07:12:16,599 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_kanban: creating or updating database tables
+2024-02-02 07:12:16,641 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_kanban/views/web_kanban_templates.xml
+2024-02-02 07:12:16,857 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_planner: creating or updating database tables
+2024-02-02 07:12:17,028 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_planner/security/ir.model.access.csv
+2024-02-02 07:12:17,148 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_planner/security/web_planner_security.xml
+2024-02-02 07:12:17,225 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_planner/views/web_planner_templates.xml
+2024-02-02 07:12:17,407 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_planner/views/web_planner_views.xml
+2024-02-02 07:12:17,725 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_tour: creating or updating database tables
+2024-02-02 07:12:17,847 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_tour/security/ir.model.access.csv
+2024-02-02 07:12:17,869 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_tour/views/tour_templates.xml
+2024-02-02 07:12:18,098 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_tour/views/tour_views.xml
+2024-02-02 07:12:18,686 1536493 INFO test_user_threshold_10 odoo.modules.registry: module base_import: creating or updating database tables
+2024-02-02 07:12:20,205 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base_import/security/ir.model.access.csv
+2024-02-02 07:12:20,642 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading base_import/views/base_import_templates.xml
+2024-02-02 07:12:20,911 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base_import.tests.test_base_import running tests.
+2024-02-02 07:12:20,912 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_base (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:20,912 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` A basic field is not required
+2024-02-02 07:12:20,937 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_m2o (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:20,938 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` M2O fields should allow import of themselves (name_get), their id and their xid
+2024-02-02 07:12:20,972 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_m2o_required (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:20,972 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` If an m2o field is required, its three sub-fields are required as well (the client has to handle that: requiredness is id-based)
+2024-02-02 07:12:20,996 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_readonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:20,997 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields should be filtered out
+2024-02-02 07:12:21,018 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:21,018 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with states should not be filtered out
+2024-02-02 07:12:21,038 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states_noreadonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:21,038 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with states having nothing to do with readonly should still be filtered out
+2024-02-02 07:12:21,057 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_readonly_states_stillreadonly (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:21,057 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Readonly fields with readonly states leaving them readonly always... filtered out
+2024-02-02 07:12:21,078 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_required (odoo.addons.base_import.tests.test_base_import.TestBasicFields)
+2024-02-02 07:12:21,079 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Required fields should be flagged (so they can be fill-required)
+2024-02-02 07:12:21,103 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_mixed (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-02 07:12:21,106 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_noheaders (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-02 07:12:21,108 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersMultiple)
+2024-02-02 07:12:21,111 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_match_by_name (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-02 07:12:21,114 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_match_by_string (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-02 07:12:21,116 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-02 07:12:21,119 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_recursive_match (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-02 07:12:21,121 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_recursive_nomatch (odoo.addons.base_import.tests.test_base_import.TestMatchHeadersSingle)
+2024-02-02 07:12:21,121 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Match first level, fail to match second level
+2024-02-02 07:12:21,124 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_shallow (odoo.addons.base_import.tests.test_base_import.TestO2M)
+2024-02-02 07:12:21,142 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_csv_errors (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,289 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_csv_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,355 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_encoding (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,477 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_ods_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,477 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: skipped 'ODFPY not available'
+2024-02-02 07:12:21,478 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_xls_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,518 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_xlsx_success (odoo.addons.base_import.tests.test_base_import.TestPreview)
+2024-02-02 07:12:21,571 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_all (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,579 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_date_fields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,600 1536493 INFO test_user_threshold_10 odoo.addons.base_import.models.base_import: importing 1 rows...
+2024-02-02 07:12:21,664 1536493 INFO test_user_threshold_10 odoo.addons.base_import.models.base_import: done
+2024-02-02 07:12:21,666 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_empty_rows (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,677 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_falsefields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,693 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_filtered (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,693 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` If ``False`` is provided as field mapping for a column, that column should be removed from importable data
+2024-02-02 07:12:21,700 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_newline_import (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,700 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Ensure importing keep newlines
+2024-02-02 07:12:21,707 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_nofield (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,720 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_norow (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,721 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` If a row is composed only of empty values (due to having filtered out non-empty values from it), it should be removed
+2024-02-02 07:12:21,727 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_parse_relational_fields (odoo.addons.base_import.tests.test_base_import.test_convert_import_data)
+2024-02-02 07:12:21,728 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Ensure that relational fields float and date are correctly parsed during the import call.
+2024-02-02 07:12:21,746 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: test_big_attachments (odoo.addons.base_import.tests.test_base_import.test_failures)
+2024-02-02 07:12:21,746 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: ` Ensure big fields (e.g. b64-encoded image data) can be imported and we're not hitting limits of the default CSV parser config
+2024-02-02 07:12:22,593 1536493 INFO test_user_threshold_10 odoo.addons.base_import.models.base_import: importing 1 rows...
+2024-02-02 07:12:22,934 1536493 INFO test_user_threshold_10 odoo.addons.base_import.models.base_import: done
+2024-02-02 07:12:22,941 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: Ran 33 tests in 2.030s
+2024-02-02 07:12:22,941 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import: OK
+2024-02-02 07:12:22,941 1536493 INFO test_user_threshold_10 odoo.addons.base_import.tests.test_base_import:  (skipped=1)
+2024-02-02 07:12:23,051 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_kanban_gauge: creating or updating database tables
+2024-02-02 07:12:23,076 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_kanban_gauge/views/web_kanban_gauge_templates.xml
+2024-02-02 07:12:23,330 1536493 INFO test_user_threshold_10 odoo.modules.registry: module web_settings_dashboard: creating or updating database tables
+2024-02-02 07:12:23,378 1536493 INFO test_user_threshold_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-02 07:12:23,445 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_settings_dashboard/views/dashboard_views.xml
+2024-02-02 07:12:23,495 1536493 INFO test_user_threshold_10 odoo.modules.loading: loading web_settings_dashboard/views/dashboard_templates.xml
+2024-02-02 07:12:23,684 1536493 INFO test_user_threshold_10 odoo.modules.loading: 13 modules loaded in 17.60s, 5506 queries
+2024-02-02 07:12:23,981 1536493 INFO test_user_threshold_10 odoo.modules.loading: Modules loaded.
+2024-02-02 07:12:23,986 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.web_editor.tests.test_ui running tests.
+2024-02-02 07:12:23,986 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: test_01_admin_rte (odoo.addons.web_editor.tests.test_ui.TestUi)
+2024-02-02 07:12:24,156 1536493 INFO test_user_threshold_10 odoo.tests.common: phantom_run executing phantomjs /home/odoo/10.0/odoo/tests/phantomtest.js {"code": "odoo.__DEBUG__.services['web_tour.tour'].run('rte')", "db": "test_user_threshold_10", "session_id": "f609882f983b091b5a92bd10c6df5ba2a165de3c", "timeout": 60, "ready": "odoo.__DEBUG__.services['web_tour.tour'].tours.rte.ready", "url_path": "/web", "port": 46765}
+2024-02-02 07:12:24,223 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: skipped 'PhantomJS not found'
+2024-02-02 07:12:24,227 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: test_02_admin_rte_inline (odoo.addons.web_editor.tests.test_ui.TestUi)
+2024-02-02 07:12:24,395 1536493 INFO test_user_threshold_10 odoo.tests.common: phantom_run executing phantomjs /home/odoo/10.0/odoo/tests/phantomtest.js {"code": "odoo.__DEBUG__.services['web_tour.tour'].run('rte_inline')", "db": "test_user_threshold_10", "session_id": "aaf3d103be91b88e055811b67ab1be71b95656ca", "timeout": 60, "ready": "odoo.__DEBUG__.services['web_tour.tour'].tours.rte_inline.ready", "url_path": "/web", "port": 46765}
+2024-02-02 07:12:24,463 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: skipped 'PhantomJS not found'
+2024-02-02 07:12:24,467 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: Ran 2 tests in 0.480s
+2024-02-02 07:12:24,467 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui: OK
+2024-02-02 07:12:24,467 1536493 INFO test_user_threshold_10 odoo.addons.web_editor.tests.test_ui:  (skipped=2)
+2024-02-02 07:12:24,499 1536493 INFO test_user_threshold_10 odoo.modules.module: odoo.addons.base.tests.test_xmlrpc running tests.
+2024-02-02 07:12:24,499 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: test_01_xmlrpc_login (odoo.addons.base.tests.test_xmlrpc.TestXMLRPC)
+2024-02-02 07:12:24,499 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: ` Try to login on the common service.
+2024-02-02 07:12:24,642 1536493 INFO test_user_threshold_10 odoo.service.common: successful login from 'admin' using database 'test_user_threshold_10'
+2024-02-02 07:12:24,642 1536493 INFO test_user_threshold_10 werkzeug: 127.0.0.1 - - [02/Feb/2024 07:12:24] "POST /xmlrpc/2/common HTTP/1.1" 200 -
+2024-02-02 07:12:24,647 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: test_xmlrpc_ir_model_search (odoo.addons.base.tests.test_xmlrpc.TestXMLRPC)
+2024-02-02 07:12:24,647 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: ` Try a search on the object service.
+2024-02-02 07:12:24,887 1536493 INFO test_user_threshold_10 werkzeug: 127.0.0.1 - - [02/Feb/2024 07:12:24] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2024-02-02 07:12:24,894 1536493 INFO test_user_threshold_10 werkzeug: 127.0.0.1 - - [02/Feb/2024 07:12:24] "POST /xmlrpc/2/object HTTP/1.1" 200 -
+2024-02-02 07:12:24,899 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: Ran 2 tests in 0.400s
+2024-02-02 07:12:24,899 1536493 INFO test_user_threshold_10 odoo.addons.base.tests.test_xmlrpc: OK
+2024-02-02 07:12:24,901 1536493 INFO test_user_threshold_10 odoo.modules.loading: All post-tested in 0.92s, 58 queries
+2024-02-02 07:12:24,905 1536493 INFO test_user_threshold_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-02 07:12:24,933 1536493 INFO test_user_threshold_10 odoo.models: Computing parent left and right for table res_partner_category...
+2024-02-02 07:12:24,940 1536493 INFO test_user_threshold_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-02 07:12:24,941 1536493 INFO test_user_threshold_10 odoo.service.server: Initiating shutdown
+2024-02-02 07:12:24,941 1536493 INFO test_user_threshold_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36muser_threshold[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/user_threshold/tests/logs/coverage_user_threshold_10rc -m
+[34;107mName                                                                        Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------------------
+/home/odoo/10.0/server-tools/user_threshold/models/ir_config_parameter.py      20      4    80%   20, 27, 34, 41
+/home/odoo/10.0/server-tools/user_threshold/models/res_company.py              23      1    96%   36
+/home/odoo/10.0/server-tools/user_threshold/models/res_groups.py               13      1    92%   15
+/home/odoo/10.0/server-tools/user_threshold/models/res_users.py                60      4    93%   24, 39, 76, 102
+---------------------------------------------------------------------------------------------------------
+TOTAL                                                                         116     10    91%
+[0m

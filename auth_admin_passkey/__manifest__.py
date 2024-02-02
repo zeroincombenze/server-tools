@@ -5,7 +5,7 @@
 
 {
     'name': 'Authentification - Admin Passkey',
-    'version': '10.0.1.0.1',
+    'version': '10.0.1.0.3',
     'category': 'base',
     'author': "GRAP,Odoo Community Association (OCA)",
     'website': 'http://www.grap.coop',
@@ -24,6 +24,6 @@
     'images': [],
     'post_load': '',
     'application': False,
-    'installable': False,
+    'installable': True,
     'auto_install': False,
 }

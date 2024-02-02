@@ -1,0 +1,56 @@
+2024-02-01 20:00:51,000 1359799 DAEMON test_base_kanban_stage_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 19:01:52,102 1361401 INFO ? odoo: Odoo version 10.0
+2024-02-01 19:01:52,103 1361401 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/base_kanban_stage/tests/logs/zero10.server-tools.base_kanban_stage.conf
+2024-02-01 19:01:52,103 1361401 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 19:01:52,103 1361401 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 19:01:52,122 1361401 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:49048
+2024-02-01 19:01:52,141 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 19:01:52,229 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: 1 modules loaded in 0.09s, 0 queries
+2024-02-01 19:01:52,791 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading 12 modules...
+2024-02-01 19:01:52,842 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: 12 modules loaded in 0.05s, 0 queries
+2024-02-01 19:01:52,849 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 19:01:52,934 1361401 INFO test_base_kanban_stage_10 odoo.modules.registry: module base_kanban_stage: creating or updating database tables
+2024-02-01 19:01:53,102 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading base_kanban_stage/security/ir.model.access.csv
+2024-02-01 19:01:53,170 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading base_kanban_stage/views/base_kanban_abstract.xml
+2024-02-01 19:01:53,226 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: loading base_kanban_stage/views/base_kanban_stage.xml
+2024-02-01 19:01:53,457 1361401 INFO test_base_kanban_stage_10 odoo.modules.module: odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract running tests.
+2024-02-01 19:01:53,457 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: test_default_stage_id_available_stages (odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract.TestBaseKanbanAbstract)
+2024-02-01 19:01:53,457 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: ` It should return lowest sequence stage when model has stages
+2024-02-01 19:01:53,570 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: test_default_stage_id_no_stages (odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract.TestBaseKanbanAbstract)
+2024-02-01 19:01:53,570 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: ` It should return empty recordset when model has no stages
+2024-02-01 19:01:53,670 1361401 INFO test_base_kanban_stage_10 odoo.models.unlink: User #1 deleted base.kanban.stage records with IDs: [4, 3]
+2024-02-01 19:01:53,677 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: test_read_group_stage_ids (odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract.TestBaseKanbanAbstract)
+2024-02-01 19:01:53,677 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: ` It should return all corresponding stages in requested sort order
+2024-02-01 19:01:53,763 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: Ran 3 tests in 0.306s
+2024-02-01 19:01:53,764 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_abstract: OK
+2024-02-01 19:01:53,764 1361401 INFO test_base_kanban_stage_10 odoo.modules.module: odoo.addons.base_kanban_stage.tests.test_base_kanban_stage running tests.
+2024-02-01 19:01:53,764 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: test_default_res_model_id_ignore_self (odoo.addons.base_kanban_stage.tests.test_base_kanban_stage.TestBaseKanbanStage)
+2024-02-01 19:01:53,764 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: ` It should not return ir.model record corresponding to stage model
+2024-02-01 19:01:53,773 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: test_default_res_model_id_info_in_context (odoo.addons.base_kanban_stage.tests.test_base_kanban_stage.TestBaseKanbanStage)
+2024-02-01 19:01:53,774 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: ` It should return correct ir.model record if info in context
+2024-02-01 19:01:53,784 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: test_default_res_model_id_no_action (odoo.addons.base_kanban_stage.tests.test_base_kanban_stage.TestBaseKanbanStage)
+2024-02-01 19:01:53,784 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: ` It should return empty ir.model Recordset if no action in params
+2024-02-01 19:01:53,787 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: test_default_res_model_id_no_params (odoo.addons.base_kanban_stage.tests.test_base_kanban_stage.TestBaseKanbanStage)
+2024-02-01 19:01:53,787 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: ` It should return empty ir.model Recordset if no params in context
+2024-02-01 19:01:53,790 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: Ran 4 tests in 0.026s
+2024-02-01 19:01:53,790 1361401 INFO test_base_kanban_stage_10 odoo.addons.base_kanban_stage.tests.test_base_kanban_stage: OK
+2024-02-01 19:01:53,814 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: 13 modules loaded in 0.97s, 371 queries
+2024-02-01 19:01:54,082 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: Modules loaded.
+2024-02-01 19:01:54,085 1361401 INFO test_base_kanban_stage_10 odoo.modules.loading: All post-tested in 0.00s, 0 queries
+2024-02-01 19:01:54,087 1361401 INFO test_base_kanban_stage_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 19:01:54,124 1361401 INFO test_base_kanban_stage_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 19:01:54,126 1361401 INFO test_base_kanban_stage_10 odoo.service.server: Initiating shutdown
+2024-02-01 19:01:54,126 1361401 INFO test_base_kanban_stage_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mbase_kanban_stage[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/base_kanban_stage/tests/logs/coverage_base_kanban_stage_10rc -m
+[34;107mName                                                            Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------------
+server-tools/base_kanban_stage/models/base_kanban_abstract.py      22      2    91%   24, 112
+server-tools/base_kanban_stage/models/base_kanban_stage.py         21      1    95%   78
+---------------------------------------------------------------------------------------------
+TOTAL                                                              43      3    93%
+[0m

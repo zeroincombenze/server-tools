@@ -1,0 +1,54 @@
+2024-02-01 19:35:21,000 1296578 DAEMON test_auth_brute_force_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 18:36:23,520 1298134 INFO ? odoo: Odoo version 10.0
+2024-02-01 18:36:23,521 1298134 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/auth_brute_force/tests/logs/zero10.server-tools.auth_brute_force.conf
+2024-02-01 18:36:23,521 1298134 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 18:36:23,521 1298134 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 18:36:23,542 1298134 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:47518
+2024-02-01 18:36:23,616 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 18:36:23,743 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: 1 modules loaded in 0.13s, 0 queries
+2024-02-01 18:36:24,423 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading 12 modules...
+2024-02-01 18:36:24,474 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: 12 modules loaded in 0.05s, 0 queries
+2024-02-01 18:36:24,481 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading 13 modules...
+2024-02-01 18:36:24,558 1298134 INFO test_auth_brute_force_10 odoo.modules.registry: module auth_brute_force: creating or updating database tables
+2024-02-01 18:36:24,687 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 18:36:24,738 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading auth_brute_force/security/ir_model_access.yml
+2024-02-01 18:36:24,804 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading auth_brute_force/views/view.xml
+2024-02-01 18:36:24,954 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading auth_brute_force/views/action.xml
+2024-02-01 18:36:24,981 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: loading auth_brute_force/views/menu.xml
+2024-02-01 18:36:25,147 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: 13 modules loaded in 0.67s, 0 queries
+2024-02-01 18:36:25,413 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: Modules loaded.
+2024-02-01 18:36:25,417 1298134 INFO test_auth_brute_force_10 odoo.modules.module: odoo.addons.auth_brute_force.tests.test_brute_force running tests.
+2024-02-01 18:36:25,418 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_orm_login_existing (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:25,418 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: ` No bans on ORM login with an existing user.
+2024-02-01 18:36:25,770 1298134 INFO test_auth_brute_force_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_brute_force_10 login:admin
+2024-02-01 18:36:25,865 1298134 INFO test_auth_brute_force_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_brute_force_10 login:admin
+2024-02-01 18:36:25,964 1298134 INFO test_auth_brute_force_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_brute_force_10 login:admin
+2024-02-01 18:36:26,086 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_orm_login_unexisting (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:26,086 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: ` No bans on ORM login with an unexisting user.
+2024-02-01 18:36:26,450 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_web_login_existing (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:26,669 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: skipped 'Required addons not installed: web'
+2024-02-01 18:36:26,672 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_web_login_unexisting (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:26,891 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: skipped 'Required addons not installed: web'
+2024-02-01 18:36:26,893 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_xmlrpc_login_existing (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:27,122 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: test_xmlrpc_login_unexisting (odoo.addons.auth_brute_force.tests.test_brute_force.BruteForceCase)
+2024-02-01 18:36:27,344 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: Ran 6 tests in 1.926s
+2024-02-01 18:36:27,344 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force: OK
+2024-02-01 18:36:27,344 1298134 INFO test_auth_brute_force_10 odoo.addons.auth_brute_force.tests.test_brute_force:  (skipped=2)
+2024-02-01 18:36:27,344 1298134 INFO test_auth_brute_force_10 odoo.modules.loading: All post-tested in 1.93s, 292 queries
+2024-02-01 18:36:27,345 1298134 INFO test_auth_brute_force_10 odoo.models: Computing parent left and right for table ir_ui_menu...
+2024-02-01 18:36:27,380 1298134 INFO test_auth_brute_force_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 18:36:27,382 1298134 INFO test_auth_brute_force_10 odoo.service.server: Initiating shutdown
+2024-02-01 18:36:27,382 1298134 INFO test_auth_brute_force_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mauth_brute_force[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/auth_brute_force/tests/logs/coverage_auth_brute_force_10rc -m
+[34;107mName                                                                 Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------------------------
+server-tools/auth_brute_force/models/res_authentication_attempt.py      68     27    60%   41-53, 57-60, 88, 97, 115, 119-126, 130-137, 154-158, 164-168
+server-tools/auth_brute_force/models/res_users.py                       90     36    60%   21, 26-27, 34, 46-60, 63, 76, 87-93, 96, 102-108, 112, 119, 127, 146-148
+--------------------------------------------------------------------------------------------------
+TOTAL                                                                  158     63    60%
+[0m

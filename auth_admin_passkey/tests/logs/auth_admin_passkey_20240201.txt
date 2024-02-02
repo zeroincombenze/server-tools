@@ -1,0 +1,154 @@
+2024-02-01 20:43:54,000 1450400 DAEMON test_auth_admin_passkey_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+2024-02-01 19:45:15,066 1452122 INFO ? odoo: Odoo version 10.0
+2024-02-01 19:45:15,067 1452122 INFO ? odoo: Using configuration file at /home/odoo/10.0/server-tools/auth_admin_passkey/tests/logs/zero10.server-tools.auth_admin_passkey.conf
+2024-02-01 19:45:15,067 1452122 INFO ? odoo: addons paths: ['/home/odoo/.local/share/Odoo10/addons/10.0', u'/home/odoo/10.0/odoo/addons', u'/home/odoo/10.0/addons', u'/home/odoo/10.0/account-analytic', u'/home/odoo/10.0/account-budgeting', u'/home/odoo/10.0/account-closing', u'/home/odoo/10.0/account-consolidation', u'/home/odoo/10.0/account-financial-reporting', u'/home/odoo/10.0/account-financial-tools', u'/home/odoo/10.0/account-fiscal-rule', u'/home/odoo/10.0/account-invoice-reporting', u'/home/odoo/10.0/account-invoicing', u'/home/odoo/10.0/account-payment', u'/home/odoo/10.0/account-reconcile', u'/home/odoo/10.0/apps-store', u'/home/odoo/10.0/bank-payment', u'/home/odoo/10.0/bank-statement-import', u'/home/odoo/10.0/business-requirement', u'/home/odoo/10.0/calendar', u'/home/odoo/10.0/commission', u'/home/odoo/10.0/community-data-files', u'/home/odoo/10.0/connector', u'/home/odoo/10.0/contract', u'/home/odoo/10.0/credit-control', u'/home/odoo/10.0/crm', u'/home/odoo/10.0/currency', u'/home/odoo/10.0/data-protection', u'/home/odoo/10.0/delivery-carrier', u'/home/odoo/10.0/donation', u'/home/odoo/10.0/e-commerce', u'/home/odoo/10.0/edi', u'/home/odoo/10.0/event', u'/home/odoo/10.0/geospatial', u'/home/odoo/10.0/helpdesk', u'/home/odoo/10.0/hr', u'/home/odoo/10.0/infrastructure', u'/home/odoo/10.0/intrastat-extrastat', u'/home/odoo/10.0/knowledge', u'/home/odoo/10.0/l10n-italy', u'/home/odoo/10.0/l10n-italy-supplemental', u'/home/odoo/10.0/maintenance', u'/home/odoo/10.0/management-system', u'/home/odoo/10.0/manufacture', u'/home/odoo/10.0/manufacture-reporting', u'/home/odoo/10.0/margin-analysis', u'/home/odoo/10.0/mgmtsystem', u'/home/odoo/10.0/multi-company', u'/home/odoo/10.0/operating-unit', u'/home/odoo/10.0/partner-contact', u'/home/odoo/10.0/pos', u'/home/odoo/10.0/product-attribute', u'/home/odoo/10.0/product-kitting', u'/home/odoo/10.0/product-variant', u'/home/odoo/10.0/profiles', u'/home/odoo/10.0/project', u'/home/odoo/10.0/project-agile', u'/home/odoo/10.0/project-reporting', u'/home/odoo/10.0/purchase-reporting', u'/home/odoo/10.0/purchase-workflow', u'/home/odoo/10.0/queue', u'/home/odoo/10.0/report-print-send', u'/home/odoo/10.0/reporting-engine', u'/home/odoo/10.0/rma', u'/home/odoo/10.0/sale-financial', u'/home/odoo/10.0/sale-reporting', u'/home/odoo/10.0/sale-workflow', u'/home/odoo/10.0/search-engine', u'/home/odoo/10.0/server-auth', u'/home/odoo/10.0/server-tools', u'/home/odoo/10.0/server-ux', u'/home/odoo/10.0/social', u'/home/odoo/10.0/stock-logistics-barcode', u'/home/odoo/10.0/stock-logistics-reporting', u'/home/odoo/10.0/stock-logistics-tracking', u'/home/odoo/10.0/stock-logistics-transport', u'/home/odoo/10.0/stock-logistics-warehouse', u'/home/odoo/10.0/stock-logistics-workflow', u'/home/odoo/10.0/storage', u'/home/odoo/10.0/timesheet', u'/home/odoo/10.0/uncovered', u'/home/odoo/10.0/web', u'/home/odoo/10.0/webhook', u'/home/odoo/10.0/webkit-tools', u'/home/odoo/10.0/website', u'/home/odoo/10.0/website-cms', u'/home/odoo/10.0/wms', u'/home/odoo/10.0/zerobug-test']
+2024-02-01 19:45:15,068 1452122 INFO ? odoo: database: odoo10@localhost:default
+2024-02-01 19:45:15,099 1452122 INFO ? odoo.service.server: HTTP service (werkzeug) running on nb200z0.:51631
+2024-02-01 19:45:15,141 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: loading 1 modules...
+2024-02-01 19:45:15,270 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: 1 modules loaded in 0.13s, 0 queries
+2024-02-01 19:45:16,105 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: loading 19 modules...
+2024-02-01 19:45:16,244 1452122 INFO test_auth_admin_passkey_10 odoo.addons.report.models.report: Will use the Wkhtmltopdf binary at /home/odoo/10.0/venv_odoo/bin/wkhtmltopdf
+2024-02-01 19:45:16,292 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: 19 modules loaded in 0.19s, 0 queries
+2024-02-01 19:45:16,306 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: loading 20 modules...
+2024-02-01 19:45:16,550 1452122 INFO test_auth_admin_passkey_10 odoo.modules.registry: module auth_admin_passkey: creating or updating database tables
+2024-02-01 19:45:16,635 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_crypt.models.res_users: Hashing passwords, may be slow for databases with many users...
+2024-02-01 19:45:16,668 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: loading auth_admin_passkey/data/ir_config_parameter.xml
+2024-02-01 19:45:16,709 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: loading auth_admin_passkey/views/res_config_view.xml
+2024-02-01 19:45:16,882 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey running tests.
+2024-02-01 19:45:16,882 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_01_normal_login_admin_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:17,472 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_02_normal_login_admin_fail (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:17,970 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_03_normal_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:17,971 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: ` This test cannot pass because in some way the the _uid of passkey_user is equal to admin one so when entering the original check_credentials() method, it raises an exception
+2024-02-01 19:45:18,536 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_04_normal_login_passkey_fail (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:19,005 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_05_passkey_login_passkey_with_admin_password_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:19,434 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_06_passkey_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:19,434 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: ` [Bug #1319391] Test the correct behaviour of login with 'bad_login' / 'admin'
+2024-02-01 19:45:19,804 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: Ran 6 tests in 2.922s
+2024-02-01 19:45:19,805 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: OK
+2024-02-01 19:45:19,806 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_config running tests.
+2024-02-01 19:45:19,806 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: test_set_get_config (odoo.addons.auth_admin_passkey.tests.test_config.TestConfig)
+2024-02-01 19:45:19,806 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: ` Test configuration methods.
+2024-02-01 19:45:19,879 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: Ran 1 test in 0.073s
+2024-02-01 19:45:19,879 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: OK
+2024-02-01 19:45:19,880 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_ui running tests.
+2024-02-01 19:45:19,880 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_01_normal_login_admin_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:20,507 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816720.470813989639282.253966084301534-openerp-14-res.users@nb200z0>: []
+2024-02-01 19:45:20,509 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:22,401 1452122 WARNING ? odoo.addons.base_geoengine.geo_helper.geo_convertion_helper: Shapely or geojson are not available in the sys path
+2024-02-01 19:45:22,402 1452122 WARNING ? odoo.addons.base_geoengine.fields: Shapely or geojson are not available in the sys path
+2024-02-01 19:45:22,409 1452122 WARNING ? odoo.addons.base_geoengine_demo.models.retail_machine: geojson is not available in the sys path
+2024-02-01 19:45:23,537 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_xml_company in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,537 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_xml_invoice in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,538 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_xml_fattura_header in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,538 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.communication_open in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,538 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.build_tax_tree in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_xml_cessionario_cedente in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.communication_draft in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.test_open in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_invoice_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_riepilogo_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,539 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_partner_list in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,540 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.set_progressivo_telematico in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,540 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.onchange_fiscalcode in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,540 1452122 WARNING ? odoo.api: Deprecated method AccountVatCommunication.get_xml_riepilogo in module odoo.addons.l10n_it_vat_communication.models.account
+2024-02-01 19:45:23,545 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication_DTR in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,545 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,545 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_name in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,546 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_sede in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,546 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_cedente_prestatore in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,546 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_dati_fattura_header in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,547 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_cessionario_committente in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,547 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_get_dte_dtr in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:23,547 1452122 WARNING ? odoo.api: Deprecated method WizardVatCommunication.old_export_vat_communication_DTE in module odoo.addons.l10n_it_vat_communication.wizard.models.wizard_export
+2024-02-01 19:45:24,738 1452122 WARNING ? py.warnings: /home/odoo/10.0/venv_odoo/lib/python2.7/site-packages/paramiko/transport.py:33: CryptographyDeprecationWarning: Python 2 is no longer supported by the Python core team. Support for it is now deprecated in cryptography, and will be removed in the next release.
+  from cryptography.hazmat.backends import default_backend
+
+2024-02-01 19:45:25,086 1452122 INFO ? odoo.addons.base_external_dbsource_mssql.models.base_external_dbsource: MS SQL Server not available. Please install "pymssql" python package.
+2024-02-01 19:45:25,088 1452122 INFO ? odoo.addons.base_external_dbsource_mysql.models.base_external_dbsource: MySQL not available. Please install "mysqldb" python package.
+2024-02-01 19:45:25,090 1452122 INFO ? odoo.addons.base_external_dbsource_odbc.models.base_external_dbsource: ODBC libraries not available. Please install "unixodbc" and "python-pyodbc" packages.
+2024-02-01 19:45:25,749 1452122 INFO ? odoo.addons.mail_sendgrid.models.mail_mail: ImportError raised while loading module.
+2024-02-01 19:45:25,751 1452122 INFO ? odoo.addons.mail_sendgrid.models.sendgrid_template: ImportError raised while loading module.
+2024-02-01 19:45:25,761 1452122 INFO ? odoo.addons.mail_sendgrid_mass_mailing.models.mail_mail: ImportError raised while loading module.
+2024-02-01 19:45:26,311 1452122 INFO ? odoo.addons.mk_test_env.wizard.wizard_mk_test_env: Not found valid odoo_score package: use odoo standard functions!
+2024-02-01 19:45:26,323 1452122 INFO ? odoo.http: HTTP Configuring static files
+2024-02-01 19:45:26,352 1452122 INFO ? odoo.http: Generating nondb routing
+2024-02-01 19:45:26,393 1452122 INFO test_auth_admin_passkey_10 odoo.addons.base.ir.ir_http: Generating routing map
+2024-02-01 19:45:30,275 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_02_normal_login_admin_fail (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:30,878 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816730.850508928298950.350604826243611-openerp-15-res.users@nb200z0>: []
+2024-02-01 19:45:30,881 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:34,111 1452122 INFO test_auth_admin_passkey_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_admin_passkey_10 login:admin
+2024-02-01 19:45:34,340 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_03_normal_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:34,886 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816734.859215974807739.616372432844791-openerp-16-res.users@nb200z0>: []
+2024-02-01 19:45:34,888 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:38,223 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_04_normal_login_passkey_fail (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:38,746 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816738.718662977218628.174070428053725-openerp-17-res.users@nb200z0>: []
+2024-02-01 19:45:38,748 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:41,980 1452122 INFO test_auth_admin_passkey_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_admin_passkey_10 login:passkey
+2024-02-01 19:45:42,227 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_05_passkey_login_with_admin_password_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:42,967 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816742.932770967483521.510350335251217-openerp-18-res.users@nb200z0>: []
+2024-02-01 19:45:42,971 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:46,285 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_06_passkey_login_with_same_password_as_admin (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:46,886 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816746.860821962356567.626141800643175-openerp-19-res.users@nb200z0>: []
+2024-02-01 19:45:46,889 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:50,251 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: Ran 6 tests in 30.371s
+2024-02-01 19:45:50,252 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: OK
+2024-02-01 19:45:50,252 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_ui tested in 30.37s, 3758 queries
+2024-02-01 19:45:50,265 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: 20 modules loaded in 33.96s, 5078 queries
+2024-02-01 19:45:50,527 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: Modules loaded.
+2024-02-01 19:45:50,531 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey running tests.
+2024-02-01 19:45:50,533 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_01_normal_login_admin_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:50,986 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_02_normal_login_admin_fail (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:51,441 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_03_normal_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:51,441 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: ` This test cannot pass because in some way the the _uid of passkey_user is equal to admin one so when entering the original check_credentials() method, it raises an exception
+2024-02-01 19:45:51,888 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_04_normal_login_passkey_fail (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:52,341 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_05_passkey_login_passkey_with_admin_password_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:52,810 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: test_06_passkey_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey.TestAuthAdminPasskey)
+2024-02-01 19:45:52,810 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: ` [Bug #1319391] Test the correct behaviour of login with 'bad_login' / 'admin'
+2024-02-01 19:45:53,166 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: Ran 6 tests in 2.633s
+2024-02-01 19:45:53,166 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_auth_admin_passkey: OK
+2024-02-01 19:45:53,167 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_config running tests.
+2024-02-01 19:45:53,167 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: test_set_get_config (odoo.addons.auth_admin_passkey.tests.test_config.TestConfig)
+2024-02-01 19:45:53,167 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: ` Test configuration methods.
+2024-02-01 19:45:53,221 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: Ran 1 test in 0.054s
+2024-02-01 19:45:53,221 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_config: OK
+2024-02-01 19:45:53,222 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_ui running tests.
+2024-02-01 19:45:53,223 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_01_normal_login_admin_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:53,805 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816753.778856992721558.335352120082383-openerp-26-res.users@nb200z0>: []
+2024-02-01 19:45:53,808 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:45:56,797 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_02_normal_login_admin_fail (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:45:57,387 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816757.353683948516846.891453136476594-openerp-27-res.users@nb200z0>: []
+2024-02-01 19:45:57,390 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:46:00,456 1452122 INFO test_auth_admin_passkey_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_admin_passkey_10 login:admin
+2024-02-01 19:46:00,763 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_03_normal_login_passkey_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:46:01,342 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816761.315973997116089.028611434822672-openerp-28-res.users@nb200z0>: []
+2024-02-01 19:46:01,345 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:46:04,512 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_04_normal_login_passkey_fail (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:46:05,083 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816765.053728103637695.662624141267014-openerp-29-res.users@nb200z0>: []
+2024-02-01 19:46:05,087 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:46:08,245 1452122 INFO test_auth_admin_passkey_10 odoo.addons.base.res.res_users: Login failed for db:test_auth_admin_passkey_10 login:passkey
+2024-02-01 19:46:08,443 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_05_passkey_login_with_admin_password_succeed (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:46:09,033 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816769.007045984268188.871077764169575-openerp-30-res.users@nb200z0>: []
+2024-02-01 19:46:09,036 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:46:12,377 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: test_06_passkey_login_with_same_password_as_admin (odoo.addons.auth_admin_passkey.tests.test_ui.TestUI)
+2024-02-01 19:46:13,141 1452122 INFO test_auth_admin_passkey_10 odoo.addons.mail.models.mail_mail: Ignoring invalid recipients for mail.mail <1706816773.111641883850098.344373698346121-openerp-31-res.users@nb200z0>: []
+2024-02-01 19:46:13,143 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_signup.models.res_users: Password reset email sent for user <passkey> to <passkey>
+2024-02-01 19:46:16,516 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: Ran 6 tests in 23.293s
+2024-02-01 19:46:16,517 1452122 INFO test_auth_admin_passkey_10 odoo.addons.auth_admin_passkey.tests.test_ui: OK
+2024-02-01 19:46:16,517 1452122 INFO test_auth_admin_passkey_10 odoo.modules.module: odoo.addons.auth_admin_passkey.tests.test_ui tested in 23.29s, 3735 queries
+2024-02-01 19:46:16,517 1452122 INFO test_auth_admin_passkey_10 odoo.modules.loading: All post-tested in 25.99s, 5053 queries
+2024-02-01 19:46:16,519 1452122 INFO test_auth_admin_passkey_10 odoo.modules.registry: Registry changed, signaling through the database
+2024-02-01 19:46:16,520 1452122 INFO test_auth_admin_passkey_10 odoo.service.server: Initiating shutdown
+2024-02-01 19:46:16,520 1452122 INFO test_auth_admin_passkey_10 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+
++===================================================================
+| please test [36mauth_admin_passkey[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/auth_admin_passkey/tests/logs/coverage_auth_admin_passkey_10rc -m
+[34;107mName                                                   Stmts   Miss  Cover   Missing
+------------------------------------------------------------------------------------
+server-tools/auth_admin_passkey/models/res_config.py      19      4    79%   14, 22, 29, 37
+server-tools/auth_admin_passkey/models/res_users.py       53      5    91%   15, 27, 54, 70, 92
+------------------------------------------------------------------------------------
+TOTAL                                                     72      9    88%
+[0m
