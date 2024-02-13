@@ -1,4 +1,15 @@
-python-ldap
-raven
-raven_sanitize_openerp
-git
+# generated from manifests external_dependencies
+acme<2.0.0
+astor
+cryptography==2.6.1
+dataclasses
+dnspython
+josepy
+mako
+odoo_test_helper
+odoorpc
+openpyxl
+openupgradelib
+pygount
+pysftp
+sentry_sdk<=1.9.0
