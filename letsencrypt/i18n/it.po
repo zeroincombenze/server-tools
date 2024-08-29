@@ -1,30 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * letsencrypt
+#	* letsencrypt
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
-# Paolo Valier <paolo.valier@hotmail.it>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo (10.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-06 02:25+0000\n"
-"PO-Revision-Date: 2023-06-07 13:08+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
-"Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
+"POT-Creation-Date: 2024-08-29 18:11+0000\n"
+"PO-Revision-Date: 2024-08-29 18:11+0000\n"
+"Last-Translator: Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>\n"
+"Language-Team: Zeroincombenze (https://www.zeroincombenze.it)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:375
 #, python-format
 msgid "A wildcard is only allowed at the start of a domain"
 msgstr ""
+"La wildcard è ammessa solo a inizio dominio"
 
 #. module: letsencrypt
 #: model:ir.model,name:letsencrypt.model_letsencrypt
@@ -36,63 +33,65 @@ msgstr "Modello astratto che fornisce funzioni per letsencrypt"
 msgid ""
 "Additional domains to include on the CSR. Separate with commas or newlines."
 msgstr ""
+"DOmini aggiuntivi da includere nel CSR. Separare con virgola o interlinea"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:281
 #, python-format
 msgid "Could not respond to letsencrypt challenges."
-msgstr ""
+msgstr "Non è possibile rispondere a letsencrypt"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_dns_provider
 msgid "DNS provider"
-msgstr ""
+msgstr "Provider DNS"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_dns_shell_script
 msgid "DNS update script"
-msgstr ""
+msgstr "Comando per modificare il DNS"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_letsencrypt_display_name
 msgid "Display Name"
-msgstr "Nome visualizzato"
+msgstr "Mostrare nome"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:124
 #, python-format
 msgid "Domain %s: Let's Encrypt doesn't support IP addresses!"
-msgstr ""
+msgstr "Dominio %s: Let's Encrypt non gestisce indirizzi IP!"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:130
 #, python-format
 msgid "Domain %s: Let's encrypt doesn't work with local domains!"
-msgstr ""
+msgstr "Dominio %s: Let's Encrypt non funziona con i domini locali!"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_altnames
 msgid "Domain names"
-msgstr ""
+msgstr "Nomi dominio"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:445
 #, python-format
 msgid "Error calling %s: %d"
-msgstr "Errore chiamando %s: %d"
+msgstr "Chiamata errore %s: %d"
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_base_config_settings_letsencrypt_reload_command
 msgid "Fill this with the command to restart your web server."
-msgstr ""
+msgstr "Compilare questo con il comando per riavviare il server."
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_base_config_settings_letsencrypt_dns_provider
 msgid ""
-"For wildcard certificates we need to add a TXT record on your DNS. If you "
-"set this to \"Shell script\" you can enter a shell script. Other options can "
-"be added by installing additional modules."
+"For wildcard certificates we need to add a TXT record on your DNS. If you set "
+"this to \"Shell script\" you can enter a shell script. Other options can be added by installing additional modules."
 msgstr ""
+"Per i certificati multi-sito occorre aggiungere un record TXT nel DNS. "
+"Impostare questo in \"Shell script\" per attivare un comando shell. Alter opzioni richiedono moduli aggiuntiti."
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_letsencrypt_id
@@ -107,51 +106,53 @@ msgstr "Ultima modifica il"
 #. module: letsencrypt
 #: model:ir.ui.view,arch_db:letsencrypt.base_config_settings
 msgid "Let's Encrypt"
-msgstr ""
+msgstr "Let's Encrypt"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_needs_dns_provider
 msgid "Letsencrypt needs dns provider"
-msgstr ""
+msgstr "Letsencrypt richiede un provider DNS"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:421
 #, python-format
 msgid "No DNS provider set, can't request wildcard certificate"
-msgstr ""
+msgstr "Nessun provider DNS impostato, non è possibile gestire un certificato multi-sito"
 
 #. module: letsencrypt
 #: code:addons/letsencrypt/models/letsencrypt.py:467
 #, python-format
 msgid "No shell command configured for updating DNS records"
-msgstr ""
+msgstr "Nessun comando shell è configurato per aggiornare i record DNS"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_prefer_dns
 msgid "Prefer DNS validation"
-msgstr ""
+msgstr "Preferire validazione DNS"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_reload_command
 msgid "Server reload command"
-msgstr ""
+msgstr "Comando per ricaricare il server"
 
 #. module: letsencrypt
 #: selection:base.config.settings,letsencrypt_dns_provider:0
 msgid "Shell script"
-msgstr ""
+msgstr "Comando shell"
 
 #. module: letsencrypt
 #: model:ir.model.fields,field_description:letsencrypt.field_base_config_settings_letsencrypt_testing_mode
 msgid "Use testing server"
-msgstr ""
+msgstr "Usare server di test"
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_base_config_settings_letsencrypt_testing_mode
 msgid ""
-"Use the Let's Encrypt staging server, which has higher rate limits but "
-"doesn't create valid certificates."
+"Use the Let's Encrypt staging server, which has higher rate limits but doesn't "
+"create valid certificates."
 msgstr ""
+"Usare un server stage Let's Encrypt, che ha una maggiore velocità di risposta "
+"ma non crea certificati validi."
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_base_config_settings_letsencrypt_prefer_dns
@@ -159,6 +160,8 @@ msgid ""
 "Validate through DNS even when HTTP validation is possible. Use this if your "
 "Odoo instance isn't publicly accessible."
 msgstr ""
+"Validare con DNS anche se è possibile la validazione HTTP. Usare questo"
+"per convalidare un server non accessibile pubblicamente."
 
 #. module: letsencrypt
 #: model:ir.model.fields,help:letsencrypt.field_base_config_settings_letsencrypt_dns_shell_script
@@ -166,11 +169,12 @@ msgid ""
 "Write a shell script that will update your DNS TXT records. You can use the "
 "$LETSENCRYPT_DNS_CHALLENGE and $LETSENCRYPT_DNS_DOMAIN variables."
 msgstr ""
+"Scrivere un comando shell che modifica il record TXT del DNS. "
+"$LETSENCRYPT_DNS_CHALLENGE e $LETSENCRYPT_DNS_DOMAIN sono variabili utilizzabili"
 
 #. module: letsencrypt
 #: model:ir.model,name:letsencrypt.model_base_config_settings
 msgid "base.config.settings"
-msgstr ""
+msgstr "base.config.settings"
 
-#~ msgid "Let's encrypt doesn't work with private addresses or local domains!"
-#~ msgstr "Let's encrypt non funziona con indirizzi privati o domini locali!"
+

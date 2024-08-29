@@ -1,0 +1,16 @@
+2024-08-29 20:04:01,000 11876 DAEMON test_letsencrypt_10 run_odoo_debug.sh: cd /home/odoo/10.0/venv_odoo && source ./bin/activate
+
++===================================================================
+| please test [36mletsencrypt[0m (10.0): [32mSUCCESS![0m
++===================================================================
+
+[1;37;44m$ coverage report --rcfile=/home/odoo/10.0/server-tools/letsencrypt/tests/logs/coverage_letsencrypt_10rc -m
+[34;107mName                                                      Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------------------------
+server-tools/letsencrypt/controllers/main.py                 13      7    46%   13-19
+server-tools/letsencrypt/hooks.py                             4      0   100%
+server-tools/letsencrypt/models/base_config_settings.py      37      4    89%   65, 72, 101, 111
+server-tools/letsencrypt/models/letsencrypt.py              267    117    56%   39-40, 72-75, 83, 96, 118, 135, 197, 208, 220-226, 239-319, 322-349, 352, 358, 364, 391, 401-408, 411-424, 429-450, 453-466, 471-478
+---------------------------------------------------------------------------------------
+TOTAL                                                       321    128    60%
+[0m
